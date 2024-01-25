@@ -1,0 +1,160 @@
+
+generator.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1-1
+  rotate: false
+  xy: 2, 102
+  size: 100, 99
+  orig: 100, 99
+  offset: 0, 0
+  index: -1
+Asset 194
+  rotate: false
+  xy: 496, 255
+  size: 14, 15
+  orig: 27, 27
+  offset: 7, 6
+  index: -1
+Asset 195
+  rotate: false
+  xy: 196, 32
+  size: 35, 35
+  orig: 36, 35
+  offset: 1, 0
+  index: -1
+bubble01
+  rotate: false
+  xy: 162, 40
+  size: 32, 32
+  orig: 40, 40
+  offset: 4, 4
+  index: -1
+dp64
+  rotate: false
+  xy: 102, 14
+  size: 58, 58
+  orig: 64, 64
+  offset: 3, 3
+  index: -1
+eff_01
+  rotate: false
+  xy: 296, 32
+  size: 96, 41
+  orig: 114, 52
+  offset: 9, 3
+  index: -1
+img_ring_s3
+  rotate: false
+  xy: 196, 69
+  size: 98, 98
+  orig: 100, 100
+  offset: 1, 1
+  index: -1
+light_bar
+  rotate: true
+  xy: 104, 74
+  size: 32, 90
+  orig: 34, 94
+  offset: 1, 0
+  index: -1
+light_bar_s
+  rotate: false
+  xy: 502, 272
+  size: 6, 98
+  orig: 6, 100
+  offset: 0, 1
+  index: -1
+mark_gr
+  rotate: true
+  xy: 318, 177
+  size: 95, 111
+  orig: 128, 128
+  offset: 16, 9
+  index: -1
+mark_or
+  rotate: true
+  xy: 318, 274
+  size: 96, 113
+  orig: 128, 128
+  offset: 16, 8
+  index: -1
+mark_vi
+  rotate: true
+  xy: 197, 266
+  size: 104, 119
+  orig: 128, 128
+  offset: 12, 5
+  index: -1
+mark_wh
+  rotate: true
+  xy: 197, 169
+  size: 95, 111
+  orig: 128, 128
+  offset: 16, 9
+  index: -1
+pop_01
+  rotate: true
+  xy: 433, 242
+  size: 59, 61
+  orig: 60, 61
+  offset: 1, 0
+  index: -1
+pop_02
+  rotate: false
+  xy: 433, 303
+  size: 67, 67
+  orig: 68, 67
+  offset: 1, 0
+  index: -1
+smog
+  rotate: false
+  xy: 310, 75
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+sparkle_star
+  rotate: false
+  xy: 162, 10
+  size: 28, 28
+  orig: 32, 32
+  offset: 2, 2
+  index: -1
+star
+  rotate: false
+  xy: 431, 162
+  size: 78, 78
+  orig: 100, 100
+  offset: 11, 11
+  index: -1
+star01
+  rotate: false
+  xy: 2, 203
+  size: 193, 167
+  orig: 201, 175
+  offset: 4, 4
+  index: -1
+star02
+  rotate: true
+  xy: 104, 108
+  size: 93, 90
+  orig: 112, 96
+  offset: 9, 3
+  index: -1
+starBig
+  rotate: false
+  xy: 2, 2
+  size: 98, 98
+  orig: 100, 100
+  offset: 1, 1
+  index: -1
+starBig_vi
+  rotate: false
+  xy: 412, 62
+  size: 98, 98
+  orig: 100, 100
+  offset: 1, 1
+  index: -1

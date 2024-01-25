@@ -1,0 +1,139 @@
+
+Cat_Fish.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm
+  rotate: true
+  xy: 618, 83
+  size: 139, 92
+  orig: 139, 92
+  offset: 0, 0
+  index: -1
+armR
+  rotate: false
+  xy: 528, 30
+  size: 88, 192
+  orig: 88, 192
+  offset: 0, 0
+  index: -1
+arml
+  rotate: false
+  xy: 909, 828
+  size: 88, 193
+  orig: 88, 193
+  offset: 0, 0
+  index: -1
+body_
+  rotate: false
+  xy: 630, 714
+  size: 277, 307
+  orig: 277, 307
+  offset: 0, 0
+  index: -1
+box01
+  rotate: false
+  xy: 809, 354
+  size: 193, 185
+  orig: 193, 185
+  offset: 0, 0
+  index: -1
+cat
+  rotate: false
+  xy: 349, 619
+  size: 279, 402
+  orig: 279, 402
+  offset: 0, 0
+  index: -1
+cat_jump
+  rotate: false
+  xy: 2, 67
+  size: 311, 476
+  orig: 311, 476
+  offset: 0, 0
+  index: -1
+cat_jump_fish
+  rotate: false
+  xy: 2, 545
+  size: 345, 476
+  orig: 345, 476
+  offset: 0, 0
+  index: -1
+dia01
+  rotate: false
+  xy: 795, 221
+  size: 161, 131
+  orig: 161, 131
+  offset: 0, 0
+  index: -1
+energy01
+  rotate: false
+  xy: 598, 364
+  size: 209, 175
+  orig: 209, 175
+  offset: 0, 0
+  index: -1
+fish
+  rotate: false
+  xy: 315, 2
+  size: 211, 158
+  orig: 211, 158
+  offset: 0, 0
+  index: -1
+head02
+  rotate: false
+  xy: 349, 376
+  size: 247, 241
+  orig: 247, 241
+  offset: 0, 0
+  index: -1
+legBack
+  rotate: false
+  xy: 712, 97
+  size: 98, 122
+  orig: 98, 122
+  offset: 0, 0
+  index: -1
+paw
+  rotate: false
+  xy: 909, 783
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+side_arm
+  rotate: true
+  xy: 694, 228
+  size: 134, 99
+  orig: 134, 99
+  offset: 0, 0
+  index: -1
+side_body
+  rotate: false
+  xy: 630, 541
+  size: 309, 171
+  orig: 309, 171
+  offset: 0, 0
+  index: -1
+side_head
+  rotate: false
+  xy: 315, 162
+  size: 208, 212
+  orig: 208, 212
+  offset: 0, 0
+  index: -1
+side_leg
+  rotate: false
+  xy: 525, 224
+  size: 167, 138
+  orig: 167, 138
+  offset: 0, 0
+  index: -1
+tail
+  rotate: true
+  xy: 2, 16
+  size: 49, 199
+  orig: 49, 199
+  offset: 0, 0
+  index: -1

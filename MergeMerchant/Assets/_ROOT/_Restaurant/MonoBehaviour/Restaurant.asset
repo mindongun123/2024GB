@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620a1d2cfe0396cddb6256bd9edba16a, type: 3}
+  m_Name: Restaurant
+  m_EditorClassIdentifier: 
+  general:
+    dataName: Idle Bakery Tycoon
+    startCash: 1000000
+    startDiamond: 0
+    idleCashRate: 20
+    minOfflineTime: 120
+    maxOfflineTime: 43200
+    baseInstantCoin: 129600
+    instantCoinTime: 43200
+  boost:
+    boostIncomeDuration: 7200
+    boostIncomeEffective: 2
+    boostIncomeMaxDuration: 43200
+    onlineBoostEffective: 2
+    offlineBoostEffective: 2
+  kitchen:
+    maxLevel: 800
+    maxFloor: 20
+    barrierStep: 5
+    baseUnlockPrice: 100
+    baseManagerPrice: 100
+    minSuperCashUnlock: 10
+    maxSuperCashUnlock: 1000
+    baseCookingTime: 4
+    baseWalkingSpeed: 0.8
+    hireManagerFactor: 2
+    unlockPriceFactor: 20
+    upgradePriceFactor: 15
+    upgradeBonusFactor: 10
+    unlockBarrierFactor: 10
+    transporterCapacityFactor: 2
+    bonusTransporterLevel: 190000003200000064000000c8000000
+    bonus:
+    - level: 10
+      superCash: 2
+    - level: 25
+      superCash: 2
+    - level: 50
+      superCash: 4
+    - level: 100
+      superCash: 4
+    - level: 200
+      superCash: 8
+  elevator:
+    maxLevel: 2400
+    baseManagerPrice: 200
+    baseUpgradePrice: 400
+    loadFactor: 150
+    baseLoadingTime: 4
+    baseMovementSpeed: 1
+    hireManagerFactor: 4.5
+    upgradePriceFactor: 15
+    movementSpeedFactor: 2
+    upgradeLoadBonusFactor: 20
+    bonus:
+    - level: 10
+      superCash: 2
+    - level: 25
+      superCash: 2
+    - level: 50
+      superCash: 4
+    - level: 100
+      superCash: 4
+    - level: 200
+      superCash: 8
+  restaurant:
+    maxLevel: 2400
+    baseManagerPrice: 200
+    baseUpgradePrice: 400
+    baseLoadingTime: 4
+    baseWalkingSpeed: 0.8
+    loadFactor: 150
+    hireManagerFactor: 4.5
+    upgradePriceFactor: 15
+    upgradeLoadBonusFactor: 20
+    bonusWaiterLevel: 190000003200000040420f00c8000000
+    bonus:
+    - level: 10
+      superCash: 2
+    - level: 25
+      superCash: 2
+    - level: 50
+      superCash: 4
+    - level: 100
+      superCash: 4
+    - level: 200
+      superCash: 8
+  freeCash:
+    diamondBonus: 15
+    watchAdLimited: 3
+    cooldownPerAds: 14400
+  barrier:
+  - unlockDuration: 3600
+    diamondToUnlock: 50
+    reduceProcessTime: 1800
+  - unlockDuration: 7200
+    diamondToUnlock: 100
+    reduceProcessTime: 1800
+  - unlockDuration: 10800
+    diamondToUnlock: 150
+    reduceProcessTime: 1800
+  skillRate:
+  - rate: 70
+    skill: 0
+    enableSprite: {fileID: 21300142, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    disableSprite: {fileID: 21300226, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - rate: 50
+    skill: 1
+    enableSprite: {fileID: 21300200, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    disableSprite: {fileID: 21300198, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - rate: 30
+    skill: 2
+    enableSprite: {fileID: 21300202, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    disableSprite: {fileID: 21300214, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - rate: 30
+    skill: 3
+    enableSprite: {fileID: 21300078, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    disableSprite: {fileID: 21300218, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - rate: 50
+    skill: 4
+    enableSprite: {fileID: 21300200, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    disableSprite: {fileID: 21300198, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  - rate: 20
+    skill: 5
+    enableSprite: {fileID: 21300212, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    disableSprite: {fileID: 21300222, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+  experienceRate:
+  - rate: 80
+    avatar: {fileID: 21300140, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    textColor: {r: 0.5411765, g: 0.9803922, b: 0.427451, a: 1}
+    borderColor: {r: 0.1372549, g: 0.3372549, b: 0.3372549, a: 1}
+    experience: 0
+  - rate: 30
+    avatar: {fileID: 21300230, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    textColor: {r: 0, g: 0.8, b: 1, a: 1}
+    borderColor: {r: 0, g: 0.2470588, b: 0.5019608, a: 1}
+    experience: 1
+  - rate: 15
+    avatar: {fileID: 21300208, guid: eee375ad24ea43898be1d5c2825b4e00, type: 3}
+    textColor: {r: 1, g: 0.9215686, b: 0, a: 1}
+    borderColor: {r: 0.8392157, g: 0.5137255, b: 0, a: 1}
+    experience: 2
+  skillEffective:
+  - effective: 40
+    cooldown: 300
+    remaining: 60
+    skill: 0
+    experience: 0
+  - effective: 60
+    cooldown: 900
+    remaining: 300
+    skill: 0
+    experience: 1
+  - effective: 80
+    cooldown: 1800
+    remaining: 600
+    skill: 0
+    experience: 2
+  - effective: 3
+    cooldown: 300
+    remaining: 60
+    skill: 1
+    experience: 0
+  - effective: 4
+    cooldown: 900
+    remaining: 300
+    skill: 1
+    experience: 1
+  - effective: 5
+    cooldown: 1800
+    remaining: 600
+    skill: 1
+    experience: 2
+  - effective: 4
+    cooldown: 300
+    remaining: 60
+    skill: 2
+    experience: 0
+  - effective: 6
+    cooldown: 900
+    remaining: 300
+    skill: 2
+    experience: 1
+  - effective: 8
+    cooldown: 1800
+    remaining: 600
+    skill: 2
+    experience: 2
+  - effective: 3
+    cooldown: 300
+    remaining: 60
+    skill: 3
+    experience: 0
+  - effective: 4
+    cooldown: 900
+    remaining: 300
+    skill: 3
+    experience: 1
+  - effective: 5
+    cooldown: 1800
+    remaining: 600
+    skill: 3
+    experience: 2
+  - effective: 3
+    cooldown: 300
+    remaining: 60
+    skill: 4
+    experience: 0
+  - effective: 4
+    cooldown: 900
+    remaining: 300
+    skill: 4
+    experience: 1
+  - effective: 5
+    cooldown: 1800
+    remaining: 600
+    skill: 4
+    experience: 2
+  - effective: 2
+    cooldown: 300
+    remaining: 60
+    skill: 5
+    experience: 0
+  - effective: 3
+    cooldown: 900
+    remaining: 300
+    skill: 5
+    experience: 1
+  - effective: 4
+    cooldown: 1800
+    remaining: 600
+    skill: 5
+    experience: 2

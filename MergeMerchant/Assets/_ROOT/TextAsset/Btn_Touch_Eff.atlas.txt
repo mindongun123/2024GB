@@ -1,0 +1,13 @@
+
+Btn_Touch_Eff.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+round01
+  rotate: false
+  xy: 2, 2
+  size: 150, 150
+  orig: 170, 170
+  offset: 10, 10
+  index: -1

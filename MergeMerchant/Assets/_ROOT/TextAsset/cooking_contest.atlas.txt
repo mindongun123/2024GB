@@ -1,0 +1,195 @@
+
+cooking_contest.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cook/armbot
+  rotate: false
+  xy: 457, 196
+  size: 51, 105
+  orig: 51, 108
+  offset: 0, 0
+  index: -1
+cook/armbot-1
+  rotate: false
+  xy: 323, 288
+  size: 51, 73
+  orig: 53, 74
+  offset: 0, 0
+  index: -1
+cook/armhand
+  rotate: true
+  xy: 2, 274
+  size: 236, 105
+  orig: 236, 105
+  offset: 0, 0
+  index: -1
+cook/armhand-1
+  rotate: false
+  xy: 422, 364
+  size: 48, 27
+  orig: 48, 27
+  offset: 0, 0
+  index: -1
+cook/armto
+  rotate: false
+  xy: 376, 297
+  size: 78, 64
+  orig: 78, 64
+  offset: 0, 0
+  index: -1
+cook/armtop
+  rotate: false
+  xy: 510, 203
+  size: 54, 98
+  orig: 54, 110
+  offset: 0, 0
+  index: -1
+cook/body
+  rotate: false
+  xy: 2, 76
+  size: 113, 196
+  orig: 113, 196
+  offset: 0, 0
+  index: -1
+cook/head copy
+  rotate: false
+  xy: 109, 321
+  size: 173, 189
+  orig: 184, 202
+  offset: 6, 7
+  index: -1
+cook/skirt
+  rotate: false
+  xy: 284, 363
+  size: 136, 147
+  orig: 136, 147
+  offset: 0, 0
+  index: -1
+girl/Layer 148
+  rotate: false
+  xy: 422, 393
+  size: 96, 117
+  orig: 96, 117
+  offset: 0, 0
+  index: -1
+girl/Layer 151
+  rotate: true
+  xy: 457, 163
+  size: 31, 56
+  orig: 31, 57
+  offset: 0, 1
+  index: -1
+girl/apron ribbon copy
+  rotate: false
+  xy: 456, 303
+  size: 114, 59
+  orig: 118, 67
+  offset: 4, 3
+  index: -1
+girl/armbot
+  rotate: true
+  xy: 109, 281
+  size: 38, 55
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+girl/armtop
+  rotate: true
+  xy: 166, 284
+  size: 35, 82
+  orig: 35, 82
+  offset: 0, 0
+  index: -1
+girl/armtop-1
+  rotate: true
+  xy: 496, 12
+  size: 56, 78
+  orig: 56, 78
+  offset: 0, 0
+  index: -1
+girl/body
+  rotate: true
+  xy: 124, 2
+  size: 87, 138
+  orig: 87, 138
+  offset: 0, 0
+  index: -1
+girl/head
+  rotate: false
+  xy: 339, 149
+  size: 116, 137
+  orig: 116, 137
+  offset: 0, 0
+  index: -1
+girl/ponytail copy 2
+  rotate: true
+  xy: 2, 3
+  size: 71, 120
+  orig: 71, 121
+  offset: 0, 1
+  index: -1
+girl/skirt
+  rotate: false
+  xy: 227, 132
+  size: 110, 150
+  orig: 110, 151
+  offset: 0, 0
+  index: -1
+man/Layer 143
+  rotate: false
+  xy: 117, 91
+  size: 108, 188
+  orig: 108, 203
+  offset: 0, 1
+  index: -1
+man/Layer 149
+  rotate: false
+  xy: 520, 368
+  size: 83, 33
+  orig: 85, 42
+  offset: 2, 7
+  index: -1
+man/Layer 150
+  rotate: true
+  xy: 520, 403
+  size: 107, 89
+  orig: 107, 89
+  offset: 0, 0
+  index: -1
+man/armbot
+  rotate: true
+  xy: 250, 284
+  size: 35, 71
+  orig: 35, 71
+  offset: 0, 0
+  index: -1
+man/armtop
+  rotate: false
+  xy: 496, 70
+  size: 50, 91
+  orig: 50, 91
+  offset: 0, 0
+  index: -1
+man/armtop-1
+  rotate: true
+  xy: 548, 117
+  size: 84, 48
+  orig: 84, 48
+  offset: 0, 0
+  index: -1
+man/head
+  rotate: false
+  xy: 264, 2
+  size: 116, 128
+  orig: 116, 128
+  offset: 0, 0
+  index: -1
+man/legs
+  rotate: false
+  xy: 382, 28
+  size: 112, 119
+  orig: 112, 119
+  offset: 0, 0
+  index: -1

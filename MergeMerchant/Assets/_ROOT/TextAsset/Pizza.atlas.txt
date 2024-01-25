@@ -1,0 +1,104 @@
+
+Pizza.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arms
+  rotate: false
+  xy: 59, 16
+  size: 72, 42
+  orig: 72, 42
+  offset: 0, 0
+  index: -1
+back hair
+  rotate: true
+  xy: 133, 17
+  size: 58, 43
+  orig: 66, 49
+  offset: 4, 3
+  index: -1
+bike
+  rotate: true
+  xy: 2, 60
+  size: 193, 112
+  orig: 207, 120
+  offset: 7, 4
+  index: -1
+body
+  rotate: false
+  xy: 343, 140
+  size: 82, 113
+  orig: 90, 123
+  offset: 4, 5
+  index: -1
+box
+  rotate: true
+  xy: 178, 14
+  size: 88, 80
+  orig: 98, 88
+  offset: 5, 4
+  index: -1
+f wheel
+  rotate: false
+  xy: 2, 2
+  size: 55, 56
+  orig: 73, 72
+  offset: 9, 8
+  index: -1
+head1
+  rotate: true
+  xy: 116, 131
+  size: 122, 121
+  orig: 142, 142
+  offset: 10, 10
+  index: -1
+head_front_01
+  rotate: false
+  xy: 265, 13
+  size: 102, 119
+  orig: 102, 129
+  offset: 0, 10
+  index: -1
+head_front_02
+  rotate: false
+  xy: 239, 134
+  size: 102, 119
+  orig: 102, 129
+  offset: 0, 10
+  index: -1
+smoke1
+  rotate: true
+  xy: 116, 77
+  size: 52, 51
+  orig: 52, 52
+  offset: 0, 1
+  index: -1
+smoke2
+  rotate: true
+  xy: 369, 89
+  size: 49, 43
+  orig: 49, 44
+  offset: 0, 1
+  index: -1
+smoke3
+  rotate: false
+  xy: 369, 43
+  size: 44, 44
+  orig: 44, 44
+  offset: 0, 0
+  index: -1
+smoke4
+  rotate: false
+  xy: 414, 111
+  size: 27, 27
+  orig: 28, 29
+  offset: 0, 1
+  index: -1
+tray
+  rotate: false
+  xy: 169, 104
+  size: 94, 25
+  orig: 100, 27
+  offset: 3, 1
+  index: -1

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skeleton_generator
+  m_Shader: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _OLD_HARD_RAMP
+  - _RECEIVE_SHADOWS_OFF
+  - _STRAIGHT_ALPHA_INPUT
+  - _USE8NEIGHBOURHOOD_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap:
+  - AlphaDepth: true
+  - IGNOREPROJECTOR: true
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 373276146fac46f4eaa72fa3632bc3fe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+    - PixelSnap: 0
+    - _BlendAmount: 0
+    - _Brightness: 1
+    - _BumpScale: 1
+    - _CanvasGroupCompatible: 0
+    - _ColorMask: 15
+    - _Cull: 0
+    - _CustomRenderQueue: 0
+    - _Cutoff: 0.5
+    - _DarkColorAlphaAdditive: 0
+    - _DetailNormalMapScale: 1
+    - _DoubleSidedLighting: 0
+    - _DstBlend: 10
+    - _EmissionPower: 2
+    - _EnableExternalAlpha: 0
+    - _FillPhase: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _Hue: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _OutlineMipLevel: 0
+    - _OutlineReferenceTexWidth: 1024
+    - _OutlineSmoothness: 1
+    - _OutlineWidth: 3
+    - _Parallax: 0.02
+    - _ReceiveShadows: 0
+    - _RenderQueue: 0
+    - _RimPower: 2
+    - _Saturation: 1
+    - _ShadowAlphaCutoff: 0.1
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StraightAlphaInput: 1
+    - _ThresholdEnd: 0.25
+    - _UVSec: 0
+    - _Use8Neighbourhood: 1
+    - _UseUIAlphaClip: 0
+    - _ZWrite: 0
+    m_Colors:
+    - _Black: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FillColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FixedNormal: {r: 0, g: 0, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 1, g: 1, b: 0, a: 1}
+    - _OverlayColor: {r: 0, g: 0, b: 0, a: 0}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

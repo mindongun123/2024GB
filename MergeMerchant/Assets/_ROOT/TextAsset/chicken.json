@@ -1,0 +1,67 @@
+{
+"skeleton": {
+	"hash": "9lnIsIOmTiF0eSZxw0Lzl4TPdyY",
+	"spine": "3.8.95",
+	"x": -63.95,
+	"y": -60,
+	"width": 126.93,
+	"height": 120,
+	"images": "./img/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root" },
+	{ "name": "wing_L", "parent": "body", "rotation": 25.31, "x": -21.78, "y": 0.53 },
+	{ "name": "wing_L2", "parent": "body", "rotation": -36.69, "x": 21.76, "y": 0.53, "scaleX": -1 }
+],
+"slots": [
+	{ "name": "wing", "bone": "wing_L", "attachment": "wing" },
+	{ "name": "wing2", "bone": "wing_L2", "attachment": "wing" },
+	{ "name": "body", "bone": "body", "attachment": "body" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"body": {
+				"body": { "width": 84, "height": 120 }
+			},
+			"wing": {
+				"wing": { "x": -14.4, "y": -2.06, "width": 48, "height": 39 }
+			},
+			"wing2": {
+				"wing": { "x": -14.4, "y": -2.06, "width": 48, "height": 39 }
+			}
+		}
+	}
+],
+"animations": {
+	"fly": {
+		"bones": {
+			"wing_L": {
+				"rotate": [
+					{ "angle": 18.73, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": -56.36, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": 18.73 }
+				]
+			},
+			"wing_L2": {
+				"rotate": [
+					{ "angle": -10.44, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "angle": 65.79, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "angle": -10.44 }
+				]
+			},
+			"body": {
+				"scale": [
+					{ "x": 1.022, "y": 0.952, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "x": 0.932, "y": 1.043, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667, "x": 1.022, "y": 0.952 }
+				]
+			}
+		}
+	},
+	"idle": {}
+}
+}

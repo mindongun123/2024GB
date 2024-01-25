@@ -1,0 +1,27 @@
+
+crane.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 90
+  size: 102, 96
+  orig: 105, 99
+  offset: 0, 1
+  index: -1
+wingL
+  rotate: false
+  xy: 2, 2
+  size: 81, 43
+  orig: 85, 46
+  offset: 0, 1
+  index: -1
+wingR
+  rotate: false
+  xy: 2, 47
+  size: 84, 41
+  orig: 84, 46
+  offset: 0, 2
+  index: -1

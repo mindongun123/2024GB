@@ -1,0 +1,69 @@
+
+warpzone.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bar01
+  rotate: true
+  xy: 2, 466
+  size: 7, 49
+  orig: 7, 49
+  offset: 0, 0
+  index: -1
+dustlight01
+  rotate: true
+  xy: 300, 352
+  size: 121, 158
+  orig: 121, 158
+  offset: 0, 0
+  index: -1
+light04
+  rotate: true
+  xy: 128, 229
+  size: 133, 170
+  orig: 133, 170
+  offset: 0, 0
+  index: -1
+light07
+  rotate: false
+  xy: 177, 364
+  size: 121, 109
+  orig: 121, 109
+  offset: 0, 0
+  index: -1
+pirlight01
+  rotate: true
+  xy: 53, 406
+  size: 67, 122
+  orig: 67, 122
+  offset: 0, 0
+  index: -1
+round01
+  rotate: false
+  xy: 2, 55
+  size: 172, 172
+  orig: 172, 172
+  offset: 0, 0
+  index: -1
+round02
+  rotate: false
+  xy: 2, 280
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+round03
+  rotate: false
+  xy: 176, 15
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+round04
+  rotate: true
+  xy: 300, 190
+  size: 160, 173
+  orig: 160, 173
+  offset: 0, 0
+  index: -1
