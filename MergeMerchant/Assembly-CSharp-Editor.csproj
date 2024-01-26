@@ -37,38 +37,40 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\FindMissingScriptsWindow.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAtlasAssetInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineMaskUtilities.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineAnimationStateDrawer.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineInspectorUtility.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\BoundingBoxFollower\Editor\BoundingBoxFollowerInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
-     <Compile Include="Assets\Editor\MJGameRemoveMissingScripts.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBaker.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineSkeletonFlipDrawer.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBakingWindow.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAtlasAssetInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineMaskUtilities.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBaker.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\SkeletonGraphicInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
+     <Compile Include="Assets\Editor\MJGameRemoveMissingScripts.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonRendererInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\APPWindow.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
     <Reference Include="UnityEngine">
@@ -305,26 +307,26 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Reflection.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
@@ -794,6 +796,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{10e95c66-fa09-7b35-4bb4-8ced75cd8253}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{a80cc655-f049-2b1b-19da-fbfc25d422bd}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
+      <Project>{be715030-04ce-544b-3133-bcb15e94e1ef}</Project>
+      <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

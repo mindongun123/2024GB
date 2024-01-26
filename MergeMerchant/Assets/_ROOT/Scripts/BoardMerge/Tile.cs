@@ -51,7 +51,25 @@ namespace MJGame.MergeMerchant.BoardMerge
 
         public void MergeTileComplete(bool _isUpdate = false)
         {
-            SetTile(_isUpdate ? ID = ID + 1 : StaticGame.TILE_DEFAULT);
+            // SetTile((_isUpdate && ID % 10 != 9) ? ID = ID + 1 : StaticGame.TILE_DEFAULT);
+
+            if (_isUpdate)
+            {
+                if (ID % 10 == 9)
+                {
+                    SetTile(StaticGame.TILE_DEFAULT);
+                    // Them dien hoat va dua no vao kho
+                }
+                else
+                {
+                    SetTile(ID = ID + 1);
+                }
+            }
+            else
+            {
+                SetTile(StaticGame.TILE_DEFAULT);
+            }
+
             SpriteSelect(false);
         }
 
