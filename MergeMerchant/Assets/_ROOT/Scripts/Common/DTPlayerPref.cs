@@ -9,8 +9,8 @@ namespace MJGame.MergeMerchant
     {
         public int OptionCurrent
         {
-            set => PlayerPrefs.SetInt(StaticGame.OPTION_CURRENT, value < StaticGame.OPTION_TILE ? value : StaticGame.OPTION_TILE);
-            get => PlayerPrefs.GetInt(StaticGame.OPTION_CURRENT, 0);
+            set => ES3.Save(StaticGame.OPTION_CURRENT, value < StaticGame.OPTION_TILE ? value : StaticGame.OPTION_TILE);
+            get => ES3.Load(StaticGame.OPTION_CURRENT, 0);
         }
 
 
@@ -29,11 +29,8 @@ namespace MJGame.MergeMerchant
 
         private void OnApplicationQuit()
         {
-            PlayerPrefs.DeleteKey(StaticGame.OPTION_CURRENT);
-
-            PlayerPrefs.DeleteKey(StaticGame.DATA_BOARD);
-
-
+            ES3.DeleteKey(StaticGame.OPTION_CURRENT);
+            ES3.DeleteKey(StaticGame.DATA_BOARD);
         }
     }
 #endif

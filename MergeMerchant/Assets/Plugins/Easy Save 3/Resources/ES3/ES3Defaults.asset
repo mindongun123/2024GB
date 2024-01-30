@@ -35,7 +35,7 @@ MonoBehaviour:
     - PsdPlugin
     - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0
-  addMgrToSceneAutomatically: 0
+  addMgrToSceneAutomatically: 1
   autoUpdateReferences: 1
   addAllPrefabsToManager: 1
   logDebugInfo: 0

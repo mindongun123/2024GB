@@ -46,6 +46,7 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\BoundingBoxFollower\Editor\BoundingBoxFollowerInspector.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\APPWindow.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineSkeletonFlipDrawer.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBakingWindow.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
@@ -53,6 +54,7 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\SkeletonGraphicInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
@@ -69,8 +71,6 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
-     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\APPWindow.cs" />
-     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
     <Reference Include="UnityEngine">

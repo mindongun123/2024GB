@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638417600870490601
-    m_Hash: 582250555
+      ticks: 638422175779730669
+    m_Hash: 3080240458
   m_LockFileStatus:
     m_FilePath: C:/mindongun/MJGame/Game/2024GB/MergeMerchant/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638417601138244902
-    m_Hash: 1422808886
+      ticks: 638422175779730669
+    m_Hash: 328737898
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

@@ -17,6 +17,7 @@ namespace MJGame.MergeMerchant.BoardMerge
         [ShowInInspector]
         [Tooltip("Queue Save Tile When ID Default")] Queue<Tile> qeTileDefault = new Queue<Tile>();
 
+
         private int _numberClick = 0;
         public int NumberClick
         {
@@ -31,9 +32,11 @@ namespace MJGame.MergeMerchant.BoardMerge
             if (IsLoadDataBoard())
             {
                 LoadDataBoard();
-                LoadDataQueueTileDefault();
+                LoadQueueTile();
                 return;
             }
+
+            // xay ra khi lan dau choi game
             SetupTile();
 
         }
@@ -104,10 +107,12 @@ namespace MJGame.MergeMerchant.BoardMerge
         private void OnDisable()
         {
             SaveDataBoard();
-            SaveDataQueueTileDefault();
+            SaveQueueTile();
         }
 
 
+
+        #region SAVE AND LOAD DATA IN BOARD
 
         /// <summary>
         /// Save Data Item In Board
@@ -116,7 +121,6 @@ namespace MJGame.MergeMerchant.BoardMerge
         /// Save And Load Data Item To Board
         /// </summary>
 
-        [Button]
         private void SaveDataBoard()
         {
             Dictionary<int, int> lsDataItem = new Dictionary<int, int>();
@@ -130,7 +134,6 @@ namespace MJGame.MergeMerchant.BoardMerge
         /// <summary>
         /// Load data item save when player exit board   
         /// </summary>
-        [Button]
         private void LoadDataBoard()
         {
             Dictionary<int, int> lsDataItem = ES3.Load<Dictionary<int, int>>(StaticGame.DATA_BOARD);
@@ -138,8 +141,24 @@ namespace MJGame.MergeMerchant.BoardMerge
             for (int i = 0; i < lsTile.Length; i++)
             {
                 lsTile[i].SetTile(lsDataItem[i]);
+
+
             }
         }
+
+
+        /// <summary>
+        /// lay Tile Default ->> cach don gian ( khong quan tam vi tri ban dau)
+        /// </summary>
+        /// <param name="kTile"></param>
+        private void LoadQueueTileDefault(Tile kTile)
+        {
+            if (kTile.ID == 0)
+            {
+                qeTileDefault.Enqueue(kTile);
+            }
+        }
+
 
         /// <summary>
         /// check  xem co the duoc load data cho board khong 
@@ -151,32 +170,35 @@ namespace MJGame.MergeMerchant.BoardMerge
             return false;
         }
 
-
-
-
-        #region Sua phan load Queue
-
-
-        /// <summary>
-        /// Save Queue Tile Default When On Disable 
-        /// </summary>
-        private void SaveDataQueueTileDefault()
+        private void SaveQueueTile()
         {
-            if (qeTileDefault == null)
+            Queue<int> qeSave = new Queue<int>();
+            foreach (var item in qeTileDefault)
             {
-                qeTileDefault = new Queue<Tile>();
+                for (int i = 0; i < lsTile.Length; i++)
+                {
+                    if (item == lsTile[i])
+                    {
+                        qeSave.Enqueue(i);
+                        break;
+                    }
+                }
             }
-            ES3.Save<Queue<Tile>>(StaticGame.QUEUE_TILE_DEFAULT, qeTileDefault);
+            ES3.Save(StaticGame.QUEUE_TILE_DEFAULT, qeSave);
         }
 
-        /// <summary>
-        /// Load Queue Tile Default When On Enable 
-        /// </summary>
-        private void LoadDataQueueTileDefault()
+        private void LoadQueueTile()
         {
-            qeTileDefault = new Queue<Tile>();
-            qeTileDefault = ES3.Load<Queue<Tile>>(StaticGame.QUEUE_TILE_DEFAULT);
+            Queue<int> qeSave = (Queue<int>)ES3.Load(StaticGame.QUEUE_TILE_DEFAULT);
+
+            foreach (var item in qeSave)
+            {
+                lsTile[item].SetTile(0);
+                qeTileDefault.Enqueue(lsTile[item]);
+            }
         }
         #endregion
+
+
     }
 }

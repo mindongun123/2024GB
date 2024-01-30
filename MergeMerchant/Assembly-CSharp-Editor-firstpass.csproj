@@ -36,26 +36,26 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PrefabEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveMgrEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ScriptingDefineSymbols.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Window.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3SettingsEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\AddES3Prefab.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3InspectorInfoEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorUtility.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\HomeWindow.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3GlobalReferencesEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ReferencesWindow.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PlayMakerEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ScriptingDefineSymbols.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3SettingsEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ReferenceMgrEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorUtility.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Postprocessor.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\SettingsWindow.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\TypesWindow.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorStyle.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\HomeWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ReferenceMgrEditor.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ToolsWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Postprocessor.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\AutoSaveWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PlayMakerEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PrefabEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Window.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3InspectorInfoEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ToolsWindow.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveMgrEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\AddES3Prefab.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ReferencesWindow.cs" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ComponentTypeTemplate.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3TypeTemplate.txt" />
