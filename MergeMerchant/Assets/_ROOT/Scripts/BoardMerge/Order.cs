@@ -44,5 +44,16 @@ namespace MJGame.MergeMerchant
                 slots[i].GetComponent<Image>().sprite = sprites[kDTOder._idOptions[i]];
             }
         }
+
+        int _numberAc = 0;
+        public void CompleteSlot(int _idsl = 0)
+        {
+            slots[_idsl].SetActive(false);
+            _numberAc++;
+            if (_numberAc == slots.Length)
+            {
+                ButtonOkActive();
+            }
+        }
     }
 }

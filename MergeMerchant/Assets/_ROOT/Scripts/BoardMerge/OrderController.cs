@@ -15,8 +15,9 @@ namespace MJGame.MergeMerchant
         private Queue<Order> qeOrders = new Queue<Order>();// danh sach dang cho doi -> khong quan tam
         public Dictionary<Order, DTOrdrer> dicOrderShow = new Dictionary<Order, DTOrdrer>();// danh sach dang hien thi
         public List<DTOrdrer> lsDTOrderSaveWhenExitBoard;
-        // check id
-        public Dictionary<int, int> dicCheck = new Dictionary<int, int>();
+
+        [ShowInInspector]
+        public Dictionary<DTMapOrder, int> dicCheck = new Dictionary<DTMapOrder, int>();
 
         private void OnEnable()
         {
@@ -40,6 +41,14 @@ namespace MJGame.MergeMerchant
             Order kOder = qeOrders.Dequeue();
             kOder.gameObject.SetActive(true);
             dicOrderShow[kOder] = kDTOder;
+
+            for (int i = 0; i < kDTOder._option; i++)
+            {
+                DTMapOrder dt = new DTMapOrder();
+                dt.kOrder = kOder;
+                dt._stt = i;
+                dicCheck[dt] = kDTOder._idOptions[i];
+            }
 
             SetBillOder(kOder, kDTOder);
         }
@@ -71,7 +80,7 @@ namespace MJGame.MergeMerchant
         /// them vao danh sach cho  -> neu co nguoi dat thi hien len
         /// </summary>
         /// <param name="kOder"></param>
-        public void AddQueueOderWait(Order kOder)
+        public void AddQueueOderWait(Order kOder)// hoan thanh mua ban
         {
             dicOrderShow[kOder] = null;
             qeOrders.Enqueue(kOder);
@@ -82,7 +91,6 @@ namespace MJGame.MergeMerchant
         ///  co nguoi nao mua hang thi cu goi ham nay sau do truyen tham so vao
         /// </summary>
         /// <param name="kDTOrder"></param>
-        [Button]
         public void AddCommentOrder(DTOrdrer kDTOrder)
         {
             if (IsAcceptOder())
@@ -102,7 +110,6 @@ namespace MJGame.MergeMerchant
 
         #region  Save Data Order
 
-        [Button]
         public void LoadDataOrderSave()
         {
             // {"list":[{"_option":2,"_coin":0,"_idOptions":[12,3]},{"_option":2,"_coin":0,"_idOptions":[11,51]},{"_option":1,"_coin":0,"_idOptions":[44]}]}
@@ -114,7 +121,6 @@ namespace MJGame.MergeMerchant
         }
 
 
-        [Button]
         public void SaveDataOrder()
         {
             foreach (var item in dicOrderShow.Values)
@@ -131,13 +137,24 @@ namespace MJGame.MergeMerchant
 
 
         #region Kiem tra hoan thanh Option trong Order
+
+        [Button]
         public void CheckCompleteOptionOrder(int _idOps)
         {
-            if (dicCheck[_idOps] != 0)
+            foreach (var item in dicCheck)
             {
-                
+                if (_idOps == item.Value)
+                {
+                    item.Key.kOrder.CompleteSlot(item.Key._stt);
+
+                    // xoa luon khoi Key
+                    dicCheck.Remove(item.Key);
+                    print("co");
+                    return;
+                }
             }
         }
+
         #endregion
     }
 }
