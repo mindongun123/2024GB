@@ -36,7 +36,6 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\FindMissingScriptsWindow.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAtlasAssetInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineMaskUtilities.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
@@ -63,7 +62,6 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
-     <Compile Include="Assets\Editor\MJGameRemoveMissingScripts.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />

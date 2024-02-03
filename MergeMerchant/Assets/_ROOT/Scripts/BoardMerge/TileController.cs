@@ -199,6 +199,5 @@ namespace MJGame.MergeMerchant.BoardMerge
         }
         #endregion
 
-
     }
 }

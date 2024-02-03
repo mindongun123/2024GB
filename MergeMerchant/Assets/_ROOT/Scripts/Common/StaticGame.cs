@@ -19,5 +19,10 @@ namespace MJGame.MergeMerchant
         public const string DATA_BOARD = "data_board";
         public const string QUEUE_TILE_DEFAULT = "queue_tile_default";
 
+
+        [Header("Data")]
+        public const int OPTIONS_ORDER = 61;
+        public const string LIST_DATA_ORDER_SAVE = "list_data_order_save";
+
     }
 }
