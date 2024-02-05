@@ -14,14 +14,12 @@ namespace MJGame.MergeMerchant
         [ShowInInspector]
         private Queue<Order> qeOrders = new Queue<Order>();// danh sach dang cho doi -> khong quan tam
         public Dictionary<Order, DTOrdrer> dicOrderShow = new Dictionary<Order, DTOrdrer>();// danh sach dang hien thi
-        public List<DTOrdrer> lsDTOrderSaveWhenExitBoard;
+        public List<DTOrdrer> lsDTOrderSaveWhenExitBoard;// list luu cac order dang con lai
 
-        [ShowInInspector]
-        public Dictionary<DTMapOrder, int> dicCheck = new Dictionary<DTMapOrder, int>();
 
         private void OnEnable()
         {
-            InitOder();
+            InitOrder();
 
             LoadDataOrderSave();
         }
@@ -31,35 +29,22 @@ namespace MJGame.MergeMerchant
             SaveDataOrder();
         }
 
-        private void InitOder()
+        private void InitOrder()
         {
             qeOrders = new Queue<Order>(lsOders);
         }
 
-        public void OderActive(DTOrdrer kDTOder)
+        public void OrderActive(DTOrdrer kDTOrder)
         {
-            Order kOder = qeOrders.Dequeue();
-            kOder.gameObject.SetActive(true);
-            dicOrderShow[kOder] = kDTOder;
+            Order kOrder = qeOrders.Dequeue();
+            kOrder.gameObject.SetActive(true);
+            kOrder.CompleteSlot(kDTOrder._isComplete);
 
-            for (int i = 0; i < kDTOder._option; i++)
-            {
-                DTMapOrder dt = new DTMapOrder();
-                dt.kOrder = kOder;
-                dt._stt = i;
-                dicCheck[dt] = kDTOder._idOptions[i];
-            }
+            dicOrderShow[kOrder] = kDTOrder;
 
-            SetBillOder(kOder, kDTOder);
+            kOrder.SetupOrderSlot(kDTOrder);
         }
 
-        /// <summary>
-        ///  them hoa don vao du lieu
-        /// </summary>
-        public void SetBillOder(Order kOder, DTOrdrer kDTOder)
-        {
-            kOder.ShowSetupOderOnTop(kDTOder);
-        }
 
 
 
@@ -79,29 +64,23 @@ namespace MJGame.MergeMerchant
         /// <summary>
         /// them vao danh sach cho  -> neu co nguoi dat thi hien len
         /// </summary>
-        /// <param name="kOder"></param>
-        public void AddQueueOderWait(Order kOder)// hoan thanh mua ban
+        /// <param name="kOrder"></param>
+        public void AddOrderWaitToQueue(Order kOrder)// hoan thanh mua ban
         {
-            dicOrderShow[kOder] = null;
-            qeOrders.Enqueue(kOder);
+            dicOrderShow.Remove(kOrder);
+            qeOrders.Enqueue(kOrder);
         }
 
-        #region IS BUY
-        /// <summary>
-        ///  co nguoi nao mua hang thi cu goi ham nay sau do truyen tham so vao
-        /// </summary>
-        /// <param name="kDTOrder"></param>
-        public void AddCommentOrder(DTOrdrer kDTOrder)
+        #region Khach dat hang
+
+        public void AddOrder(DTOrdrer kDTOrder)
         {
             if (IsAcceptOder())
             {
-                // them yeu cau vua dat hang
-                OderActive(kDTOrder);
-                print("accept");
+                OrderActive(kDTOrder);
             }
             else
             {
-                // het slot dat hang -> hen lan sau
                 print("no accept");
             }
         }
@@ -112,11 +91,11 @@ namespace MJGame.MergeMerchant
 
         public void LoadDataOrderSave()
         {
-            // {"list":[{"_option":2,"_coin":0,"_idOptions":[12,3]},{"_option":2,"_coin":0,"_idOptions":[11,51]},{"_option":1,"_coin":0,"_idOptions":[44]}]}
+            // {"list":[{"_coin":15,"_idSprite":31,"_isComplete":false},{"_coin":50,"_idSprite":28,"_isComplete":false}]}
             List<DTOrdrer> ls = MJGameSave.GetList(StaticGame.LIST_DATA_ORDER_SAVE, new List<DTOrdrer>());
             foreach (var item in ls)
             {
-                AddCommentOrder(item);
+                AddOrder(item);
             }
         }
 
@@ -139,17 +118,16 @@ namespace MJGame.MergeMerchant
         #region Kiem tra hoan thanh Option trong Order
 
         [Button]
-        public void CheckCompleteOptionOrder(int _idOps)
+        public void CheckCompleteOptionOrder(int _id)
         {
-            foreach (var item in dicCheck)
+            foreach (var item in dicOrderShow)
             {
-                if (_idOps == item.Value)
+                if (item.Value != null && _id == item.Value._idSprite && !item.Value._isComplete)
                 {
-                    item.Key.kOrder.CompleteSlot(item.Key._stt);
 
-                    // xoa luon khoi Key
-                    dicCheck.Remove(item.Key);
-                    print("co");
+                    item.Value._isComplete = true;
+                    item.Key.CompleteSlot(true);
+
                     return;
                 }
             }

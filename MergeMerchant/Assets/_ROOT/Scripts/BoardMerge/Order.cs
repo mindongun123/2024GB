@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,48 +13,36 @@ namespace MJGame.MergeMerchant
     {
 
         [SerializeField] GameObject btOk;
+        [SerializeField] GameObject slots;
+        [SerializeField] GameObject check;
         [SerializeField] Sprite[] sprites;
-        [SerializeField] GameObject[] slots;
 
-        private void OnEnable()
-        {
-            ButtonOkActive(false);
-        }
+        [SerializeField] TextMeshProUGUI txt;
 
-        public void OnClickOderComplete()
+
+
+        public void OnClickOrderComplete()
         {
-            SingletonComponent<OrderController>.Instance.AddQueueOderWait(this);
+            SingletonComponent<OrderController>.Instance.AddOrderWaitToQueue(this);
             gameObject.SetActive(false);
         }
 
-        public void ButtonOkActive(bool _isActive = true)
-        {
-            btOk.SetActive(_isActive);
-        }
-
         /// <summary>
-        /// hien thi yeu cau cau khach hang
+        /// trang thai ban dau
         /// </summary>
-        /// <param name="_amt">so luong san pham yeu cau</param>
-
-        public void ShowSetupOderOnTop(DTOrdrer kDTOder)
+        /// <param name="kDTOrder"></param>
+        public void SetupOrderSlot(DTOrdrer kDTOrder)
         {
-            for (int i = 0; i < kDTOder._option; i++)
-            {
-                slots[i].SetActive(true);
-                slots[i].GetComponent<Image>().sprite = sprites[kDTOder._idOptions[i]];
-            }
+            slots.SetActive(true);
+            slots.GetComponent<Image>().sprite = sprites[kDTOrder._idSprite];
+            txt.text = kDTOrder._coin.ToString();
         }
 
-        int _numberAc = 0;
-        public void CompleteSlot(int _idsl = 0)
+        public void CompleteSlot(bool _isCpl)
         {
-            slots[_idsl].SetActive(false);
-            _numberAc++;
-            if (_numberAc == slots.Length)
-            {
-                ButtonOkActive();
-            }
+            check.SetActive(_isCpl);
+            btOk.SetActive(_isCpl);
         }
+
     }
 }

@@ -10,29 +10,25 @@ namespace MJGame.MergeMerchant
     [Serializable]
     public class DTOrdrer
     {
-        public int _option;// toi da 2
         public int _coin;// gia tri moi options
-        public int [] _idOptions;
-
+        public int _idSprite;// loai san pham
+        public bool _isComplete;
 
         #region Khoi tao Options  -> cho playerboss di mua hang
         private void SetOptions()
         {
-            _idOptions = new int[_option];
-            for (int i = 0; i < _option; i++)
-            {
-                _idOptions[i] =  Random.Range(1, StaticGame.OPTIONS_ORDER);
-            }
+            _idSprite = Random.Range(1, StaticGame.OPTIONS_ORDER);
+            _coin = 100;
         }
 
-        public DTOrdrer(int _opt)
+        public DTOrdrer()
         {
-            _option = _opt;
             SetOptions();
         }
 
+
         #endregion
-        
+
 
     }
 

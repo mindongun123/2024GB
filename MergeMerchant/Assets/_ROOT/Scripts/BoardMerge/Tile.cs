@@ -63,6 +63,8 @@ namespace MJGame.MergeMerchant.BoardMerge
                 else
                 {
                     SetTile(ID = ID + 1);
+
+                    SingletonComponent<OrderController>.Instance.CheckCompleteOptionOrder(ID);
                 }
             }
             else

@@ -7,11 +7,11 @@ using UnityEngine;
 
 public class TestDTOrder : SingletonComponent<TestDTOrder>
 {
-    public DTOrdrer dtorder;
-    public DTOrdrer TestStartSetupOrder()
-    {
-        dtorder = new DTOrdrer(Random.Range(1, 3));
-        return dtorder;
-    }
-
+    // public DTOrdrer dtorder;
+    // [Button]
+    // public void CharacterBuyOrder()
+    // {
+    //     dtorder = new DTOrdrer();
+    //     SingletonComponent<OrderController>.Instance.AddOrder(dtorder);
+    // }
 }
