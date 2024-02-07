@@ -56,6 +56,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
      <Compile Include="Assets\_ROOT\Scripts\BoardMerge\TileController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Options_DraggableItem.cs" />
      <Compile Include="Assets\_ROOT\Scripts\BoardMerge\OrderController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\ExposedList.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
@@ -73,6 +74,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IUpdatable.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Json.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\BFS.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PathAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentType.cs" />
@@ -84,6 +86,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" />
      <Compile Include="Assets\_ROOT\Scripts\BoardMerge\Tile.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Options.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
@@ -99,8 +102,10 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\MergeOptionsController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skin.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\TileBaseOptions.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonExtensions.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
