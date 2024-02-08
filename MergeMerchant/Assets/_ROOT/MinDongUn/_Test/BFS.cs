@@ -13,29 +13,14 @@ namespace Mindongun
         public int[,] grid = new int[ROW, COLUMN];
         const int ROW = 7, COLUMN = 9;
 
-        private void Start()
+        private void OnEnable()
         {
             Setup();
         }
 
-        /// <summary>
-        /// Demo
-        /// </summary>
         private void Setup()
         {
-            // grid[0, 2] = 1;
-            // grid[3, 2] = 1;
-            // grid[0, 3] = 1;
-            // grid[6, 3] = 1;
-            // grid[4, 4] = 1;
-
-            for (int i = 0; i < ROW; i++)
-            {
-                for (int j = 0; j < COLUMN; j++)
-                {
-                    grid[i, j] = 1;
-                }
-            }
+            SingletonComponent<SaveGame>.Instance.LoadBoard();
         }
 
         /// <summary>
@@ -83,6 +68,11 @@ namespace Mindongun
         public void SetGridAtPosition(Vector2Int _ps, int _vl = 1)
         {
             grid[_ps.x, _ps.y] = _vl;
+        }
+
+        private void OnDisable()
+        {
+            SingletonComponent<SaveGame>.Instance.SaveBoard();
         }
     }
 }

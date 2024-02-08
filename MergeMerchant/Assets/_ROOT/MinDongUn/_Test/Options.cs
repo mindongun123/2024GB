@@ -20,13 +20,6 @@ namespace Mindongun
             get => _id;
         }
 
-
-        private void Start()
-        {
-            Setting(Random.Range(1, 3));
-        }
-
-
         public void Setting(int _id)
         {
             ID = _id;
