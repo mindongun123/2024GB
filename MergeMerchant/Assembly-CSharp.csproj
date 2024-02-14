@@ -93,6 +93,8 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
      <Compile Include="Assets\_ROOT\Scripts\BoardMerge\Order.cs" />
      <Compile Include="Assets\AdvancedPlayerPrefsWindow\DemoScene\GUIView.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\SaveGame.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\ConstGame.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Test\TestDTOrder.cs" />
@@ -146,8 +148,18 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\SaveGame.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\ConstGame.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\HintNow.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -179,6 +191,7 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
      <None Include="Assets\_ROOT\_Restaurant\Texts\Factory_Mainchar_01.atlas.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
      <None Include="Assets\_ROOT\TextAsset\rainbow.atlas.txt" />
      <None Include="Assets\_ROOT\TextAsset\warpzone.atlas.txt" />
      <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpritesUnlit.shader" />
@@ -225,12 +238,14 @@
      <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\_ROOT\TextAsset\cactus.atlas.txt" />
      <None Include="Assets\_ROOT\Shader\Spine_Skeleton.shader" />
+     <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
      <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Spine-Special-Skeleton-Grayscale.shader" />
      <None Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\Shaders\Spine-SkeletonGraphic.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\_ROOT\_Restaurant\Texts\Factory_Mainchar_02.txt" />
      <None Include="Assets\_ROOT\Shader\Simple_Screen.shader" />
      <None Include="Assets\Spine\Runtime\spine-unity\Shaders\BlendModes\Spine-Skeleton-PMA-Multiply.shader" />
+     <None Include="Assets\Demigiant\DemiLib\Core\DemiLib.xml" />
      <None Include="Assets\_ROOT\TextAsset\Btn_Touch_Eff.atlas.txt" />
      <None Include="Assets\_ROOT\TextAsset\maple.atlas.txt" />
      <None Include="Assets\Spine\Runtime\spine-unity\Modules\Shaders\Sprite\SpriteDepthNormalsTexture.shader" />
@@ -240,6 +255,7 @@
      <None Include="Assets\_ROOT\_Restaurant\Texts\Factory_Mainchar_03.txt" />
      <None Include="Assets\_ROOT\TextAsset\Pizza.atlas.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\_ROOT\Shader\Custom_Metaballs_Lava.shader" />
      <None Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.txt" />
      <None Include="Assets\Spine\Runtime\spine-unity\Shaders\Spine-SkeletonLit.shader" />
@@ -507,6 +523,15 @@
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

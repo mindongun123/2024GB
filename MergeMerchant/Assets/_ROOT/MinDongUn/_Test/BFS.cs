@@ -13,15 +13,7 @@ namespace Mindongun
         public int[,] grid = new int[ROW, COLUMN];
         const int ROW = 7, COLUMN = 9;
 
-        private void OnEnable()
-        {
-            Setup();
-        }
-
-        private void Setup()
-        {
-            SingletonComponent<SaveGame>.Instance.LoadBoard();
-        }
+       
 
         /// <summary>
         /// Tra ra vi tri trong gan A nhat
@@ -70,9 +62,6 @@ namespace Mindongun
             grid[_ps.x, _ps.y] = _vl;
         }
 
-        private void OnDisable()
-        {
-            SingletonComponent<SaveGame>.Instance.SaveBoard();
-        }
+    
     }
 }

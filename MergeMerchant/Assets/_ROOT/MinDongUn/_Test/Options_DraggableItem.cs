@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using MJGame;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
+
 
 
 namespace Mindongun
@@ -34,7 +34,10 @@ namespace Mindongun
         public void OnEndDrag(PointerEventData eventData)
         {
             transform.SetParent(parentAfterDrag);
+            
             image.raycastTarget = true;
+
+            SingletonComponent<HintNow>.Instance.SetPositionHint(parentAfterDrag.position);
         }
     }
 }

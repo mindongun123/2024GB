@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using MJGame;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 namespace Mindongun
 {
     public class TileBaseOptions : MonoBehaviour, IDropHandler
     {
+        [SerializeField] GridLayoutGroup gridLayoutGroup;
         public void OnDrop(PointerEventData eventData)
         {
             if (transform.childCount == 0)
@@ -45,10 +48,18 @@ namespace Mindongun
                     SingletonComponent<BFS>.Instance.SetGridAtPosition(_pslast);
                     int _idx = _pslast.x + _pslast.y * 7;
 
-                    transform.GetChild(0).SetParent(SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_idx).transform);
+                    TileBaseOptions trsTarget = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_idx);
 
-                    // set phan tu moi
+                    Transform trsChild = transform.GetChild(0);
                     ops.parentAfterDrag = transform;
+
+                    trsTarget.gridLayoutGroup.enabled = false;
+
+                    trsChild.SetParent(trsTarget.transform);
+                    trsChild.DOMove(trsTarget.transform.position, 1000f).OnComplete(() =>
+                    {
+                        trsTarget.gridLayoutGroup.enabled = true;
+                    }).SetSpeedBased();
                 }
             }
         }
