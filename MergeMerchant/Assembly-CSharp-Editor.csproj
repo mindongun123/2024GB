@@ -56,12 +56,14 @@
      <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
@@ -69,8 +71,6 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
@@ -314,11 +314,23 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenProEditor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
@@ -335,29 +347,17 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Serialization">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenProEditor">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiEditor">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Serialization">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenPro">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

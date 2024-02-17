@@ -19,6 +19,8 @@ namespace Mindongun
                 Options ops = dropped.GetComponent<Options>();
                 ops.parentAfterDrag = transform;
 
+                ops.AnimationMergeComplete();
+
                 // set trang thai
                 Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                 SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
@@ -27,11 +29,15 @@ namespace Mindongun
             {
                 GameObject dropped = eventData.pointerDrag;
                 Options ops = dropped.GetComponent<Options>();
+
+                ops.AnimationMergeComplete();
+
                 if (ops.ID == transform.GetChild(0).GetComponent<Options>().ID)
                 {
                     Destroy(transform.GetChild(0).gameObject);
                     ops.parentAfterDrag = transform;
                     ops.Setting(ops.ID + 1);
+
 
                     Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                     SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
@@ -56,6 +62,9 @@ namespace Mindongun
                     trsTarget.gridLayoutGroup.enabled = false;
 
                     trsChild.SetParent(trsTarget.transform);
+                    trsChild.GetComponent<Options>().CheckOptionBasket();
+
+
                     trsChild.DOMove(trsTarget.transform.position, 1000f).OnComplete(() =>
                     {
                         trsTarget.gridLayoutGroup.enabled = true;

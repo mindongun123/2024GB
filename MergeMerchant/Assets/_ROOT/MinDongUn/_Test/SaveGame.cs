@@ -12,16 +12,11 @@ namespace Mindongun
 
         private void OnEnable()
         {
-            Setup();
-        }
-
-        private void Setup()
-        {
-            SingletonComponent<SaveGame>.Instance.LoadBoard();
+            LoadBoard();
         }
 
 
-
+        #region SAVE BOARD
         /// <summary>
         /// 
         /// </summary>
@@ -32,7 +27,6 @@ namespace Mindongun
         Dictionary<Vector2Int, Vector2Int> dicSaveBoard = new Dictionary<Vector2Int, Vector2Int>();
 
 
-        [Button]
         public void SaveBoard()
         {
             for (int i = 0; i < ConstGame.COLUMN; i++)
@@ -74,10 +68,17 @@ namespace Mindongun
                     dic.Add(new Vector2Int(i, j), new Vector2Int(1, 1));
                 }
             }
+
+            /// <summary>
+            ///  Khoi tao vi tri Basket dau tien
+            /// </summary>
+            Vector2Int kPosBasketInit = new Vector2Int(5, 5);
+            IdTileBaseBasket = kPosBasketInit.x + kPosBasketInit.y * ConstGame.COLUMN;
+            dic[kPosBasketInit] = new Vector2Int(1, IdBasket);
+
             return dic;
         }
 
-        [Button]
         public void LoadBoard()
         {
             /// <summary>
@@ -107,11 +108,43 @@ namespace Mindongun
                     ops.Setting(item.Value.y);
                 }
             }
+
+            SingletonComponent<SpawnOptions>.Instance.LoadBasket(IdTileBaseBasket);
+        }
+        #endregion
+
+
+        #region  SAVE ID BASKET
+        public int IdTileBaseBasket
+        {
+            get => ES3.Load(ConstGame.BASKET_CURRENT, 20);
+            set => ES3.Save(ConstGame.BASKET_CURRENT, value);
+        }
+        public int IdBasket
+        {
+            get => ES3.Load(ConstGame.ID_BASKET, ConstGame.ID_BASKET_DEFAULT);
+            set => ES3.Save(ConstGame.ID_BASKET, value < 69 ? value : 68);
+        }
+        private int SaveIdGridBasketInBoard()
+        {
+            Vector2Int kPostionBasket = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(SingletonComponent<SpawnOptions>.Instance.TileBaseOptionsSelect);
+            return kPostionBasket.x + kPostionBasket.y * ConstGame.COLUMN;
+        }
+        private void SaveBasket()
+        {
+            IdTileBaseBasket = SaveIdGridBasketInBoard();
+        }
+        #endregion
+        public void SaveGameComplete()
+        {
+            SaveBoard();
+            SaveBasket();
         }
 
+        
         private void OnDisable()
         {
-            SingletonComponent<SaveGame>.Instance.SaveBoard();
+            SaveGameComplete();
         }
     }
 }

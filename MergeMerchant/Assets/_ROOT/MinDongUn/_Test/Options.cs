@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using MJGame;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -16,7 +17,7 @@ namespace Mindongun
         private int _id;
         public int ID
         {
-            set => _id = value;
+            set => _id = value < 69 ? value : 68;
             get => _id;
         }
 
@@ -24,6 +25,15 @@ namespace Mindongun
         {
             ID = _id;
             image.sprite = sprites[ID];
+        }
+
+        public void SetBasketSave()
+        {
+            basketButton.enabled = true;
+            IDBasket = ID % 10;
+            _isBasket = true;
+
+            AnimatorBasket();
         }
     }
 }

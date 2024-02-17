@@ -430,6 +430,9 @@
     <Reference Include="Sirenix.Reflection.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
@@ -442,8 +445,14 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>

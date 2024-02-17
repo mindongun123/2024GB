@@ -36,6 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Animation.cs" />
@@ -91,9 +93,13 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\SpawnOptions.cs" />
      <Compile Include="Assets\_ROOT\Scripts\BoardMerge\Order.cs" />
      <Compile Include="Assets\AdvancedPlayerPrefsWindow\DemoScene\GUIView.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\SaveGame.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\ConstGame.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
@@ -113,15 +119,20 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\PointFollower.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Common\SingletonComponent.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AnimationMatchModifier\AnimationMatchModifierAsset.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Triangulator.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
@@ -135,6 +146,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PointAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Atlas.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
@@ -148,18 +160,10 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\HintNow.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\SelectNow.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\UpdateBasket.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Options_Animation.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Options_Basket.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -506,6 +510,9 @@
     <Reference Include="Sirenix.Reflection.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
@@ -518,20 +525,17 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Serialization">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Serialization">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenPro">
         <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\2024GB\MergeMerchant\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

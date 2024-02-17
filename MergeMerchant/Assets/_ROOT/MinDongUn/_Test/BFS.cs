@@ -37,7 +37,6 @@ namespace Mindongun
 
                 if (grid[row, col] == 0)
                 {
-                    Debug.Log("Nearest empty position: " + current);
                     return current;
                 }
 

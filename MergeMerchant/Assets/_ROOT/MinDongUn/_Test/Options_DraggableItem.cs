@@ -34,10 +34,23 @@ namespace Mindongun
         public void OnEndDrag(PointerEventData eventData)
         {
             transform.SetParent(parentAfterDrag);
-            
+
             image.raycastTarget = true;
 
-            SingletonComponent<HintNow>.Instance.SetPositionHint(parentAfterDrag.position);
+            SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(parentAfterDrag.position);
+
+            CheckOptionBasket();
+        }
+
+        /// <summary>
+        ///  Kiem tra Option Basket hay khong
+        /// </summary>
+        public void CheckOptionBasket()
+        {
+            if (_isBasket)
+            {
+                SingletonComponent<SpawnOptions>.Instance.TileBaseOptionsSelect = transform.parent.GetComponent<TileBaseOptions>();
+            }
         }
     }
 }
