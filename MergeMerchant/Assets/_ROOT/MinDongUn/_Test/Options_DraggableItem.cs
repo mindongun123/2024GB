@@ -11,6 +11,7 @@ namespace Mindongun
     public partial class Options
     {
         public Transform parentAfterDrag;
+
         public void OnBeginDrag(PointerEventData eventData)
         {
             parentAfterDrag = transform.parent;
@@ -35,7 +36,7 @@ namespace Mindongun
         {
             transform.SetParent(parentAfterDrag);
 
-            image.raycastTarget = true;
+            // image.raycastTarget = true;
 
             SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(parentAfterDrag.position);
 

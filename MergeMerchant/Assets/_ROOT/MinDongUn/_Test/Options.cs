@@ -23,6 +23,10 @@ namespace Mindongun
 
         public void Setting(int _id)
         {
+            if (ID % 10 == 0)
+            {
+                print("hoan thanh");
+            }
             ID = _id;
             image.sprite = sprites[ID];
         }

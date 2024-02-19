@@ -8,17 +8,29 @@ namespace Mindongun
     public class SelectNow : SingletonComponent<SelectNow>
     {
 
-        [SerializeField] GameObject hint;
+        [SerializeField] GameObject select;
         [SerializeField] Animation m_animation;
 
         public void SetPositionSelectNow(Vector2 pos)
         {
-            if (!hint.activeSelf)
+            if (!select.activeSelf)
             {
-                hint.SetActive(true);
+                select.SetActive(true);
             }
-            hint.transform.position = pos;
+            select.transform.position = pos;
+           
+           
+            if (m_animation.isPlaying)
+            {
+                m_animation.Stop();
+                m_animation.Rewind();
+            }
             m_animation.Play();
+
+
+
+
+
         }
 
 

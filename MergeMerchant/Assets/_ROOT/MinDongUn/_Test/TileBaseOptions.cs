@@ -20,7 +20,7 @@ namespace Mindongun
                 ops.parentAfterDrag = transform;
 
                 ops.AnimationMergeComplete();
-
+                ops.image.raycastTarget = true;
                 // set trang thai
                 Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                 SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
@@ -32,6 +32,7 @@ namespace Mindongun
 
                 ops.AnimationMergeComplete();
 
+
                 if (ops.ID == transform.GetChild(0).GetComponent<Options>().ID)
                 {
                     Destroy(transform.GetChild(0).gameObject);
@@ -41,6 +42,7 @@ namespace Mindongun
 
                     Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                     SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
+                    ops.image.raycastTarget = true;
                 }
                 else
                 {
@@ -58,6 +60,7 @@ namespace Mindongun
 
                     Transform trsChild = transform.GetChild(0);
                     ops.parentAfterDrag = transform;
+                    ops.image.raycastTarget = true; 
 
                     trsTarget.gridLayoutGroup.enabled = false;
 
@@ -67,8 +70,10 @@ namespace Mindongun
 
                     trsChild.DOMove(trsTarget.transform.position, 1000f).OnComplete(() =>
                     {
+                        trsChild.GetComponent<Options>().image.raycastTarget = true;
                         trsTarget.gridLayoutGroup.enabled = true;
                     }).SetSpeedBased();
+
                 }
             }
         }

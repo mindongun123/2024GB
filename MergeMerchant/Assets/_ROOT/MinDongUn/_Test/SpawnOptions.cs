@@ -40,7 +40,7 @@ namespace Mindongun
             Options ops = opsOb.GetComponent<Options>();
 
             // sinh ra options co id trong khoang
-            ops.Setting(Random.Range(1, 5));
+            ops.Setting(Random.Range(1, 9));
             SingletonComponent<BFS>.Instance.SetGridAtPosition(_target);
         }
     }

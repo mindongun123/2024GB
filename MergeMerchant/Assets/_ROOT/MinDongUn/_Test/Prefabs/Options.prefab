@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 7571797342891680643}
   - component: {fileID: 3787286596664303869}
   - component: {fileID: 3315317258736014075}
-  - component: {fileID: 1956384654490216114}
-  - component: {fileID: 2219252764499994503}
+  - component: {fileID: 3894052856894155493}
+  - component: {fileID: 5747176550577414623}
   m_Layer: 5
   m_Name: Options
   m_TagString: Untagged
@@ -69,7 +69,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1544298849215757968, guid: 123fabd10bcdf774a885e14c1671027c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 191f4e6aa7b6b2941808d5f494e339da, type: 2}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -162,10 +162,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5106edf07627c174085637deff2dc716, type: 2}
   - {fileID: 21300000, guid: f7bc4e54f45d3f34698975256321b6af, type: 2}
   image: {fileID: 7571797342891680643}
+  m_animatorBasket: {fileID: 5747176550577414623}
+  m_animationMergeComplete: {fileID: 3894052856894155493}
   basketButton: {fileID: 3315317258736014075}
   _isBasket: 0
-  m_animatorBasket: {fileID: 2219252764499994503}
-  m_animationMergeComplete: {fileID: 1956384654490216114}
   parentAfterDrag: {fileID: 0}
 --- !u!114 &3315317258736014075
 MonoBehaviour:
@@ -223,7 +223,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!111 &1956384654490216114
+--- !u!111 &3894052856894155493
 Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,7 +239,7 @@ Animation:
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
---- !u!95 &2219252764499994503
+--- !u!95 &5747176550577414623
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
