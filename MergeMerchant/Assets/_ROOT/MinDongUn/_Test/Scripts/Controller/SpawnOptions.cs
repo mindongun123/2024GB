@@ -42,6 +42,10 @@ namespace MJGame.MergeMerchant.Merge
             ops.AnimationMergeComplete();
             // sinh ra options co id trong khoang
             ops.Setting(Random.Range(1, 9));
+
+            //cap nhat number id
+            SingletonComponent<SaveGameMerge>.Instance.UpdateNumberID(ops.ID);
+
             SingletonComponent<BFS>.Instance.SetGridAtPosition(_target);
         }
     }

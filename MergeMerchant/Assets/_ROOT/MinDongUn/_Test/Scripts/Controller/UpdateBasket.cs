@@ -16,7 +16,7 @@ namespace MJGame.MergeMerchant.Merge
         [Button]
         public void OnClickUpBasket()
         {
-            SingletonComponent<SaveGame>.Instance.IdBasket = SingletonComponent<SaveGame>.Instance.IdBasket + 1;
+            SingletonComponent<SaveGameMerge>.Instance.IdBasket = SingletonComponent<SaveGameMerge>.Instance.IdBasket + 1;
             print("update basket complete");
         }
     }

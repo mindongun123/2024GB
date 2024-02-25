@@ -35,13 +35,11 @@ namespace MJGame.MergeMerchant.Merge
                 {
                     Destroy(transform.GetChild(0).gameObject);
                     ops.parentAfterDrag = transform;
-                    int _idcurrent = ops.ID+1;
+                    int _idcurrent = ops.ID + 1;
                     ops.Setting(_idcurrent);
-                    /// <summary>
-                    /// Xet xem id vua tao ra co trong order khong
-                    /// </summary>
-                    /// <returns></returns>
-                    SingletonComponent<OrderController>.Instance.IsOptionNewInDictionaryOrderProduct(_idcurrent);
+
+                    /// kiem tra Order Product 
+                    SingletonComponent<SaveGameMerge>.Instance.SaveNumberID(_idcurrent);
 
                     Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                     SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
@@ -66,7 +64,11 @@ namespace MJGame.MergeMerchant.Merge
                     Transform trsChild = transform.GetChild(0);
                     trsChild.GetComponent<Options>().image.raycastTarget = false;
 
+
+
                     ops.parentAfterDrag = transform;
+
+
                     trsChild.SetParent(trsTarget.transform);
 
                     trsChild.GetComponent<Options>().CheckOptionBasket();

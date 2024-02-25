@@ -40,6 +40,8 @@ namespace MJGame.MergeMerchant.Merge
             order.gameObject.SetActive(true);
             order.SetSlotOrder(kSlot);
             dicOrderProduct[order] = kSlot;
+            // cap nhat complete cho cac order product
+            CheckOrderProductComplete();
         }
 
         [Button]
@@ -53,12 +55,14 @@ namespace MJGame.MergeMerchant.Merge
         }
 
         // [Button]
-        public void DeleteOrderProductFromDictionary(OrderProduct kOrder)
+        public void DeleteOrderProductFromDictionary(OrderProduct kOrder, int _id)
         {
             dicOrderProduct.Remove(kOrder);
             qeOrderProductWait.Enqueue(kOrder);
             kOrder.gameObject.SetActive(false);
             print("Delete Complete");
+
+            RemoveOptionToOrderProduct(_id);
         }
 
 
@@ -67,7 +71,6 @@ namespace MJGame.MergeMerchant.Merge
         {
             List<Slot> ls = dicOrderProduct.Values.ToList();
             MJGameSave.SetList<Slot>(ConstGame.SAVE_ORDER_SLOT, ls);
-            // print(" Save complete ");
         }
 
 
@@ -79,80 +82,60 @@ namespace MJGame.MergeMerchant.Merge
             {
                 AddOrderProductToDictionary(item);
             }
-            // print(" Load complete ");
         }
 
 
 
 
-        #region Check Order 
-        /// <summary>
-        /// kiem tra xem _id duoc dua vao co trong Dictionary Order Product khong
-        /// </summary>
-        /// <param name="_id"></param>
-        /// <returns></returns>
-        public bool IsOptionNewInDictionaryOrderProduct(int _id)
-        {
-            CheckWhenMergeOptionNew(_id);
-            CheckWhenMergeOptionOld(_id - 1);
-            return true;
-        }
-
-        /// <summary>
-        /// khi tao ra option moi
-        /// </summary>
-        /// <param name="_id"></param>
-        private bool CheckWhenMergeOptionNew(int _id)
+        #region Check Order Product Complete ?
+        public void CheckOrderProductComplete()
         {
             foreach (var item in dicOrderProduct)
             {
-                if (!item.Value._complete && _id == item.Value._id)
+                if (GetNumberId(item.Key.slot._id) != 0)
                 {
                     item.Key.Complete();
-                    print($"Co {item.Key.gameObject.name} thoa man option new");
-                    return true;
+                }
+                else
+                {
+                    item.Key.Complete(false);
                 }
             }
-            return false;
         }
+
+
+        #endregion
+
+        #region Save ID in board
+
+        public void RemoveOptionToOrderProduct(int _id)
+        {
+            Vector2Int vt = SingletonComponent<BFS>.Instance.FindNearestPointOptionWithID(Vector2Int.zero, _id);
+
+            Destroy(SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(vt.x + vt.y * ConstGame.COLUMN).transform.GetChild(0).gameObject);
+
+            SingletonComponent<BFS>.Instance.SetGridAtPosition(vt, 0);
+        }
+
         /// <summary>
-        /// kiem tra ca nhung option cu xem co chua de xoa di trang thai complate
+        /// truong hop nay chi dung khi nguoi choi vua mua san pham moi --> sau do vao thi san pham da co tren board san roi --> nen can merge --> khi nguoi choi di chuyen thi hi vong no khong bi xoa 
+        /// </summary>
+        /// <param name="_id"></param>
+        public void EnableCheckOption(int _id)
+        {
+            Vector2Int vt = SingletonComponent<BFS>.Instance.FindNearestPointOptionWithID(Vector2Int.zero, _id);
+            Options ops = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(vt.x + vt.y * ConstGame.COLUMN).transform.GetChild(0).gameObject.GetComponent<Options>();
+            // Bat  Cai Check len  --> truong hop nay chi 
+        }
+
+        /// <summary>
+        /// lay ra so luong co ID can lay
         /// </summary>
         /// <param name="_id"></param>
         /// <returns></returns>
-        private bool CheckWhenMergeOptionOld(int _id)
+        public int GetNumberId(int _id)
         {
-            int _numberOld = 0;
-            foreach (var item in dicOrderProduct)
-            {
-                if (item.Value._complete && _id == item.Value._id)
-                {
-                    item.Key.Complete(false);
-                    print($"Co {item.Key.gameObject.name} thoa man option old");
-                    _numberOld = _numberOld + 1;
-                }
-                if (_numberOld == 2)
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-
-
-        public void Check()
-        {
-            for (int i = 0; i < ConstGame.COLUMN; i++)
-            {
-                for (int j = 0; j < ConstGame.ROW; j++)
-                {
-                    if(SingletonComponent<BFS>.Instance.LoadStatusGrid(i, j)==1)
-                    {
-                        //Lay TileBase de lay ID
-                        
-                    }
-                }
-            }
+            return PlayerPrefs.GetInt(_id.ToString(), 0);
         }
 
         #endregion

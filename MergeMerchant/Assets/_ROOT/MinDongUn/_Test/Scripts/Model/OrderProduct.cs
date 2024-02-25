@@ -48,7 +48,12 @@ namespace MJGame.MergeMerchant.Merge
         public void OnClickComplete()
         {
             // Xu li them tien, thuong, gia ca o day
-            SingletonComponent<OrderController>.Instance.DeleteOrderProductFromDictionary(this);
+
+            SingletonComponent<OrderController>.Instance.DeleteOrderProductFromDictionary(this, slot._id);
+
+            SingletonComponent<SaveGameMerge>.Instance.UpdateNumberID(slot._id, -1);
+
+
             print("complete slot order");
         }
 

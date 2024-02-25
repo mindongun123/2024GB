@@ -40,6 +40,8 @@ namespace MJGame.MergeMerchant.Merge
             if (parentAfterDrag == parentAfterDragLast)
             {
                 image.raycastTarget = true;
+                Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(transform.parent.GetComponent<TileBaseOptions>());
+                SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
             }
 
             SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(parentAfterDrag.position);
