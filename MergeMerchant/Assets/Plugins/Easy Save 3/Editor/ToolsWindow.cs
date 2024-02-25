@@ -6,22 +6,22 @@ using System.IO;
 
 namespace ES3Editor
 {
-	public class ToolsWindow : SubWindow
-	{
-		public ToolsWindow(EditorWindow window) : base("Tools", window){}
+    public class ToolsWindow : SubWindow
+    {
+        public ToolsWindow(EditorWindow window) : base("Tools", window) { }
 
-		public override void OnGUI()
-		{
-			var style = EditorStyle.Get;
+        public override void OnGUI()
+        {
+            var style = EditorStyle.Get;
 
-			EditorGUILayout.BeginHorizontal(style.area);
+            EditorGUILayout.BeginHorizontal(style.area);
 
             if (GUILayout.Button("Open Persistent Data Path"))
                 OpenPersistentDataPath();
 
-			EditorGUILayout.EndHorizontal();
+            EditorGUILayout.EndHorizontal();
 
-			EditorGUILayout.BeginHorizontal(style.area);
+            EditorGUILayout.BeginHorizontal(style.area);
 
             if (GUILayout.Button("Clear Persistent Data Path"))
                 ClearPersistentDataPath();
@@ -29,8 +29,11 @@ namespace ES3Editor
             if (GUILayout.Button("Clear PlayerPrefs"))
                 ClearPlayerPrefs();
 
-			EditorGUILayout.EndHorizontal();
-		}
+            EditorGUILayout.EndHorizontal();
+
+             
+        }
+ 
 
         [MenuItem("Tools/Easy Save 3/Open Persistent Data Path", false, 200)]
         private static void OpenPersistentDataPath()
@@ -60,7 +63,7 @@ namespace ES3Editor
         }
     }
 
-	/*public static class OSFileBrowser
+    /*public static class OSFileBrowser
 	{
 		public static bool IsInMacOS
 		{

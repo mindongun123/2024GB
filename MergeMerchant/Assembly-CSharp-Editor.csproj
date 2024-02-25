@@ -71,6 +71,7 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Editor\ConfigPluginGameEditor.cs" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
