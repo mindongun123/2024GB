@@ -9,9 +9,6 @@ namespace MJGame.MergeMerchant.Merge
 {
     public partial class Options
     {
-
-
-
         public Button basketButton;
 
         [SerializeField]

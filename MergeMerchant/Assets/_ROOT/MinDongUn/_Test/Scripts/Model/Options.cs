@@ -13,7 +13,7 @@ namespace MJGame.MergeMerchant.Merge
 
         [SerializeField] Sprite[] sprites;
         public Image image;
-       
+
         private int _id;
         public int ID
         {
@@ -24,7 +24,7 @@ namespace MJGame.MergeMerchant.Merge
         public void Setting(int _id)
         {
             ID = _id;
-            if (ID % 10 == 0)
+            if (ID % 10 == 0 && ID / 10 > 0)
             {
                 print("hoan thanh ID MAX");
             }

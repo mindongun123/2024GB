@@ -13,10 +13,11 @@ namespace MJGame.MergeMerchant.Merge
         [SerializeField] GridLayoutGroup gridLayoutGroup;
         public void OnDrop(PointerEventData eventData)
         {
+            GameObject dropped = eventData.pointerDrag;
+            Options ops = dropped.GetComponent<Options>();
+
             if (transform.childCount == 0)
             {
-                GameObject dropped = eventData.pointerDrag;
-                Options ops = dropped.GetComponent<Options>();
                 ops.parentAfterDrag = transform;
 
                 ops.AnimationMergeComplete();
@@ -28,9 +29,6 @@ namespace MJGame.MergeMerchant.Merge
             }
             else
             {
-                GameObject dropped = eventData.pointerDrag;
-                Options ops = dropped.GetComponent<Options>();
-
                 if (ops.ID == transform.GetChild(0).GetComponent<Options>().ID)
                 {
                     Destroy(transform.GetChild(0).gameObject);
@@ -64,10 +62,7 @@ namespace MJGame.MergeMerchant.Merge
                     Transform trsChild = transform.GetChild(0);
                     trsChild.GetComponent<Options>().image.raycastTarget = false;
 
-
-
                     ops.parentAfterDrag = transform;
-
 
                     trsChild.SetParent(trsTarget.transform);
 

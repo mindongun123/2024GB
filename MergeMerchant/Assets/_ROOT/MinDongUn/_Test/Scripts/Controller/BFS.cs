@@ -103,12 +103,5 @@ namespace MJGame.MergeMerchant.Merge
         {
             grid[_ps.x, _ps.y] = _vl;
         }
-
-
-        public int LoadStatusGrid(int _idx, int _idy)
-        {
-            return grid[_idx, _idy];
-        }
-
     }
 }

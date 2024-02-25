@@ -10,8 +10,11 @@ namespace MJGame.MergeMerchant.Merge
     {
 
         [SerializeField] GameObject OptionObject;
+        [SerializeField] MergeOptionsController mergeOptionsController;
+
         [ShowInInspector]
         private TileBaseOptions kTileBaseOptionSelect;
+
         public TileBaseOptions TileBaseOptionsSelect
         {
             set => kTileBaseOptionSelect = value;
@@ -20,20 +23,23 @@ namespace MJGame.MergeMerchant.Merge
 
         public void LoadBasket(int _idx)
         {
-            TileBaseOptionsSelect = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_idx);
+            // TileBaseOptionsSelect = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_idx);
+            TileBaseOptionsSelect = mergeOptionsController.GetTileBaseOptions(_idx);
             TileBaseOptionsSelect.transform.GetChild(0).GetComponent<Options>().SetBasketSave();
         }
 
         public void CreateNewOptions()
         {
-            Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(TileBaseOptionsSelect);
+            // Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(TileBaseOptionsSelect);
+            Vector2Int _ps = mergeOptionsController.GetIdTileBaseOptions(TileBaseOptionsSelect);
             Vector2Int _target = SingletonComponent<BFS>.Instance.FindNearestEmptyPosition(_ps);
             if (_target == _ps)
             {
                 print("khong con vi tri thoa man");
                 return;
             }
-            TileBaseOptions tileBaseOptions = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_target.x + _target.y * ConstGame.COLUMN);
+            // TileBaseOptions tileBaseOptions = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_target.x + _target.y * ConstGame.COLUMN);
+            TileBaseOptions tileBaseOptions = mergeOptionsController.GetTileBaseOptions(_target.x + _target.y * ConstGame.COLUMN);
             GameObject opsOb = Instantiate<GameObject>(OptionObject, Vector2.zero, Quaternion.identity);
             opsOb.transform.SetParent(tileBaseOptions.transform);
 

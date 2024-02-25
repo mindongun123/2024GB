@@ -16,7 +16,7 @@ namespace MJGame.MergeMerchant.Merge
         }
 
 
-        #region SAVE BOARD
+        #region SAVE BOARD MERGE
         /// <summary>
         /// 
         /// </summary>
@@ -47,8 +47,8 @@ namespace MJGame.MergeMerchant.Merge
                 }
             }
 
-            print("Save Complete");
             ES3.Save<Dictionary<Vector2Int, Vector2Int>>(ConstGame.SAVE_BOARD, dicSaveBoard);
+            print("Save Complete");
         }
 
         [SerializeField] GameObject OptionsObject;
@@ -91,12 +91,6 @@ namespace MJGame.MergeMerchant.Merge
 
         public void LoadBoard()
         {
-            /// <summary>
-            /// dic
-            /// </summary>
-            /// <typeparam name="Vector2Int">x,y la vi tri Tilebase tren board</typeparam>
-            /// <typeparam name="Vector2Int">x -> co ton tai options hay khong, y -> ID options neu no ton tai trong Tilebase</typeparam>
-            /// <returns></returns>
             Dictionary<Vector2Int, Vector2Int> dic = new Dictionary<Vector2Int, Vector2Int>();
 
             dic = ES3.Load<Dictionary<Vector2Int, Vector2Int>>(ConstGame.SAVE_BOARD, new Dictionary<Vector2Int, Vector2Int>());

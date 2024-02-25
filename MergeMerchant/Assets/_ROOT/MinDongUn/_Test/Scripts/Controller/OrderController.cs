@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using MJGame.Library.Utility;
 using Sirenix.OdinInspector;
@@ -25,10 +23,6 @@ namespace MJGame.MergeMerchant.Merge
             LoadDictionaryOrderProduct();
         }
 
-        /// <summary>
-        /// Sau khi co nguoi den Order Product thi cu nhet yeu cau cua ho vao day --> Thanh cong
-        /// </summary>
-        /// <param name="kSlot"></param>
         public void AddOrderProductToDictionary(Slot kSlot)
         {
             if (qeOrderProductWait.Count == 0)
@@ -54,7 +48,6 @@ namespace MJGame.MergeMerchant.Merge
             AddOrderProductToDictionary(new Slot(slot));
         }
 
-        // [Button]
         public void DeleteOrderProductFromDictionary(OrderProduct kOrder, int _id)
         {
             dicOrderProduct.Remove(kOrder);
@@ -65,16 +58,12 @@ namespace MJGame.MergeMerchant.Merge
             RemoveOptionToOrderProduct(_id);
         }
 
-
-        // [Button]
         public void SaveDictionaryOrderProduct()
         {
             List<Slot> ls = dicOrderProduct.Values.ToList();
             MJGameSave.SetList<Slot>(ConstGame.SAVE_ORDER_SLOT, ls);
         }
 
-
-        // [Button]
         public void LoadDictionaryOrderProduct()
         {
             List<Slot> ls = MJGameSave.GetList<Slot>(ConstGame.SAVE_ORDER_SLOT, new List<Slot>());
@@ -128,11 +117,6 @@ namespace MJGame.MergeMerchant.Merge
             // Bat  Cai Check len  --> truong hop nay chi 
         }
 
-        /// <summary>
-        /// lay ra so luong co ID can lay
-        /// </summary>
-        /// <param name="_id"></param>
-        /// <returns></returns>
         public int GetNumberId(int _id)
         {
             return PlayerPrefs.GetInt(_id.ToString(), 0);

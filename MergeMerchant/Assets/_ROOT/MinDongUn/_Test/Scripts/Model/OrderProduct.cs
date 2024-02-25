@@ -18,7 +18,6 @@ namespace MJGame.MergeMerchant.Merge
         [SerializeField] TextMeshProUGUI txtMoneySlot;
         [SerializeField] Image imgSlot;
         [SerializeField] GameObject m_btnComplete;
-        // [SerializeField] Button m_btn;
 
 
         public void SetSlotOrder(Slot kSlot)

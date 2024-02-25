@@ -26,13 +26,7 @@ namespace MJGame.MergeMerchant.Merge
                 m_animation.Rewind();
             }
             m_animation.Play();
-
-
-
-
-
+ 
         }
-
-
     }
 }
