@@ -1,0 +1,29 @@
+using System.Collections;
+using System.Collections.Generic;
+using GIE;
+using Sirenix.OdinInspector;
+using UnityEngine;
+
+
+namespace MJGame.MergeMerchant.Merge
+{
+    public enum NameItem
+    {
+        coin, diamond, energy, exp, option
+    }
+
+
+    public class VFXParticleItem : MonoBehaviour
+    {
+        [Button]
+        public void OnClickItemVFX(Vector2 _start, int _number = 1, NameItem kNameItem = NameItem.coin, GetItemEffectType _type = GetItemEffectType.Explostion_First)
+        {
+            Vector2 position = _start;
+            position = SingletonComponent<SelectNow>.Instance.GetPositionObjectSelect;
+            print(kNameItem.ToString());
+            GetItemEffect.mInstance.GetItem(kNameItem.ToString(), _number, new Vector3(position.x, position.y, 0), null, _type);
+        }
+
+        
+    }
+}

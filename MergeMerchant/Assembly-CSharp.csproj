@@ -160,6 +160,15 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Model\SelectNow.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItem_3D.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\GetItemEffect.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\Example.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\Example_3D.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\GetItem.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\ChestItem.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItemEffect_3D.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\VFXParticleItem.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\VFXSetItem.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
