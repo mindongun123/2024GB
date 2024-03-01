@@ -10,7 +10,7 @@ namespace MJGame.MergeMerchant.Utility
     public struct SlotData
     {
         public int _id;
-        public int _money;
+        public int _coin;
         public bool _complete;
 
 
@@ -19,7 +19,7 @@ namespace MJGame.MergeMerchant.Utility
         {
             this._complete = false;
             this._id = Random.Range(1, 10);
-            this._money = 10 * _id;
+            this._coin = 10 * _id;
         }
     }
 
@@ -28,13 +28,14 @@ namespace MJGame.MergeMerchant.Utility
     public class Slot
     {
         public int _id;
-        public int _money;
+        public int _coin;//coin, diamond
         public bool _complete;
-        
+
+
         public Slot(SlotData kSlot)
         {
             _id = kSlot._id;
-            _money = kSlot._money;
+            _coin = kSlot._coin;
             _complete = kSlot._complete;
         }
 
@@ -43,7 +44,7 @@ namespace MJGame.MergeMerchant.Utility
         public SlotData GetSlot()
         {
             slot._id = _id;
-            slot._money = _money;
+            slot._coin = _coin;
             slot._complete = _complete;
             return slot;
         }

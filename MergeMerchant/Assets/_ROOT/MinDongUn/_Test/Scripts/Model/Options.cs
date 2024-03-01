@@ -27,6 +27,9 @@ namespace MJGame.MergeMerchant.Merge
             if (ID % 10 == 0 && ID / 10 > 0)
             {
                 print("hoan thanh ID MAX");
+                ///
+                /// Neu no max --> Destroy no luon
+                SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 5, NameItem.diamond);
             }
             image.sprite = sprites[ID];
         }

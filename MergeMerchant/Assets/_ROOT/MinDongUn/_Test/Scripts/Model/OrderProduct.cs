@@ -29,9 +29,10 @@ namespace MJGame.MergeMerchant.Merge
         private void ViewSlotOrder()
         {
             imgSlot.sprite = sprites[slot._id];
-            txtMoneySlot.text = slot._money.ToString();
+            txtMoneySlot.text = slot._coin.ToString();
+
             ButtonComplete();
-            print("Order Product Complete");
+            SetEnableInteractableButtonComplete();
         }
 
         public void Complete(bool _isTrue = true)
@@ -44,16 +45,33 @@ namespace MJGame.MergeMerchant.Merge
             m_btnComplete.SetActive(slot._complete);
         }
 
+
+        private void SetEnableInteractableButtonComplete(bool _istrue = true)
+        {
+            m_btnComplete.GetComponent<Button>().interactable = _istrue;
+        }
+
         public void OnClickComplete()
         {
-            // Xu li them tien, thuong, gia ca o day
+            SetEnableInteractableButtonComplete(false);
+
+            //Add Reward Coin sau khi ban xong
+            StartCoroutine(AddRewardIE(1f, slot._coin));
 
             SingletonComponent<OrderController>.Instance.DeleteOrderProductFromDictionary(this, slot._id);
 
             SingletonComponent<SaveGameMerge>.Instance.UpdateNumberID(slot._id, -1);
 
+        }
 
-            print("complete slot order");
+        IEnumerator AddRewardIE(float _time, int _value)
+        {
+            yield return new WaitForSeconds(_time);
+            AddReward(_value);
+        }
+        private void AddReward(int _value)
+        {
+            ViewReward.AddCoin(_value);
         }
 
     }

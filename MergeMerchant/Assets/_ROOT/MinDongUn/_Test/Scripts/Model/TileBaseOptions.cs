@@ -36,6 +36,9 @@ namespace MJGame.MergeMerchant.Merge
                     int _idcurrent = ops.ID + 1;
                     ops.Setting(_idcurrent);
 
+                    ///VFX
+                    // SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(ops.transform.position);
+
                     /// kiem tra Order Product 
                     SingletonComponent<SaveGameMerge>.Instance.SaveNumberID(_idcurrent);
 

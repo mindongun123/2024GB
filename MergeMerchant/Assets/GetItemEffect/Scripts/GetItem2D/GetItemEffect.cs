@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine.UI;
 using UnityEngine;
+using MJGame.MergeMerchant;
 
 namespace GIE
 {
@@ -113,6 +114,7 @@ namespace GIE
             }
             mGetItem[mGetItem.Count - 1].mItemToWhere = _target;
         }
+       
 
     }
     [Serializable]

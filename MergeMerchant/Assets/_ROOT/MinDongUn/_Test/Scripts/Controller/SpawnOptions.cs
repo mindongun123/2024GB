@@ -30,7 +30,6 @@ namespace MJGame.MergeMerchant.Merge
 
         public void CreateNewOptions()
         {
-            // Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(TileBaseOptionsSelect);
             Vector2Int _ps = mergeOptionsController.GetIdTileBaseOptions(TileBaseOptionsSelect);
             Vector2Int _target = SingletonComponent<BFS>.Instance.FindNearestEmptyPosition(_ps);
             if (_target == _ps)
@@ -38,7 +37,6 @@ namespace MJGame.MergeMerchant.Merge
                 print("khong con vi tri thoa man");
                 return;
             }
-            // TileBaseOptions tileBaseOptions = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_target.x + _target.y * ConstGame.COLUMN);
             TileBaseOptions tileBaseOptions = mergeOptionsController.GetTileBaseOptions(_target.x + _target.y * ConstGame.COLUMN);
             GameObject opsOb = Instantiate<GameObject>(OptionObject, Vector2.zero, Quaternion.identity);
             opsOb.transform.SetParent(tileBaseOptions.transform);

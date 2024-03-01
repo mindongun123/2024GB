@@ -17,8 +17,14 @@ namespace MJGame.MergeMerchant.Merge
         public void OnClickBasket()
         {
             print("basket level " + IDBasket);
-            SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(transform.parent.position);
-            SingletonComponent<SpawnOptions>.Instance.CreateNewOptions();
+
+            if (ViewReward.AddEnergy(-1))
+            {
+                SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(transform.parent.position);
+                SingletonComponent<SpawnOptions>.Instance.CreateNewOptions();
+                Debug.Log("tru energy -1 complete");
+                return;
+            }
         }
 
         public void UpdateBasket()

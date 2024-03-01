@@ -23,7 +23,7 @@ namespace MJGame.MergeMerchant.Merge
         /// <typeparam name="Vector2Int">Vi tri trong Grid BFS</typeparam>
         /// <typeparam name="Vector2Int">x = trang thai (1/0) : y = ID neu x = 1 </typeparam>
         /// <returns></returns>
-        [ShowInInspector]
+        // [ShowInInspector]
         Dictionary<Vector2Int, Vector2Int> dicSaveBoard = new Dictionary<Vector2Int, Vector2Int>();
 
 

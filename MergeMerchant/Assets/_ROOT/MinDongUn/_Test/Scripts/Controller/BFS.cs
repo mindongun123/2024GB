@@ -56,8 +56,6 @@ namespace MJGame.MergeMerchant.Merge
         }
 
 
-
-
         public Vector2Int FindNearestPointOptionWithID(Vector2Int start, int _id)
         {
 

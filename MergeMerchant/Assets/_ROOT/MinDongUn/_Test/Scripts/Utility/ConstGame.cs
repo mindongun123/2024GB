@@ -9,7 +9,10 @@ namespace MJGame.MergeMerchant.Merge
     {
         [Header("Common")]
         public const string LEVEL = "level";
-        
+        public const string COIN = "coin";
+        public const string DIAMOND = "diamond";
+        public const string ENERGY = "energy";
+
         [Header("Board Merge Game")]
         public const int COLUMN = 7;
         public const int ROW = 9;

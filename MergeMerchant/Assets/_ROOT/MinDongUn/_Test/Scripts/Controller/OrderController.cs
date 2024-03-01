@@ -4,6 +4,7 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using MJGame.MergeMerchant.Utility;
 using System.Linq;
+using System.Collections;
 
 namespace MJGame.MergeMerchant.Merge
 {
@@ -12,10 +13,13 @@ namespace MJGame.MergeMerchant.Merge
     {
 
         [SerializeField] List<OrderProduct> ls = new List<OrderProduct>();
-        [ShowInInspector]
+        // [ShowInInspector]
         public Dictionary<OrderProduct, Slot> dicOrderProduct = new Dictionary<OrderProduct, Slot>();
-        [ShowInInspector]
+        // [ShowInInspector]
         public Queue<OrderProduct> qeOrderProductWait = new Queue<OrderProduct>();
+
+
+        [SerializeField] BFS bfs;
         private void Start()
         {
             qeOrderProductWait = new Queue<OrderProduct>(ls);
@@ -48,14 +52,24 @@ namespace MJGame.MergeMerchant.Merge
             AddOrderProductToDictionary(new Slot(slot));
         }
 
+
         public void DeleteOrderProductFromDictionary(OrderProduct kOrder, int _id)
         {
             dicOrderProduct.Remove(kOrder);
             qeOrderProductWait.Enqueue(kOrder);
-            kOrder.gameObject.SetActive(false);
-            print("Delete Complete");
 
-            RemoveOptionToOrderProduct(_id);
+            StartCoroutine(DelayIE(1f, kOrder));
+
+            RemoveOptionToOrderProduct(_id, kOrder);
+        }
+
+        private IEnumerator DelayIE(float _time, OrderProduct kOrder)
+        {
+            yield return new WaitForSeconds(_time - 0.2f);
+            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(kOrder.transform.position + new Vector3(0, 100, 0), kOrder.slot._coin / 10);
+            yield return new WaitForSeconds(0.2f);
+            /// VFX - Reward
+            kOrder.gameObject.SetActive(false);
         }
 
         public void SaveDictionaryOrderProduct()
@@ -72,8 +86,6 @@ namespace MJGame.MergeMerchant.Merge
                 AddOrderProductToDictionary(item);
             }
         }
-
-
 
 
         #region Check Order Product Complete ?
@@ -95,15 +107,19 @@ namespace MJGame.MergeMerchant.Merge
 
         #endregion
 
-        #region Save ID in board
+        #region ID in board
 
-        public void RemoveOptionToOrderProduct(int _id)
+        private void RemoveOptionToOrderProduct(int _id, OrderProduct kOrder = null)
         {
-            Vector2Int vt = SingletonComponent<BFS>.Instance.FindNearestPointOptionWithID(Vector2Int.zero, _id);
+            Vector2Int vt = bfs.FindNearestPointOptionWithID(Vector2Int.zero, _id);
 
-            Destroy(SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(vt.x + vt.y * ConstGame.COLUMN).transform.GetChild(0).gameObject);
+            GameObject ops = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(vt.x + vt.y * ConstGame.COLUMN).transform.GetChild(0).gameObject;
 
-            SingletonComponent<BFS>.Instance.SetGridAtPosition(vt, 0);
+            /// VFX - Option
+            SingletonComponent<VFXSetItemOption>.Instance.VFXSetOptionTarget(kOrder.GetComponent<RectTransform>(), ops.transform.position, _id);
+
+            Destroy(ops);
+            bfs.SetGridAtPosition(vt, 0);
         }
 
         /// <summary>
@@ -112,7 +128,7 @@ namespace MJGame.MergeMerchant.Merge
         /// <param name="_id"></param>
         public void EnableCheckOption(int _id)
         {
-            Vector2Int vt = SingletonComponent<BFS>.Instance.FindNearestPointOptionWithID(Vector2Int.zero, _id);
+            Vector2Int vt = bfs.FindNearestPointOptionWithID(Vector2Int.zero, _id);
             Options ops = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(vt.x + vt.y * ConstGame.COLUMN).transform.GetChild(0).gameObject.GetComponent<Options>();
             // Bat  Cai Check len  --> truong hop nay chi 
         }
