@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using MJGame;
+using MJGame.Library.Utility;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -119,20 +120,27 @@ namespace MJGame.MergeMerchant.Merge
 
 
         #region  SAVE ID BASKET
-        public int IdTileBaseBasket
+        private int IdTileBaseBasket
         {
-            get => ES3.Load(ConstGame.BASKET_CURRENT, 20);
-            set => ES3.Save(ConstGame.BASKET_CURRENT, value);
+            get => PlayerPrefs.GetInt(ConstGame.BASKET_CURRENT, 20);
+            set => PlayerPrefs.SetInt(ConstGame.BASKET_CURRENT, value);
         }
         public int IdBasket
         {
-            get => ES3.Load(ConstGame.ID_BASKET, ConstGame.ID_BASKET_DEFAULT);
-            set => ES3.Save(ConstGame.ID_BASKET, value < 69 ? value : 68);
+            get => PlayerPrefs.GetInt(ConstGame.ID_BASKET, ConstGame.ID_BASKET_DEFAULT);
+            set => PlayerPrefs.SetInt(ConstGame.ID_BASKET, value < 67 ? value : 66);
         }
         private int SaveIdGridBasketInBoard()
         {
             Vector2Int kPostionBasket = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(SingletonComponent<SpawnOptions>.Instance.TileBaseOptionsSelect);
             return kPostionBasket.x + kPostionBasket.y * ConstGame.COLUMN;
+        }
+
+        public void UpdateBasket()
+        {
+            IdBasket += 1;
+            AddIdOptionSpawn();
+            SingletonComponent<SpawnOptions>.Instance.LoadBasket(IdTileBaseBasket);
         }
         private void SaveBasket()
         {
@@ -170,6 +178,28 @@ namespace MJGame.MergeMerchant.Merge
         {
             PlayerPrefs.SetInt(_id.ToString(), GetNumberId(_id) + _nb);
             SingletonComponent<OrderController>.Instance.CheckOrderProductComplete();
+        }
+        #endregion
+
+
+        #region List ID option spawn
+        public List<int> GetListIdOptionSpawn()
+        {
+            return MJGameSave.GetList(ConstGame.LIST_ID_OPTION_SPAWN, new List<int> { 1, 2, 3 });
+        }
+
+         
+        private void AddIdOptionSpawn()
+        {
+            List<int> lsIdSpawn = GetListIdOptionSpawn();
+            lsIdSpawn.Add((IdBasket % 10 - 1) * 10 + 1);
+            lsIdSpawn.Add((IdBasket % 10 - 1) * 10 + 2);
+            lsIdSpawn.Add((IdBasket % 10 - 1) * 10 + 3);
+            SetListIdOptionSpawn(lsIdSpawn);
+        }
+        public void SetListIdOptionSpawn(List<int> _ls)
+        {
+            MJGameSave.SetList(ConstGame.LIST_ID_OPTION_SPAWN, _ls);
         }
         #endregion
 

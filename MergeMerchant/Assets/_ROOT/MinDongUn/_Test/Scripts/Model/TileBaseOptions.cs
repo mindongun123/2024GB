@@ -34,16 +34,15 @@ namespace MJGame.MergeMerchant.Merge
                     Destroy(transform.GetChild(0).gameObject);
                     ops.parentAfterDrag = transform;
                     int _idcurrent = ops.ID + 1;
-                    ops.Setting(_idcurrent);
-
-                    ///VFX
-                    // SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(ops.transform.position);
 
                     /// kiem tra Order Product 
                     SingletonComponent<SaveGameMerge>.Instance.SaveNumberID(_idcurrent);
 
                     Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                     SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);
+
+                    ops.Setting(_idcurrent, _ps);
+
                     ops.image.raycastTarget = true;
                 }
                 else

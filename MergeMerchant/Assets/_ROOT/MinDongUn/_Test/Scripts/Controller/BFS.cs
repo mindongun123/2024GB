@@ -100,6 +100,7 @@ namespace MJGame.MergeMerchant.Merge
         public void SetGridAtPosition(Vector2Int _ps, int _vl = 1)
         {
             grid[_ps.x, _ps.y] = _vl;
+            print("call me");
         }
     }
 }

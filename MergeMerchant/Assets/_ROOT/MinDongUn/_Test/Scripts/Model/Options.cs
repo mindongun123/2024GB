@@ -21,15 +21,13 @@ namespace MJGame.MergeMerchant.Merge
             get => _id;
         }
 
-        public void Setting(int _id)
+        public void Setting(int _id, Vector2Int kPosMax = default)
         {
             ID = _id;
             if (ID % 10 == 0 && ID / 10 > 0)
             {
-                print("hoan thanh ID MAX");
-                ///
-                /// Neu no max --> Destroy no luon
-                SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 5, NameItem.diamond);
+                DestroyOptionIDMax(kPosMax);
+                return;
             }
             image.sprite = sprites[ID];
         }
@@ -37,10 +35,20 @@ namespace MJGame.MergeMerchant.Merge
         public void SetBasketSave()
         {
             basketButton.enabled = true;
+            ID = SingletonComponent<SaveGameMerge>.Instance.IdBasket;
             IDBasket = ID % 10;
             _isBasket = true;
-
+            image.sprite = sprites[ID];
             AnimatorBasket();
+        }
+
+
+        private void DestroyOptionIDMax(Vector2Int kPosMax)
+        {
+            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 5, NameItem.diamond);
+            ViewReward.AddDiamond(10);
+            SingletonComponent<BFS>.Instance.SetGridAtPosition(kPosMax, 0);
+            Destroy(gameObject);
         }
     }
 }

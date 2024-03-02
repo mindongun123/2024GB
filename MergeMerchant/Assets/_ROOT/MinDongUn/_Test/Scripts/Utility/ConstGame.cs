@@ -22,5 +22,8 @@ namespace MJGame.MergeMerchant.Merge
         public const int ID_BASKET_DEFAULT = 61;
         public const string SAVE_ORDER_SLOT = "save_order_slot";
 
+
+        public const string LIST_ID_OPTION_SPAWN = "list_id_option_spawn";
+
     }
 }

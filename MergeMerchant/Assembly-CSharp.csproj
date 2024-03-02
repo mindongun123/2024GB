@@ -64,6 +64,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\MJGameRewardSave.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\EventData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraintData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" />
@@ -112,10 +113,12 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Model\MergeOptionsController.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewDiamondText.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skin.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\OrderController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Model\TileBaseOptions.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewCoinText.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonExtensions.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
@@ -144,7 +147,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBinary.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\UpdateBasket.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewSpawnBasket.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Slot.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\UpdateLevel.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
@@ -155,6 +158,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewEnergyText.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Atlas.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
@@ -169,10 +173,6 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Model\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Controller\MJGameRewardSave.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewCoinText.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewDiamondText.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\View\ViewEnergyText.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

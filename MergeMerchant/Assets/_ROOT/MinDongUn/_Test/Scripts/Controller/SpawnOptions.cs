@@ -11,7 +11,7 @@ namespace MJGame.MergeMerchant.Merge
 
         [SerializeField] GameObject OptionObject;
         [SerializeField] MergeOptionsController mergeOptionsController;
-
+        [SerializeField] SaveGameMerge saveGameMerge;
         [ShowInInspector]
         private TileBaseOptions kTileBaseOptionSelect;
 
@@ -23,10 +23,12 @@ namespace MJGame.MergeMerchant.Merge
 
         public void LoadBasket(int _idx)
         {
-            // TileBaseOptionsSelect = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(_idx);
             TileBaseOptionsSelect = mergeOptionsController.GetTileBaseOptions(_idx);
             TileBaseOptionsSelect.transform.GetChild(0).GetComponent<Options>().SetBasketSave();
         }
+
+
+
 
         public void CreateNewOptions()
         {
@@ -44,13 +46,16 @@ namespace MJGame.MergeMerchant.Merge
             Options ops = opsOb.GetComponent<Options>();
 
             ops.AnimationMergeComplete();
+
             // sinh ra options co id trong khoang
-            ops.Setting(Random.Range(1, 9));
+            int _idxId = Random.Range(0, saveGameMerge.GetListIdOptionSpawn().Count);
+            ops.Setting(saveGameMerge.GetListIdOptionSpawn()[_idxId]);
 
             //cap nhat number id
-            SingletonComponent<SaveGameMerge>.Instance.UpdateNumberID(ops.ID);
+            saveGameMerge.UpdateNumberID(ops.ID);
 
             SingletonComponent<BFS>.Instance.SetGridAtPosition(_target);
         }
+
     }
 }

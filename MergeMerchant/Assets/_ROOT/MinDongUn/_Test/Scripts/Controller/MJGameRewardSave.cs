@@ -77,10 +77,5 @@ namespace MJGame.MergeMerchant
             return true;
         }
 
-        public static void AddCommon(TextMeshProUGUI text, int value, int type)
-        {
-            type += value;
-            OnChangeCommon?.Invoke(type);
-        }
     }
 }
