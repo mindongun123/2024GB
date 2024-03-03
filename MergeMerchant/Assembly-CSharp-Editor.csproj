@@ -41,7 +41,7 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineAnimationStateDrawer.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineInspectorUtility.cs" />
-     <Compile Include="Assets\_ROOT\MinDongUn\_Test\Scripts\Editor\ConfigPluginGameEditor.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Editor\ConfigPluginGameEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
@@ -76,6 +76,8 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
+     <Compile Include="Assets\EasyTransitions\Editor\TransitionManagerEditor.cs" />
+     <Compile Include="Assets\EasyTransitions\Editor\TransitionSettingsEditor.cs" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
