@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemOptionCollection.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Animation.cs" />
@@ -76,6 +77,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\BoneFollowerGraphic.cs" />
      <Compile Include="Assets\MJGame.Library\MJGameSave.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\TransitionSettings.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
@@ -97,10 +99,12 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\MeshAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\CutoutMaskUI.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\Options.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnOptions.cs" />
      <Compile Include="Assets\AdvancedPlayerPrefsWindow\DemoScene\GUIView.cs" />
@@ -112,6 +116,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Controller\SaveGameMerge.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\ConstGame.cs" />
+     <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\BoneFollower.cs" />
@@ -171,11 +176,13 @@
      <Compile Include="Assets\_ROOT\Scripts\View\ViewEnergyText.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Atlas.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\Transition.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\VertexAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItem_3D.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewOptionCollectionController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Bone.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\ISkeletonAnimation.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IConstraint.cs" />
@@ -183,14 +190,8 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SelectNow.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\TransitionSettings.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
-     <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\CutoutMaskUI.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\Transition.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemOptionCollection.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewOptionCollectionController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\TEST.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Loadlevel.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

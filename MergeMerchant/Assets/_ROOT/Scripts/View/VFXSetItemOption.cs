@@ -24,7 +24,7 @@ namespace MJGame.MergeMerchant
 
         private void OnClickItemOptionVFX(Vector2 _start, NameItem kNameItem = NameItem.option, GetItemEffectType _type = GetItemEffectType.FlyAway)
         {
-            GetItemEffect.mInstance.GetItem(kNameItem.ToString(), 1, new Vector3(_start.x, _start.y, 0), null, _type);
+            getItemEffect.GetItem(kNameItem.ToString(), 1, new Vector3(_start.x, _start.y, 0), null, _type);
         }
     }
 }

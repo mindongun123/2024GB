@@ -17,21 +17,14 @@ namespace MJGame.MergeMerchant
 
         private void OnEnable()
         {
-            print("in c");
-
-            ViewReward.OnCoinChanged += OnCoinChanged;
             _last = ViewReward.Coin;
             text.text = _last.ToString();
+            ViewReward.OnCoinChanged += OnCoinChanged;
         }
 
         private void OnDisable()
-        {
-            print("out c");
-
-            // ViewReward.OnCoinChanged -= OnCoinChanged;
-
-            _last = ViewReward.Coin;
-            text.text = _last.ToString();
+        { 
+            ViewReward.OnCoinChanged -= OnCoinChanged;
         }
 
 

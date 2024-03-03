@@ -26,8 +26,10 @@ namespace MJGame.MergeMerchant.Lobby
         {
             image.enabled = true;
             ID = _id;
+            int _lv = (int)(_id / 10.001f);
+            int _md = (_id - _lv * 10) % 11;
             image.sprite = _sprite;
-            txt.text = $"{_id / 10 + 1}-{_id % 10}";
+            txt.text = $"{_lv + 1}-{_md}";
             txt.gameObject.SetActive(true);
             EnableOpenOption();
             EnableButtonComplete(_complete, _idreward, _reward);
@@ -45,7 +47,7 @@ namespace MJGame.MergeMerchant.Lobby
                 return;
             }
             SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _coin, NameItem.coin);
-                ViewReward.AddCoin(_coin);
+            ViewReward.AddCoin(_coin);
         }
 
         public void EnableOpenOption()

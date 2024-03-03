@@ -59,7 +59,7 @@ namespace GIE
 
         public void OnClickMoney(RectTransform from_where)
         {
-            GetItemEffect.mInstance.GetItem(mItemName, mItemNumber, from_where, null, mGetItemEffectType);
+            SingletonComponent<GetItemEffect>.Instance.GetItem(mItemName, mItemNumber, from_where, null, mGetItemEffectType);
         }
 
 
@@ -67,7 +67,7 @@ namespace GIE
         {
             //Debug.Log("OnClick3DObject:" +  ((PointerEventData)eventData).position);
             Vector2 position = ((PointerEventData)eventData).position;
-            GetItemEffect.mInstance.GetItem(mItemName, mItemNumber, new Vector3(position.x, position.y, 0), null, mGetItemEffectType);
+            SingletonComponent<GetItemEffect>.Instance.GetItem(mItemName, mItemNumber, new Vector3(position.x, position.y, 0), null, mGetItemEffectType);
         }
     }
 

@@ -5,6 +5,7 @@ using Sirenix.OdinInspector;
 using UnityEngine.UI;
 using UnityEngine;
 using MJGame.MergeMerchant;
+using MJGame;
 
 namespace GIE
 {
@@ -15,19 +16,19 @@ namespace GIE
         FlyAway,
     }
 
-    public class GetItemEffect : MonoBehaviour
+    public class GetItemEffect : SingletonComponent<GetItemEffect>
     {
-        public static GetItemEffect mInstance;
+        // public static GetItemEffect mInstance;
 
-        GetItemEffect()
-        {
-            mInstance = this;
-        }
+        // GetItemEffect()
+        // {
+        //     mInstance = this;
+        // }
 
-        void OnDestroy()
-        {
-            mInstance = null;
-        }
+        // void OnDestroy()
+        // {
+        //     mInstance = null;
+        // }
 
         public GetItem CreateItem(int index)
         {
@@ -114,7 +115,7 @@ namespace GIE
             }
             mGetItem[mGetItem.Count - 1].mItemToWhere = _target;
         }
-       
+
 
     }
     [Serializable]

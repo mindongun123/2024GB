@@ -31,5 +31,7 @@ namespace MJGame.MergeMerchant.Merge
         public const string TIME_COUNT_DOWN = "time_count_down";
 
         public const string LIST_VIEW_OPTION = "list_view_option";
+
+        public const string LIST_ID_MAX = "list_id_max";
     }
 }

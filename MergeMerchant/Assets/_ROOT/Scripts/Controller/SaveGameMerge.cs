@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using MJGame;
 using MJGame.Library.Utility;
+using MJGame.MergeMerchant.Lobby;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -188,7 +189,7 @@ namespace MJGame.MergeMerchant.Merge
             return MJGameSave.GetList(ConstGame.LIST_ID_OPTION_SPAWN, new List<int> { 1, 2, 3 });
         }
 
-         
+
         private void AddIdOptionSpawn()
         {
             List<int> lsIdSpawn = GetListIdOptionSpawn();
@@ -201,6 +202,49 @@ namespace MJGame.MergeMerchant.Merge
         {
             MJGameSave.SetList(ConstGame.LIST_ID_OPTION_SPAWN, _ls);
         }
+        #endregion
+
+        #region OPTION VIEW 
+
+        public List<int> ListIdOptionMax
+        {
+            set => MJGameSave.SetList(ConstGame.LIST_ID_MAX, value);
+            get => MJGameSave.GetList(ConstGame.LIST_ID_MAX, new List<int>() { 3, -1, -1, -1, -1, -1 });
+        }
+        public void CheckIdOptionMax(int _id)
+        {
+            List<int> ls = ListIdOptionMax;
+            int _lv = (int)(_id / 10.001f);
+            int _md = (_id - _lv * 10) % 11;
+            if (_md > ls[_lv])
+            {
+                ls[_lv] = _md;
+                ListIdOptionMax = ls;
+                SetListViewOption(new Vector4(_id, 1, Random.Range(0, 2), Random.Range(1, 10)));
+                print($"co cai moi level {_lv + 1} muc {_md} id = {_id}");
+            }
+        }
+
+        public List<Vector4> GetListViewOption()
+        {
+            return MJGameSave.GetList<Vector4>(ConstGame.LIST_VIEW_OPTION, new List<Vector4>() { new Vector4(1, 1, 1, 5), new Vector4(2, 1, 1, 5), new Vector4(3, 1, 0, 3) });
+        }
+
+        public void SetListViewOption(Vector4 _vt4)
+        {
+            List<Vector4> _ls = GetListViewOption();
+            _ls.Add(_vt4);
+            MJGameSave.SetList<Vector4>(ConstGame.LIST_VIEW_OPTION, _ls);
+        }
+
+        public void SetUpdateViewOptionWhenUpdateBasket()
+        {
+            int _id = IdBasket % 10;
+            CheckIdOptionMax((_id - 1) * 10 + 1);
+            CheckIdOptionMax((_id - 1) * 10 + 2);
+            CheckIdOptionMax((_id - 1) * 10 + 3);
+        }
+
         #endregion
 
 

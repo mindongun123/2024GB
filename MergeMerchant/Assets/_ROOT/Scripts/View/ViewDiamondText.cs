@@ -17,16 +17,14 @@ namespace MJGame.MergeMerchant
 
         private void OnEnable()
         {
-            print("in d");
-            ViewReward.OnDiamondChange += OnDiamondChange;
             _last = ViewReward.Diamond;
             text.text = _last.ToString();
+            ViewReward.OnDiamondChange += OnDiamondChange;
         }
 
         private void OnDisable()
         {
-            print("out d");
-            // ViewReward.OnCoinChanged -= OnDiamondChange;
+            ViewReward.OnDiamondChange -= OnDiamondChange;
         }
 
         private void OnDiamondChange(int _to)

@@ -17,14 +17,14 @@ namespace MJGame.MergeMerchant
 
         private void OnEnable()
         {
-            ViewReward.OnEnergyChange += OnEnergyChanged;
             _last = ViewReward.Energy;
             text.text = _last.ToString();
+            ViewReward.OnEnergyChange += OnEnergyChanged;
         }
 
         private void OnDisable()
         {
-            // ViewReward.OnCoinChanged -= OnEnergyChanged;
+            ViewReward.OnEnergyChange -= OnEnergyChanged;
         }
 
 
