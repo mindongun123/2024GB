@@ -32,6 +32,9 @@ MonoBehaviour:
     assemblyNames:
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
+    - Ilumisoft.VolumeControl
+    - Ilumisoft.VolumeControl.Editor
+    - Ilumisoft.VolumeControl.UI
     - PsdPlugin
     - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0

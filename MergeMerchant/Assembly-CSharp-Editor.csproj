@@ -50,6 +50,7 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineSkeletonFlipDrawer.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBakingWindow.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer_3D.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBaker.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\SkeletonGraphicInspector.cs" />
@@ -59,12 +60,15 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor_3D.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
@@ -72,10 +76,6 @@
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer_3D.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor_3D.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer.cs" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
@@ -825,9 +825,21 @@
       <Project>{a80cc655-f049-2b1b-19da-fbfc25d422bd}</Project>
       <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
+      <Project>{431185f4-f4b9-09d8-211f-8278d5a582a6}</Project>
+      <Name>Ilumisoft.VolumeControl.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{03a5119a-a566-0e01-feb0-0cf6d07ea0bd}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{be715030-04ce-544b-3133-bcb15e94e1ef}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{ba1ac29e-9b84-b36f-0295-cd3f1eed5247}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

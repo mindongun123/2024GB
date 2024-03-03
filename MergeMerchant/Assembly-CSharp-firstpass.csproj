@@ -36,12 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Graph.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3Defaults.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3InspectorInfo.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_CollisionModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LimitVelocityOverLifetimeModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\State.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3NativeArrayType.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\_Obsolete\Preferences.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Readers\ES3XMLReader.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SkinnedMeshRenderer.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_NoiseModule.cs" />
@@ -70,10 +73,12 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3HashSetType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ushort.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_char.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\Preferences.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3Binary.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RectTransform.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MinMaxGradient.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedType.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\LabelSettings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3Property.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3Settings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SpriteRenderer.cs" />
@@ -96,14 +101,18 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RenderTexture.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ColorBySpeedModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Keyframe.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\_Obsolete\Graph.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Referencing\ES3GlobalReferences.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\AnyState.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GradientColorKey.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\GridSettings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Streams\ES3Stream.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Matrix4x4.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Texture.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ulong.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_byte.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_bool.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\StateMachine.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedComponentType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_PhysicsMaterial2D.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\NET Types\ES3Type_Random.cs" />
@@ -116,12 +125,15 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedObjectType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_double.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_VelocityOverLifetimeModule.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Transition.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Prefab.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Node.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Material.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_PolygonCollider2D.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3QueueType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES32DArrayType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Auto Save\ES3AutoSave.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\GraphCache.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector3Int.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TextureSheetAnimationModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Attributes\ES3Attributes.cs" />
@@ -141,6 +153,7 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3ReferenceMgr.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Debugging\ES3Debug.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_DateTime.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\StateBehaviour.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3DefaultSettings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_BoneWeight.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3JSONWriter.cs" />
@@ -151,6 +164,7 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GradientAlphaKey.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Color32.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\TimeMode.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TrailModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ShapeModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Quaternion.cs" />
@@ -168,6 +182,7 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Guid.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3BinaryWriter.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Light.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\TransitionTrigger.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedUnityObjectType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Spreadsheet.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Web\ES3WebClass.cs" />
@@ -183,7 +198,9 @@
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Mesh.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TriggerModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Bounds.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\DragSettings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LayerMask.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\ZoomSettings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_EmissionModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3ReferenceMgrBase.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedScriptableObjectType.cs" />
@@ -894,9 +911,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
+      <Project>{431185f4-f4b9-09d8-211f-8278d5a582a6}</Project>
+      <Name>Ilumisoft.VolumeControl.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{03a5119a-a566-0e01-feb0-0cf6d07ea0bd}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{be715030-04ce-544b-3133-bcb15e94e1ef}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{ba1ac29e-9b84-b36f-0295-cd3f1eed5247}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

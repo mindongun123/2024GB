@@ -25,5 +25,10 @@ namespace MJGame.MergeMerchant.Merge
 
         public const string LIST_ID_OPTION_SPAWN = "list_id_option_spawn";
 
+        [Header("Lobby")]
+        public const string DAY_DAILY_OLD = "day_daily_old";
+        public const string DAY_DAILY_NEXT = "day_daily_next";
+        public const string TIME_COUNT_DOWN = "time_count_down";
+
     }
 }

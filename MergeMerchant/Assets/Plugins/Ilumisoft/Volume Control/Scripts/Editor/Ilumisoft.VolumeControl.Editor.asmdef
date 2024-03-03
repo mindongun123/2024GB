@@ -1,0 +1,19 @@
+{
+    "name": "Ilumisoft.VolumeControl.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:06b7f7e80155baa47b17f0a2880eb1f8",
+        "GUID:b25fca322416a254291b1ffd7db9b065"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

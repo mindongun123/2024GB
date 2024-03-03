@@ -36,26 +36,82 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\StateMachineField.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Selection\DuplicateSelectionCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\DeleteNodeCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Selection\DeleteSelectionCommand.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\HomeWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\SelectionRect.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3GlobalReferencesEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Interfaces\ICommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\EditorWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddTransitionCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateMachineInspector.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PlayMakerEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\ScriptableObjectSingleton.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\ErrorMessages.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Menu Items\MenuItems.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ScriptingDefineSymbols.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3SettingsEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\StateMachine\StateMachineHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Interfaces\IContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateInspector.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ReferenceMgrEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Environment\StateStyles.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\StateContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateInspectorHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\Commands\SelectClickedStateCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\TransitionNameHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorUtility.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddAnyStateCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionTriggerEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\GUILayoutUtils.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\DeleteTransitionCommand.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Postprocessor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\GraphSelection.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\GraphMessageBoxLayer.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindow\SelectTransitionCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\NodeNameHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Line.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\NodeSelectionHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionInspectorHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\GridButton.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\ZoomSlider.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\SettingsWindow.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\TypesWindow.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorStyle.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\GraphNodeLayer.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\SelectionContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddStateCommand.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\AutoSaveWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionInspector.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\GraphCommands.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PrefabEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\MessageBox.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Background Layer\ContextMenus\GraphContextMenu.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Window.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\GraphView.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindow\SelectStateCommand.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3InspectorInfoEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\AnyStateContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Base\GraphLayer.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ToolsWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Environment\GraphColors.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Context.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindowCommands.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\LabelButton.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveMgrEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Transition Layer\ContextMenus\TransitionContextMenu.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\AddES3Prefab.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\EditorHelpMessages.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Transition Layer\GraphTransitionLayer.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\Commands\ShowContextMenuCommand.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ReferencesWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Background Layer\GraphBackgroundLayer.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\ToolbarElement.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\EditorWindowGUI.cs" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ComponentTypeTemplate.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3TypeTemplate.txt" />
@@ -801,9 +857,21 @@
       <Project>{42d8a4d1-382e-36ba-99d2-d6302b5d3c93}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
+      <Project>{431185f4-f4b9-09d8-211f-8278d5a582a6}</Project>
+      <Name>Ilumisoft.VolumeControl.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{03a5119a-a566-0e01-feb0-0cf6d07ea0bd}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{be715030-04ce-544b-3133-bcb15e94e1ef}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{ba1ac29e-9b84-b36f-0295-cd3f1eed5247}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
