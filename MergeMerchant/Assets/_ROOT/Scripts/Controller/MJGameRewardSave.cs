@@ -43,26 +43,29 @@ namespace MJGame.MergeMerchant
             OnEnergyChange?.Invoke(Energy);
         }
 
-        public static void AddCoin(int value)
+        public static bool AddCoin(int value)
         {
+
             if (Coin + value < 0)
             {
                 Debug.Log("Coin Gioi han am");
-                return;
+                return false;
             }
             Coin += value;
             OnCoinChanged?.Invoke(Coin);
+            return true;
         }
 
-        public static void AddDiamond(int value)
+        public static bool AddDiamond(int value)
         {
             if (Diamond + value < 0)
             {
                 Debug.Log("Diamond Gioi han am");
-                return;
+                return false;
             }
             Diamond += value;
             OnDiamondChange?.Invoke(Diamond);
+            return true;
         }
 
         public static bool AddEnergy(int value)

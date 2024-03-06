@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638422175779730669
+      ticks: 638452910032791517
     m_Hash: 3080240458
   m_LockFileStatus:
     m_FilePath: C:/mindongun/MJGame/Game/2024GB/MergeMerchant/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638422175779730669
+      ticks: 638452910032791517
     m_Hash: 328737898
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -162,6 +162,7 @@ m_PackageAssets:
         - 10.0.2
         - 10.0.3
         - 10.1.0
+        - 10.1.1
         compatible:
         - 5.2.0
         - 5.2.1
@@ -401,6 +402,7 @@ m_PackageAssets:
         - 9.0.0-pre.2
         - 9.0.0
         - 9.0.1
+        - 9.0.2
         compatible:
         - 4.3.0
         - 4.3.1
@@ -615,6 +617,7 @@ m_PackageAssets:
         - 10.0.0
         - 10.0.1
         - 10.0.2
+        - 10.0.3
         compatible:
         - 5.3.0
         verified: 5.3.0
@@ -820,6 +823,7 @@ m_PackageAssets:
         - 2.1.0-preview.6
         - 2.1.0
         - 2.2.0
+        - 2.3.1
         compatible:
         - 1.17.7
         - 2.0.0-preview.6
@@ -944,6 +948,7 @@ m_PackageAssets:
         - 3.0.25
         - 3.0.26
         - 3.0.27
+        - 3.0.28
         compatible:
         - 1.0.2
         - 1.0.6
@@ -986,7 +991,8 @@ m_PackageAssets:
         - 3.0.25
         - 3.0.26
         - 3.0.27
-        verified: 3.0.27
+        - 3.0.28
+        verified: 3.0.28
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -1454,6 +1460,7 @@ m_PackageAssets:
         - 3.2.0-pre.6
         - 3.2.0-pre.7
         - 3.2.0-pre.8
+        - 3.2.0-pre.9
         - 4.0.0-pre.1
         - 4.0.0-pre.2
         compatible:
@@ -1468,6 +1475,7 @@ m_PackageAssets:
         - 3.2.0-pre.6
         - 3.2.0-pre.7
         - 3.2.0-pre.8
+        - 3.2.0-pre.9
         verified: 3.0.8
       dependencies:
       - name: com.unity.ugui
@@ -3948,6 +3956,7 @@ m_PackageAssets:
         - 9.0.1
         - 9.0.2
         - 9.0.3
+        - 9.0.4
         compatible:
         - 4.2.0
         - 4.2.1

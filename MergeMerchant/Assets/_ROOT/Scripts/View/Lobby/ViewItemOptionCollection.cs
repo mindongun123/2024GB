@@ -38,6 +38,8 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickAddReward()
         {
+
+            ConfigNotice.SaveNotifyViewOption(-1);
             SingletonComponent<SaveLobbyGame>.Instance.ChangeListViewOptionComplete(ID);
             buttonRewardComplete.SetActive(false);
             if (_diamond > 0)

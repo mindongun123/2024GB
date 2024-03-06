@@ -23,6 +23,7 @@ namespace MJGame.MergeMerchant.Lobby
             notify.SetActive(_is);
         }
         [SerializeField] GameObject[] monthEvent;
+        
         public void MonthEvent()
         {
             monthEvent[ConfigTime.MonthEvent()].gameObject.SetActive(true);

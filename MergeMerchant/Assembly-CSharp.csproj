@@ -112,6 +112,7 @@
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItemEffect_3D.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeOption.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\DT_ORDER_OPTION.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\SaveGameMerge.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
@@ -121,6 +122,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\BoneFollower.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
@@ -135,6 +137,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonExtensions.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasket.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\PointFollower.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
@@ -143,6 +146,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Model\Options_Basket.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skeleton.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\SaveLobbyGame.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigNotice.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AnimationMatchModifier\AnimationMatchModifierAsset.cs" />
@@ -162,9 +166,8 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBinary.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\ViewSpawnBasket.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Slot.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\UpdateLevel.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\LevelGame.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\Example.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
@@ -190,8 +193,10 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Loadlevel.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasketController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemReward.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonCollection.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeBasket.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

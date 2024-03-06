@@ -1,10 +1,9 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using MJGame.Library.Utility;
 using MJGame.MergeMerchant.Merge;
-using Sirenix.OdinInspector;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 
 namespace MJGame.MergeMerchant.Lobby
@@ -17,11 +16,13 @@ namespace MJGame.MergeMerchant.Lobby
             set => PlayerPrefs.SetString(ConstGame.DAY_DAILY_OLD, value);
             get => PlayerPrefs.GetString(ConstGame.DAY_DAILY_OLD, DateTime.MinValue.ToString());
         }
+
         public void CompleteDaily()
         {
             DayDailyNext = DayDailyNext + 1;
             DateTimeDailyOld = DateTime.Now.ToString();
         }
+
         public int DayDailyNext
         {
             set => PlayerPrefs.SetInt(ConstGame.DAY_DAILY_NEXT, value);
@@ -34,11 +35,15 @@ namespace MJGame.MergeMerchant.Lobby
             set => PlayerPrefs.SetInt(ConstGame.TIME_COUNT_DOWN, value);
             get => PlayerPrefs.GetInt(ConstGame.TIME_COUNT_DOWN, 0);
         }
-
-
         #endregion
 
         #region View Item Option   
+        public List<int> ListIdOptionMax
+        {
+            set => MJGameSave.SetList(ConstGame.LIST_ID_MAX, value);
+            get => MJGameSave.GetList(ConstGame.LIST_ID_MAX, new List<int>() { 3, -1, -1, -1, -1, -1 });
+        }
+
         public List<Vector4> GetListViewOption()
         {
             return MJGameSave.GetList<Vector4>(ConstGame.LIST_VIEW_OPTION, new List<Vector4>() { new Vector4(1, 1, 1, 5), new Vector4(2, 1, 1, 5), new Vector4(3, 1, 0, 3) });
@@ -69,6 +74,62 @@ namespace MJGame.MergeMerchant.Lobby
             }
             MJGameSave.SetList<Vector4>(ConstGame.LIST_VIEW_OPTION, _ls);
         }
+
+        public void CheckIdOptionMax(int _id)
+        {
+            List<int> ls = ListIdOptionMax;
+            int _lv = (int)(_id / 10.001f);
+            int _md = (_id - _lv * 10) % 11;
+            if (_md > ls[_lv])
+            {
+                ls[_lv] = _md;
+                ListIdOptionMax = ls;
+                SetListViewOption(new Vector4(_id, 1, Random.Range(0, 2), Random.Range(1, 10)));
+                print($"co cai moi level {_lv + 1} muc {_md} id = {_id}");
+                ConfigNotice.SaveNotifyViewOption();
+            }
+        }
+
+        public void SetUpdateViewOptionWhenUpdateBasket()
+        {
+            int IdBasket = PlayerPrefs.GetInt(ConstGame.ID_BASKET, ConstGame.ID_BASKET_DEFAULT);
+            int _id = IdBasket % 10;
+            CheckIdOptionMax((_id - 1) * 10 + 1);
+            CheckIdOptionMax((_id - 1) * 10 + 2);
+            CheckIdOptionMax((_id - 1) * 10 + 3);
+        }
+        #endregion
+
+        #region View Basket
+        private void AddIdOptionSpawn()
+        {
+            int IdBasket = PlayerPrefs.GetInt(ConstGame.ID_BASKET, ConstGame.ID_BASKET_DEFAULT);
+            List<int> lsIdSpawn = MJGameSave.GetList(ConstGame.LIST_ID_OPTION_SPAWN, new List<int> { 1, 2, 3 });
+            lsIdSpawn.Add((IdBasket % 10 - 1) * 10 + 1);
+            lsIdSpawn.Add((IdBasket % 10 - 1) * 10 + 2);
+            lsIdSpawn.Add((IdBasket % 10 - 1) * 10 + 3);
+            SetListIdOptionSpawn(lsIdSpawn);
+        }
+        public void SetListIdOptionSpawn(List<int> _ls)
+        {
+            MJGameSave.SetList(ConstGame.LIST_ID_OPTION_SPAWN, _ls);
+        }
+
+        public void UpdateBasket()
+        {
+            int IdBasket = PlayerPrefs.GetInt(ConstGame.ID_BASKET, ConstGame.ID_BASKET_DEFAULT);
+            PlayerPrefs.SetInt(ConstGame.ID_BASKET, IdBasket + 1);
+            AddIdOptionSpawn();
+        }
+
+        #endregion
+
+        #region List ID option spawn
+        public List<int> GetListIdOptionSpawn()
+        {
+            return MJGameSave.GetList(ConstGame.LIST_ID_OPTION_SPAWN, new List<int> { 1, 2, 3 });
+        }
+
         #endregion
     }
 }

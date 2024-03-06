@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
 using MJGame;
+using MJGame.MergeMerchant.Lobby;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -37,8 +38,8 @@ namespace MJGame.MergeMerchant.Merge
 
                     /// kiem tra Order Product 
                     SingletonComponent<SaveGameMerge>.Instance.SaveNumberID(_idcurrent);
-                    
-                    SingletonComponent<SaveGameMerge>.Instance.CheckIdOptionMax(_idcurrent);
+
+                    SingletonComponent<SaveLobbyGame>.Instance.CheckIdOptionMax(_idcurrent);
 
                     Vector2Int _ps = SingletonComponent<MergeOptionsController>.Instance.GetIdTileBaseOptions(this);
                     SingletonComponent<BFS>.Instance.SetGridAtPosition(_ps);

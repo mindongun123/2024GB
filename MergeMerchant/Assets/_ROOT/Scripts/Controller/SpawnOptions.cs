@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using MJGame;
+using MJGame.MergeMerchant.Lobby;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -48,8 +49,8 @@ namespace MJGame.MergeMerchant.Merge
             ops.AnimationMergeComplete();
 
             // sinh ra options co id trong khoang
-            int _idxId = Random.Range(0, saveGameMerge.GetListIdOptionSpawn().Count);
-            ops.Setting(saveGameMerge.GetListIdOptionSpawn()[_idxId]);
+            int _idxId = Random.Range(0, SingletonComponent<SaveLobbyGame>.Instance.GetListIdOptionSpawn().Count);
+            ops.Setting(SingletonComponent<SaveLobbyGame>.Instance.GetListIdOptionSpawn()[_idxId]);
 
             //cap nhat number id
             saveGameMerge.UpdateNumberID(ops.ID);
