@@ -131,5 +131,19 @@ namespace MJGame.MergeMerchant.Lobby
         }
 
         #endregion
+
+
+        #region EXP
+
+        public void SaveExp(float _value)
+        {
+            PlayerPrefs.SetFloat(ConstGame.EXP_CURRENT, _value);
+        }
+
+        public float GetExp()
+        {
+            return PlayerPrefs.GetFloat(ConstGame.EXP_CURRENT, 0);
+        }
+        #endregion
     }
 }

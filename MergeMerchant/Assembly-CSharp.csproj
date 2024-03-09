@@ -79,6 +79,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\RegionAttachment.cs" />
      <Compile Include="Assets\EasyTransitions\Scripts\TransitionSettings.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeBasket.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\Example_3D.cs" />
@@ -116,6 +117,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\DT_ORDER_OPTION.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\SaveGameMerge.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemReward.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\ConstGame.cs" />
      <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
@@ -125,6 +127,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonCollection.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\MergeOptionsController.cs" />
@@ -169,6 +172,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Slot.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\LevelGame.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasketController.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\Example.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Common\SingletonComponent.cs" />
@@ -193,10 +197,11 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasketController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemReward.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonCollection.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeBasket.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemLevelPass.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\LEVEL_REWARD.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewLevelPassController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonLevel.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewGoldPlay.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

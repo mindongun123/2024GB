@@ -49,6 +49,10 @@ namespace MJGame.MergeMerchant.Merge
         /// <param name="kSlot"></param>
         public void CreateNewOrderProductSlot(SlotData slot)
         {
+            // SlotData sl = new SlotData();
+            // sl.InitSlot();
+            // AddOrderProductToDictionary(new Slot(sl));
+
             AddOrderProductToDictionary(new Slot(slot));
         }
 

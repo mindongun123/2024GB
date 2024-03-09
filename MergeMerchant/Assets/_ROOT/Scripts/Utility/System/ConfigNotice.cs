@@ -60,5 +60,21 @@ namespace MJGame.MergeMerchant.Lobby
             return 0;
         }
         #endregion
+
+        #region Notify Button Level
+
+        public static UnityAction eventNotifyViewLevelPass;
+        public static void SaveNotifyLevelPassReward()
+        {
+            int _getNtf = GetNotifyLevelPassReward();
+            PlayerPrefs.SetInt(ConstGame.NOTICE_LEVEL_PASS_REWARD, _getNtf - 1);
+            eventNotifyViewLevelPass?.Invoke();
+        }
+
+        public static int GetNotifyLevelPassReward()
+        {
+            return PlayerPrefs.GetInt(ConstGame.NOTICE_LEVEL_PASS_REWARD, 2);
+        }
+        #endregion
     }
 }

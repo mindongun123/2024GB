@@ -44,22 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4666d1a46cb76542b7e6e7a7f4893cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionSettings:
-    transitionID: TransitionName
-    refrenceResolution: {x: 1920, y: 1080}
-    blockRaycasts: 0
-    colorTintMode: 0
-    colorTint: {r: 1, g: 1, b: 1, a: 1}
-    isCutoutTransition: 0
-    transitionSpeed: 1
-    autoAdjustTransitionTime: 0
-    flipX: 0
-    flipY: 0
-    transitionTime: 1.5
-    destroyTime: 5
-    transitionIn: {fileID: 0}
-    transitionOut: {fileID: 0}
-  fullSettings: {fileID: 0}
+  transitionSettings: {fileID: 0}
   transitionPanelIN: {fileID: 5276914993564077022}
   transitionPanelOUT: {fileID: 5276914992933122024}
   transitionCanvas: {fileID: 5276914993337012702}
@@ -205,11 +190,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 311
 --- !u!1 &5276914993564077023
 GameObject:
   m_ObjectHideFlags: 0

@@ -32,7 +32,13 @@ namespace MJGame.MergeMerchant.Merge
 
         public const string LIST_ID_MAX = "list_id_max";
 
+        public const string LIST_LEVEL_PASS_REWARD = "list_level_pass_reward";
+
+        public const string EXP_CURRENT = "exp_current";
+        public const float EXP_LEVEL = 1000;
+
         [Header("Notify")]
+        public const string NOTICE_LEVEL_PASS_REWARD = "notice_level_pass_reward";
         public const string NOTICE_VIEW_OPTION = "notice_view_option";
         public const string NOTICE_VIEW_BASKET = "notice_view_basket";
     }

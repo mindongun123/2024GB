@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using MJGame.MergeMerchant.Merge;
 using TMPro;
 using UnityEngine;
 
@@ -45,14 +46,17 @@ namespace MJGame.MergeMerchant.Lobby
             if (optionReward == OptionReward.coin)
             {
                 ViewReward.AddCoin(_reward);
+                SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 100, NameItem.coin);
             }
             else if (optionReward == OptionReward.diamond)
             {
                 ViewReward.AddDiamond(_reward);
+                SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 100, NameItem.diamond);
             }
             else if (optionReward == OptionReward.energy)
             {
                 ViewReward.AddEnergy(_reward);
+                SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 10, NameItem.energy);
             }
             print("Hoan thanh mua ban");
         }

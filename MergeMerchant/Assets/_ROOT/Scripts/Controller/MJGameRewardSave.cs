@@ -15,14 +15,14 @@ namespace MJGame.MergeMerchant
 
         public static int Diamond
         {
-            get => PlayerPrefs.GetInt(ConstGame.DIAMOND, 20);
+            get => PlayerPrefs.GetInt(ConstGame.DIAMOND, 20000);
             set => PlayerPrefs.SetInt(ConstGame.DIAMOND, value);
         }
 
 
         public static int Coin
         {
-            get => PlayerPrefs.GetInt(ConstGame.COIN, 100);
+            get => PlayerPrefs.GetInt(ConstGame.COIN, 10000);
             set => PlayerPrefs.SetInt(ConstGame.COIN, value);
         }
 
