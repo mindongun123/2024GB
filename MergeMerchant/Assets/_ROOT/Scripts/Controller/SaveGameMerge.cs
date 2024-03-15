@@ -70,7 +70,7 @@ namespace MJGame.MergeMerchant.Merge
                     }
                     else
                     {
-                        dic.Add(new Vector2Int(i, j), new Vector2Int(1, 8));
+                        dic.Add(new Vector2Int(i, j), new Vector2Int(1, 1));
                     }
                 }
             }

@@ -145,5 +145,29 @@ namespace MJGame.MergeMerchant.Lobby
             return PlayerPrefs.GetFloat(ConstGame.EXP_CURRENT, 0);
         }
         #endregion
+
+
+
+        #region Item Decor House
+        public List<int> ListIdDecorHouse
+        {
+            get => MJGameSave.GetList<int>(ConstGame.ITEM_DECOR_HOUSE, new List<int>());
+        }
+
+        public void SaveListItemDecorHouse(List<int> _ls)
+        {
+            MJGameSave.SetList<int>(ConstGame.ITEM_DECOR_HOUSE, _ls);
+        }
+
+        public List<int> ListDecorOpenBuy
+        {
+            get => MJGameSave.GetList<int>(ConstGame.ITEM_DECOR_BUY, new List<int>() { 0, 1, 2 });
+        }
+
+        public void SaveListItemDecorOpenBuy(List<int> _ls)
+        {
+            MJGameSave.SetList<int>(ConstGame.ITEM_DECOR_BUY, _ls);
+        }
+        #endregion
     }
 }

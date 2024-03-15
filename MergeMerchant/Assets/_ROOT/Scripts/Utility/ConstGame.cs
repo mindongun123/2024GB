@@ -41,5 +41,9 @@ namespace MJGame.MergeMerchant.Merge
         public const string NOTICE_LEVEL_PASS_REWARD = "notice_level_pass_reward";
         public const string NOTICE_VIEW_OPTION = "notice_view_option";
         public const string NOTICE_VIEW_BASKET = "notice_view_basket";
+
+        [Header("Decor")]
+        public const string ITEM_DECOR_HOUSE = "id_decor_house";
+        public const string ITEM_DECOR_BUY = "id_decor_buy";
     }
 }
