@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergyController.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemOptionCollection.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
@@ -128,6 +129,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\BoneFollower.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeRemaining.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
@@ -149,10 +151,12 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\PointFollower.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouse.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\Options_Basket.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergy.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\SaveLobbyGame.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigNotice.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
@@ -201,10 +205,9 @@
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemLevelPass.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\OrderProduct.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouseController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouse.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouseController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -45,5 +45,8 @@ namespace MJGame.MergeMerchant.Merge
         [Header("Decor")]
         public const string ITEM_DECOR_HOUSE = "id_decor_house";
         public const string ITEM_DECOR_BUY = "id_decor_buy";
+        public const string TIME_ENERGY_REMAINING = "time_energy_remaining";
+        public const int TIME_DEFAULT = 10800;
+
     }
 }

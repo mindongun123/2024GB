@@ -169,5 +169,7 @@ namespace MJGame.MergeMerchant.Lobby
             MJGameSave.SetList<int>(ConstGame.ITEM_DECOR_BUY, _ls);
         }
         #endregion
+
+ 
     }
 }

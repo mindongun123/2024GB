@@ -105,9 +105,11 @@ namespace MJGame.MergeMerchant.House
         {
             int _level = (_idx + 1) / 15;
             levelDecorHouse[_level].SetActive(true);
-            levelDecorHouse[_level].transform.DOScaleY(1, 1f).SetEase(Ease.Linear).OnComplete(() =>
+            levelDecorHouse[_level].transform.DOScaleY(1, 1f).SetEase(Ease.OutElastic).OnComplete(() =>
             {
                 AddNewMiniLevelDecorOpen(_idx);
+
+                SingletonComponent<ViewItemEnergyController>.Instance.AddTimeRemaining();
             });
         }
 
