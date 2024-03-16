@@ -85,7 +85,7 @@ namespace MJGame.MergeMerchant.Lobby
                 ls[_lv] = _md;
                 ListIdOptionMax = ls;
                 SetListViewOption(new Vector4(_id, 1, Random.Range(0, 2), Random.Range(1, 10)));
-                print($"co cai moi level {_lv + 1} muc {_md} id = {_id}");
+                // print($"co cai moi level {_lv + 1} muc {_md} id = {_id}");
                 ConfigNotice.SaveNotifyViewOption();
             }
         }
@@ -170,6 +170,6 @@ namespace MJGame.MergeMerchant.Lobby
         }
         #endregion
 
- 
+
     }
 }

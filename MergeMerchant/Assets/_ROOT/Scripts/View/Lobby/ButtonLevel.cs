@@ -1,20 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using MJGame.MergeMerchant.Merge;
-using Sirenix.OdinInspector;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace MJGame.MergeMerchant.Lobby
 {
-    public class ButtonLevel : MonoBehaviour
+    public class ButtonLevel : SingletonComponent<ButtonLevel>
     {
 
         [SerializeField]
         GameObject notify;
 
         [SerializeField] float _exp;
+
+        [SerializeField]
+        TextMeshProUGUI txtLevel;
+
 
         private void OnEnable()
         {
@@ -24,6 +28,13 @@ namespace MJGame.MergeMerchant.Lobby
             eventExpLevel += ViewExpLevel;
             ConfigNotice.eventNotifyViewLevelPass?.Invoke();
             eventExpLevel?.Invoke();
+
+            ShowLevel();
+        }
+
+        public void ShowLevel()
+        {
+            txtLevel.text = PlayerPrefs.GetInt(ConstGame.LEVEL, 1).ToString();
         }
 
         private void EnableNotify()
@@ -52,10 +63,14 @@ namespace MJGame.MergeMerchant.Lobby
             imgExp.fillAmount = _exp / ConstGame.EXP_LEVEL;
         }
 
-        [Button]
         public void AddExp(int _val)
         {
             _exp += _val;
+            if (_exp == 15)
+            {
+                SingletonComponent<LevelGame>.Instance.UpdateLevel();
+                _exp = 0;
+            }
             SingletonComponent<SaveLobbyGame>.Instance.SaveExp(_exp);
             eventExpLevel?.Invoke();
         }

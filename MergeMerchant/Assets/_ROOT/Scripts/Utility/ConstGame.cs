@@ -35,7 +35,7 @@ namespace MJGame.MergeMerchant.Merge
         public const string LIST_LEVEL_PASS_REWARD = "list_level_pass_reward";
 
         public const string EXP_CURRENT = "exp_current";
-        public const float EXP_LEVEL = 1000;
+        public const float EXP_LEVEL = 15;
 
         [Header("Notify")]
         public const string NOTICE_LEVEL_PASS_REWARD = "notice_level_pass_reward";

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using DG.Tweening;
+using Ilumisoft.VisualStateMachine;
 using MJGame.MergeMerchant.Lobby;
 using UnityEngine;
 
@@ -121,6 +122,12 @@ namespace MJGame.MergeMerchant.House
             SingletonComponent<SaveLobbyGame>.Instance.SaveListItemDecorOpenBuy(lsIdDecorBuy);
 
             SetItemDecorOpenBuy();
+        }
+
+        public StateMachine stateMachine;
+        public void OpenViewGoldPlay()
+        {
+            stateMachine.Trigger("OpenGoldPlay");
         }
     }
 }

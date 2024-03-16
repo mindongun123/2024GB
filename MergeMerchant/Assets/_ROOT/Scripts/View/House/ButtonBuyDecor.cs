@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using Ilumisoft.VisualStateMachine;
+using MJGame.MergeMerchant.Lobby;
 using MJGame.MergeMerchant.Merge;
 using TMPro;
 using UnityEngine;
@@ -35,6 +37,12 @@ namespace MJGame.MergeMerchant.House
                 itemDecorHouse = transform.parent.GetComponent<ViewItemDecorHouse>();
                 itemDecorHouse.ScaleItemDecor(Vector3.one);
                 gameObject.SetActive(false);
+                SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 10, NameItem.exp);
+                SingletonComponent<ButtonLevel>.Instance.AddExp(1);
+            }
+            else
+            {
+                SingletonComponent<ViewItemDecorHouseController>.Instance.OpenViewGoldPlay();
             }
         }
     }

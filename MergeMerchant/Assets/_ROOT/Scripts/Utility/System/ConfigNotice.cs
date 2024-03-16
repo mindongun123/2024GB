@@ -64,10 +64,10 @@ namespace MJGame.MergeMerchant.Lobby
         #region Notify Button Level
 
         public static UnityAction eventNotifyViewLevelPass;
-        public static void SaveNotifyLevelPassReward()
+        public static void SaveNotifyLevelPassReward(int _add = -1)
         {
             int _getNtf = GetNotifyLevelPassReward();
-            PlayerPrefs.SetInt(ConstGame.NOTICE_LEVEL_PASS_REWARD, _getNtf - 1);
+            PlayerPrefs.SetInt(ConstGame.NOTICE_LEVEL_PASS_REWARD, _getNtf + _add);
             eventNotifyViewLevelPass?.Invoke();
         }
 

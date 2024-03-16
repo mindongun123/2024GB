@@ -72,6 +72,7 @@ namespace MJGame.MergeMerchant.House
             txt.transform.parent.gameObject.SetActive(true);
             timeRemaining.Reset();
             ShowTimeRemaining();
+            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 10, NameItem.energy);
         }
     }
 }

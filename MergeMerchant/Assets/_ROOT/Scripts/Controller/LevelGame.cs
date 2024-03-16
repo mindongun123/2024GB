@@ -51,12 +51,12 @@ namespace MJGame.MergeMerchant.Merge
         //     }
         // }
 
-        [Button]
         public void UpdateLevel()
         {
             Level += 1;
-
             ConfigNotice.SaveNotifyViewBasket();
+            ConfigNotice.SaveNotifyLevelPassReward(2);
+            SingletonComponent<ButtonLevel>.Instance.ShowLevel();
         }
 
 
