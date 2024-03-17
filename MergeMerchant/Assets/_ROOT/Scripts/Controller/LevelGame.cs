@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Ilumisoft.VisualStateMachine;
 using MJGame.Library.Utility;
 using MJGame.MergeMerchant.Lobby;
 using Sirenix.OdinInspector;
@@ -12,6 +13,7 @@ namespace MJGame.MergeMerchant.Merge
 {
     public class LevelGame : SingletonComponent<LevelGame>
     {
+        public StateMachine stateMachine;
         public int Level
         {
             get => PlayerPrefs.GetInt(ConstGame.LEVEL, 1);
@@ -57,6 +59,7 @@ namespace MJGame.MergeMerchant.Merge
             ConfigNotice.SaveNotifyViewBasket();
             ConfigNotice.SaveNotifyLevelPassReward(2);
             SingletonComponent<ButtonLevel>.Instance.ShowLevel();
+            stateMachine.Trigger("OpenNewLevel");
         }
 
 

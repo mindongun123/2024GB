@@ -35,6 +35,8 @@ MonoBehaviour:
     - Ilumisoft.VolumeControl
     - Ilumisoft.VolumeControl.Editor
     - Ilumisoft.VolumeControl.UI
+    - ParticleImage
+    - ParticleImage.Editor
     - PsdPlugin
     - Sirenix.OdinInspector.Modules.UnityMathematics
     showAdvancedSettings: 0
