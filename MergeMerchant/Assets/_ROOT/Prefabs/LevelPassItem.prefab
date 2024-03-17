@@ -385,6 +385,7 @@ MonoBehaviour:
   buttonGetDiamond: {fileID: 4278133814121293761}
   txtCoin: {fileID: 8597663888252561419}
   txtDiamond: {fileID: 3510072378177616318}
+  txtLevel: {fileID: 3113014218774942715}
   _levelReward:
     _coin: 0
     _diamond: 0

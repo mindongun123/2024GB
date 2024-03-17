@@ -13,6 +13,7 @@ namespace MJGame.MergeMerchant.Lobby
         public GameObject buttonGetDiamond;
         [SerializeField] TextMeshProUGUI txtCoin;
         [SerializeField] TextMeshProUGUI txtDiamond;
+        [SerializeField] TextMeshProUGUI txtLevel;
         [SerializeField] LEVEL_DATA_REWARD _levelReward;
 
         public void SetStart(LEVEL_DATA_REWARD kLevelReward)
@@ -32,6 +33,7 @@ namespace MJGame.MergeMerchant.Lobby
             buttonGetDiamond.SetActive(_levelReward._isdiamond);
             txtCoin.text = $"+{_levelReward._coin}";
             txtDiamond.text = $"+{_levelReward._diamond}";
+            txtLevel.text = $"Level {_levelReward._level}";
         }
 
         public void OnClickAddCoin()

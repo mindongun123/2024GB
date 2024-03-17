@@ -43,6 +43,7 @@ namespace MJGame.MergeMerchant.Lobby
                 SingletonComponent<SaveLobbyGame>.Instance.UpdateBasket();
                 ConfigNotice.SaveNotifyViewBasket();
                 SingletonComponent<SaveLobbyGame>.Instance.SetUpdateViewOptionWhenUpdateBasket();
+                ConfigNotice.eventNotifyWhenHasNewBasket?.Invoke();
             }
         }
     }

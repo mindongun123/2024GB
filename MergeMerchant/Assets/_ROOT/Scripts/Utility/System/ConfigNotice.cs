@@ -29,6 +29,7 @@ namespace MJGame.MergeMerchant.Lobby
 
 
         public static UnityAction eventNotifyViewBasket;
+        public static UnityAction eventNotifyWhenHasNewBasket;
         static int[] _default = { -1, 0, 3, 5, 8, 11, 15, 10000 };
 
         /// <summary>

@@ -47,7 +47,6 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void ShowEnergy()
         {
-            print(timeRemaining._energy);
             if (timeRemaining._energy > 195)
             {
                 noUpEnergy.SetActive(true);
