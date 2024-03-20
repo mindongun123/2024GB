@@ -48,5 +48,7 @@ namespace MJGame.MergeMerchant.Merge
         public const string TIME_ENERGY_REMAINING = "time_energy_remaining";
         public const int TIME_DEFAULT = 10800;
 
+        public const string NUMBER_SPIN = "number_spin";
+        public const string TIME_SPIN_FREE = "time_spin_free";
     }
 }

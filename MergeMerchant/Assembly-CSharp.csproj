@@ -36,6 +36,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewIconStar.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergyController.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
@@ -86,6 +87,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\Example_3D.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNewLevel.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IUpdatable.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\TIME.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Json.cs" />
@@ -208,8 +210,9 @@
      <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouseController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNewLevel.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewIconStar.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewRoulette.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemRoulette.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeSpinFree.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -1027,6 +1030,10 @@
       <Project>{42d8a4d1-382e-36ba-99d2-d6302b5d3c93}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="ParticleImage.csproj">
+      <Project>{b479c7b3-a48f-aa03-79f4-b3642e327efb}</Project>
+      <Name>ParticleImage</Name>
+    </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
       <Project>{431185f4-f4b9-09d8-211f-8278d5a582a6}</Project>
       <Name>Ilumisoft.VolumeControl.UI</Name>
@@ -1039,17 +1046,13 @@
       <Project>{be715030-04ce-544b-3133-bcb15e94e1ef}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
-      <Project>{ba1ac29e-9b84-b36f-0295-cd3f1eed5247}</Project>
-      <Name>Ilumisoft.VolumeControl</Name>
-    </ProjectReference>
-    <ProjectReference Include="ParticleImage.csproj">
-      <Project>{b479c7b3-a48f-aa03-79f4-b3642e327efb}</Project>
-      <Name>ParticleImage</Name>
-    </ProjectReference>
     <ProjectReference Include="ParticleImage.Editor.csproj">
       <Project>{e9aa1667-e5bf-f25f-21e8-e6499b39b420}</Project>
       <Name>ParticleImage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{ba1ac29e-9b84-b36f-0295-cd3f1eed5247}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

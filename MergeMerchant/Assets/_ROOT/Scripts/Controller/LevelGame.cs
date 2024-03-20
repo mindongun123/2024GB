@@ -60,6 +60,7 @@ namespace MJGame.MergeMerchant.Merge
             ConfigNotice.SaveNotifyLevelPassReward(2);
             SingletonComponent<ButtonLevel>.Instance.ShowLevel();
             stateMachine.Trigger("OpenNewLevel");
+            SingletonComponent<SaveLobbyGame>.Instance.NumberSpin += 3;
         }
 
 

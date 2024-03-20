@@ -58,7 +58,6 @@ namespace MJGame.MergeMerchant.Lobby
                 ViewReward.AddEnergy(_reward);
                 SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 10, NameItem.energy);
             }
-            print("Hoan thanh mua ban");
         }
 
         private void SetBuy()
