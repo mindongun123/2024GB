@@ -175,7 +175,7 @@ namespace MJGame.MergeMerchant.Lobby
         public int NumberSpin
         {
             set => PlayerPrefs.SetInt(ConstGame.NUMBER_SPIN, value);
-            get => PlayerPrefs.GetInt(ConstGame.NUMBER_SPIN, 6);
+            get => PlayerPrefs.GetInt(ConstGame.NUMBER_SPIN, 0);
         }
 
         #endregion

@@ -12,7 +12,13 @@ namespace MJGame.MergeMerchant.Lobby
         private void OnEnable()
         {
             MonthEvent();
+            ConfigNotice.eventNoticeViewButtonOpenOption += EnableNotify;
+            ConfigNotice.eventNoticeViewButtonOpenOption?.Invoke();
+        }
 
+        private void OnDisable()
+        {
+            ConfigNotice.eventNoticeViewButtonOpenOption -= EnableNotify;
         }
 
         private void EnableNotify()

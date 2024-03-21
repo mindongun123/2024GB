@@ -55,6 +55,15 @@ namespace MJGame.MergeMerchant.Lobby
         }
 
 
+        public static string ConvertTime(int _time)
+        {
+            int days = _time / 86400;
+            _time %= 86400;
+            int hours = _time / 3600;
+            int minutes = (_time % 3600) / 60;
+            int seconds = _time % 60;
 
+            return $"{days}n {hours:D2}:{minutes:D2}:{seconds:D2}";
+        }
     }
 }

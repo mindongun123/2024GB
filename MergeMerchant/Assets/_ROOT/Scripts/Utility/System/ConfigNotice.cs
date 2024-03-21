@@ -9,6 +9,7 @@ namespace MJGame.MergeMerchant.Lobby
     public static class ConfigNotice
     {
         public static UnityAction eventNoticeViewOption;
+        public static UnityAction eventNoticeViewButtonOpenOption;
 
         #region Notification
         public static void SaveNotifyViewOption(int _value = 1)
@@ -16,6 +17,7 @@ namespace MJGame.MergeMerchant.Lobby
             int _noti = GetNotifyViewOption();
             PlayerPrefs.SetInt(ConstGame.NOTICE_VIEW_OPTION, _noti + _value);
             eventNoticeViewOption?.Invoke();
+            ConfigNotice.eventNoticeViewButtonOpenOption?.Invoke();
         }
 
         /// <summary>
@@ -39,6 +41,8 @@ namespace MJGame.MergeMerchant.Lobby
         {
             PlayerPrefs.SetInt(ConstGame.NOTICE_VIEW_BASKET, IsNoticeViewBasket());
             eventNotifyViewBasket?.Invoke();
+            ConfigNotice.eventNotifyWhenHasNewBasket?.Invoke();
+            ConfigNotice.eventNoticeViewButtonOpenOption?.Invoke();
         }
 
         /// <summary>
@@ -76,6 +80,12 @@ namespace MJGame.MergeMerchant.Lobby
         {
             return PlayerPrefs.GetInt(ConstGame.NOTICE_LEVEL_PASS_REWARD, 2);
         }
+        #endregion
+
+
+        #region  NOTIFICE ROULETTE
+        public static UnityAction eventNoticeRoulette;
+        public static UnityAction<int> eventUnlockRoulette;
         #endregion
     }
 }

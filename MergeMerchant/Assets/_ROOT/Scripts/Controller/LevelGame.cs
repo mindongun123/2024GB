@@ -1,10 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Ilumisoft.VisualStateMachine;
-using MJGame.Library.Utility;
 using MJGame.MergeMerchant.Lobby;
-using Sirenix.OdinInspector;
-using Sirenix.Reflection.Editor;
 using UnityEngine;
 
 
@@ -56,11 +53,17 @@ namespace MJGame.MergeMerchant.Merge
         public void UpdateLevel()
         {
             Level += 1;
+
             ConfigNotice.SaveNotifyViewBasket();
+
             ConfigNotice.SaveNotifyLevelPassReward(2);
+
             SingletonComponent<ButtonLevel>.Instance.ShowLevel();
             stateMachine.Trigger("OpenNewLevel");
+
             SingletonComponent<SaveLobbyGame>.Instance.NumberSpin += 3;
+            ConfigNotice.eventNoticeRoulette?.Invoke();
+            ConfigNotice.eventUnlockRoulette?.Invoke(Level);
         }
 
 

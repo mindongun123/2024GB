@@ -16,6 +16,7 @@ namespace MJGame.MergeMerchant.Lobby
         public void RotateStart()
         {
             if (_isRou) return;
+            ConfigNotice.eventNoticeRoulette?.Invoke();
             transform.rotation = Quaternion.identity;
             _idx = Random.Range(0, 8);
             _isRou = true;
@@ -72,7 +73,6 @@ namespace MJGame.MergeMerchant.Lobby
         {
             actionClickRotate -= GetNumberSpin;
             transform.DOKill();
-
         }
 
 
@@ -93,6 +93,7 @@ namespace MJGame.MergeMerchant.Lobby
             if (ViewReward.AddDiamond(-35))
             {
                 SingletonComponent<SaveLobbyGame>.Instance.NumberSpin += 1;
+                ConfigNotice.eventNoticeRoulette?.Invoke();
                 actionClickRotate?.Invoke();
             }
         }

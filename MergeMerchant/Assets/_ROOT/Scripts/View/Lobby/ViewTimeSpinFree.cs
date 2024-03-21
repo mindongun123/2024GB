@@ -11,52 +11,38 @@ namespace MJGame.MergeMerchant.Lobby
     {
         [SerializeField] GameObject btnSpinFree;
         [SerializeField] TextMeshProUGUI txtTimeFree;
-        private void LoadTimeFree()
+
+        [SerializeField] ViewNoticeButtonRoulette viewNoticeButtonRoulette;
+
+        private void OnEnable()
         {
-            string timeOld = PlayerPrefs.GetString(ConstGame.TIME_SPIN_FREE, "20/03/2000 9:15:29 CH");
-            TimeSpan timeSpan = ConfigTime.ToTimeSpan(timeOld, DateTime.Now.ToString());
-            CheckTimeFree(259199 - (int)timeSpan.TotalSeconds);
+            viewNoticeButtonRoulette.eventShowTextTimeFree += ShowTextTimeFree;
+            viewNoticeButtonRoulette.ShowTextSpinTimeFree();
+        }
+        private void OnDisable()
+        {
+            viewNoticeButtonRoulette.eventShowTextTimeFree -= ShowTextTimeFree;
         }
 
-        private void CheckTimeFree(int _timeSpan)
+        public void OnClickButtonFree()
         {
-            if (_timeSpan <= 0)
+            PlayerPrefs.SetString(ConstGame.TIME_SPIN_FREE, DateTime.Now.ToString());
+            viewNoticeButtonRoulette.LoadTimeFree();
+        }
+
+        private void ShowTextTimeFree(int _time)
+        {
+            if (_time <= 0)
             {
                 btnSpinFree.SetActive(true);
                 txtTimeFree.text = "";
             }
             else
             {
-                StartCoroutine(CountDown());
-                IEnumerator CountDown()
-                {
-                    txtTimeFree.text = SetTextTime(_timeSpan);
-                    yield return new WaitForSeconds(1);
-                    _timeSpan--;
-                    StartCoroutine(CountDown());
-                }
+                btnSpinFree.SetActive(false);
+                txtTimeFree.text = ConfigTime.ConvertTime(_time);
             }
         }
 
-        public void OnClickButtonFree()
-        {
-            PlayerPrefs.SetString(ConstGame.TIME_SPIN_FREE, DateTime.Now.ToString());
-            LoadTimeFree();
-        }
-
-        private string SetTextTime(int _time)
-        {
-            int _day = _time / 86400;
-            _time = _time % 86400;
-            int _hour = _time / 3600;
-            int _min = (_time - _hour * 3600) / 60;
-            int _sec = _time - _hour * 3600 - _min * 60;
-            return $"{_day}n {_hour}:{_min.ToString("D2")}:{_sec.ToString("D2")}";
-        }
-
-        private void OnEnable()
-        {
-            LoadTimeFree();
-        }
     }
 }
