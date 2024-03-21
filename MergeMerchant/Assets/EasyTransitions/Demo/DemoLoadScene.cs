@@ -1,4 +1,3 @@
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace EasyTransition
@@ -9,11 +8,11 @@ namespace EasyTransition
         public TransitionSettings transition;
         public float startDelay;
 
-
+        
         public void LoadScene(string _sceneName)
         {
             TransitionManager.Instance().Transition(_sceneName, transition, startDelay);
-        }
+        }   
     }
 
 }

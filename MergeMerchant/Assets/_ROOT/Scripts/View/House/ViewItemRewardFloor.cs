@@ -13,13 +13,18 @@ namespace MJGame.MergeMerchant.House
 
         int _id;
         int _reward = 500;
+        const int REWARD_DEFAULT = 500;
 
         [SerializeField] Image img;
 
+        [SerializeField] Image avatar;
+        [SerializeField] Sprite[] sprites;
+
         public void SetRewardFloor(int _id, string _timeOld)
         {
-            _reward = _reward * (_id + 1);
+            _reward = REWARD_DEFAULT * (_id + 1);
             this._id = _id;
+            avatar.sprite = sprites[_id];
             TimeSpan timeSpan = ConfigTime.ToTimeSpan(_timeOld, DateTime.Now.ToString());
             // int _time = 86399 - (int)timeSpan.TotalSeconds;
             int _time = 10 - (int)timeSpan.TotalSeconds;
@@ -49,7 +54,7 @@ namespace MJGame.MergeMerchant.House
             SingletonComponent<ViewItemRewardFloorController>.Instance.ChangeListItemRewardFloor(_id);
             btn.SetActive(false);
             ViewReward.AddCoin(_reward);
-            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 20, NameItem.coin);
+            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, 15, NameItem.coin);
         }
     }
 }
