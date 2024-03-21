@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Ilumisoft.VisualStateMachine;
+using MJGame.MergeMerchant.House;
 using MJGame.MergeMerchant.Lobby;
 using UnityEngine;
 
@@ -64,6 +65,8 @@ namespace MJGame.MergeMerchant.Merge
             SingletonComponent<SaveLobbyGame>.Instance.NumberSpin += 3;
             ConfigNotice.eventNoticeRoulette?.Invoke();
             ConfigNotice.eventUnlockRoulette?.Invoke(Level);
+
+            SingletonComponent<ViewItemRewardFloorController>.Instance.AddItemRewardFloor();
         }
 
 
