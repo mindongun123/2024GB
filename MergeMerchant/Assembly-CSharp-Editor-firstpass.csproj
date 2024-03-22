@@ -857,6 +857,10 @@
       <Project>{42d8a4d1-382e-36ba-99d2-d6302b5d3c93}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
+    <ProjectReference Include="ParticleImage.csproj">
+      <Project>{b479c7b3-a48f-aa03-79f4-b3642e327efb}</Project>
+      <Name>ParticleImage</Name>
+    </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
       <Project>{431185f4-f4b9-09d8-211f-8278d5a582a6}</Project>
       <Name>Ilumisoft.VolumeControl.UI</Name>
@@ -868,6 +872,10 @@
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{be715030-04ce-544b-3133-bcb15e94e1ef}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
+    </ProjectReference>
+    <ProjectReference Include="ParticleImage.Editor.csproj">
+      <Project>{e9aa1667-e5bf-f25f-21e8-e6499b39b420}</Project>
+      <Name>ParticleImage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
       <Project>{ba1ac29e-9b84-b36f-0295-cd3f1eed5247}</Project>

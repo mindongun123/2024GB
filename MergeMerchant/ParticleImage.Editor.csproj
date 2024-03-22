@@ -36,14 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetKits\ParticleImage\Editor\ParticleImageEditor.cs" />
-     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\ModuleDrawer.cs" />
-     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\SeparateMinMaxCurveDrawer.cs" />
-     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\BurstDrawer.cs" />
      <Compile Include="Assets\AssetKits\ParticleImage\Editor\Utility\ParticleResolver.cs" />
+     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\ModuleDrawer.cs" />
      <Compile Include="Assets\AssetKits\ParticleImage\Editor\Utility\EditorUtilities.cs" />
-     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\SpeedRangeDrawer.cs" />
+     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\SeparateMinMaxCurveDrawer.cs" />
      <Compile Include="Assets\AssetKits\ParticleImage\Editor\TrailRendererEditor.cs" />
+     <Compile Include="Assets\AssetKits\ParticleImage\Editor\ParticleImageEditor.cs" />
+     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\SpeedRangeDrawer.cs" />
+     <Compile Include="Assets\AssetKits\ParticleImage\Editor\PropertyDrawer\BurstDrawer.cs" />
      <None Include="Assets\AssetKits\ParticleImage\Editor\ParticleImage.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

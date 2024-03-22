@@ -54,5 +54,9 @@ namespace MJGame.MergeMerchant.Merge
         public const string TIME_SPIN_FREE = "time_spin_free";
 
         public const string UNLOCK_ROULETTE = "unlock_roulette";
+
+        [Header("Charactor")]
+        public const string LIST_CUSTOMER = "list_customer";
+        public const string LIST_SLOT_COMPLETE = "list_slot_complete";
     }
 }

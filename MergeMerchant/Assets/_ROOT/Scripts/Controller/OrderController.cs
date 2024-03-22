@@ -65,6 +65,9 @@ namespace MJGame.MergeMerchant.Merge
             StartCoroutine(DelayIE(1f, kOrder));
 
             RemoveOptionToOrderProduct(_id, kOrder);
+
+            /// new them vao +
+            AddSlotComplete(kOrder.slot);
         }
 
         private IEnumerator DelayIE(float _time, OrderProduct kOrder)
@@ -142,6 +145,15 @@ namespace MJGame.MergeMerchant.Merge
             return PlayerPrefs.GetInt(_id.ToString(), 0);
         }
 
+        #endregion
+
+        #region  Add Slot Product to List Complete
+        public void AddSlotComplete(Slot kSlot)
+        {
+            List<Slot> lsSlotComplete = MJGameSave.GetList(ConstGame.LIST_SLOT_COMPLETE, new List<Slot>());
+            lsSlotComplete.Add(kSlot);
+            MJGameSave.SetList(ConstGame.LIST_SLOT_COMPLETE, lsSlotComplete);
+        }
         #endregion
     }
 

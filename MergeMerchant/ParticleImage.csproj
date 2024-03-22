@@ -36,8 +36,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AssetKits\ParticleImage\Runtime\ParticleImage.cs" />
      <Compile Include="Assets\AssetKits\ParticleImage\Runtime\Noise.cs" />
+     <Compile Include="Assets\AssetKits\ParticleImage\Runtime\ParticleImage.cs" />
      <Compile Include="Assets\AssetKits\ParticleImage\Runtime\ParticleTrailRenderer.cs" />
      <Compile Include="Assets\AssetKits\ParticleImage\Runtime\Particle.cs" />
      <None Include="Assets\AssetKits\ParticleImage\Runtime\ParticleImage.asmdef" />

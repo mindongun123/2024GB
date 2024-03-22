@@ -39,6 +39,7 @@
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewIconStar.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergyController.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Helpers\HelperFunctions.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemOptionCollection.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
@@ -71,6 +72,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_DraggableItem.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\CUSTOMER.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\ExposedList.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewGoldPlay.cs" />
@@ -106,6 +108,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\ClippingAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\BlendMode.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigTime.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Managers\LoadPersistentObjects.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleSight.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\MeshAttachment.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\House\ButtonBuyDecor.cs" />
@@ -116,6 +119,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\CustomerController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
      <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
@@ -130,7 +134,10 @@
      <Compile Include="Assets\_ROOT\Scripts\Controller\SaveGameMerge.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\LEVEL_REWARD.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Demo Scene\Scripts\Spawner.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemReward.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Managers\ObjectPoolManager.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\IDespawnedPoolObject.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewRoulette.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\ConstGame.cs" />
      <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
@@ -140,7 +147,9 @@
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeRemaining.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\DespawnedPoolObject.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\IRetrievedPoolObject.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonCollection.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
@@ -148,6 +157,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\MergeOptionsController.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\ViewDiamondText.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skin.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\Customer.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\OrderController.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\TileBaseOptions.cs" />
@@ -179,9 +189,11 @@
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
      <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\CustomerOrderProductFromRestaurant.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Helpers\ExtensionMethods.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_Animation.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonDaily.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
@@ -210,6 +222,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItem_3D.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewOptionCollectionController.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Demo Scene\Scripts\DespawnAfterDelay.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Bone.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\ISkeletonAnimation.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IConstraint.cs" />
