@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 public static class STRING
 {
     private static string[] MessageGreetings = {
-"Hey!",
+"Hey! \n Bạn là ...",
 "Hello!",
 "Hi!",
 "Xin chào!",
@@ -26,6 +26,19 @@ public static class STRING
 "Chờ tôi với"
     };
 
+    private static string[] MessageOrder ={
+        "Có ai không?",
+        "Chủ quán \n ơi!",
+        "Tôi đặt \n hàng!",
+        "Xin hãy   \n  giúp tôi!"
+    };
+
+    private static string[] MessageWait ={
+        "Của tôi đâu?",
+        "Chủ quán ơi!",
+        "Chưa được hả?",
+        "Lâu thế!"
+    };
     public static string GetString(TypeMessage typeMessage)
     {
         string msg = " ";
@@ -40,6 +53,12 @@ public static class STRING
 
             case TypeMessage.move:
                 msg = MessageMove[Random.Range(0, 4)];
+                break;
+            case TypeMessage.order:
+                msg = MessageOrder[Random.Range(0, 4)];
+                break;
+            case TypeMessage.wait:
+                msg = MessageWait[Random.Range(0, 4)];
                 break;
         }
         return msg;

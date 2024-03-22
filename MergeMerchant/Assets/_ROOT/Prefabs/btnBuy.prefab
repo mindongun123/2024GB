@@ -239,6 +239,7 @@ GameObject:
   - component: {fileID: 8989117983591564136}
   - component: {fileID: 7443757989108528520}
   - component: {fileID: 5543431740289213818}
+  - component: {fileID: 6667212650959795764}
   m_Layer: 5
   m_Name: btnBuy
   m_TagString: Untagged
@@ -255,7 +256,7 @@ RectTransform:
   m_GameObject: {fileID: 3644315628895470781}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9, y: 0.9, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0}
   m_Children:
   - {fileID: 1000102714203249517}
   - {fileID: 3917566439096647371}
@@ -375,6 +376,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txt: {fileID: 4884079003317459327}
+--- !u!95 &6667212650959795764
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3644315628895470781}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d9463c3c91f7295488b716ec3c06d0be, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &4787372583189936970
 GameObject:
   m_ObjectHideFlags: 0

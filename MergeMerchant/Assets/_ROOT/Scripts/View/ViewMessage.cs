@@ -7,7 +7,7 @@ namespace MJGame.MergeMerchant
 
     public enum TypeMessage
     {
-        greeting, status, move
+        greeting, status, move, order, wait
     }
     public class ViewMessage : MonoBehaviour
     {
@@ -16,7 +16,7 @@ namespace MJGame.MergeMerchant
         [SerializeField] TypeMessage typeMessage;
         [Range(0, 60f)] public float _startT, _endT;
 
-        private void Start()
+        private void OnEnable()
         {
             StartCoroutine(TimeChangeMessage(Random.Range(_startT, _endT)));
         }
