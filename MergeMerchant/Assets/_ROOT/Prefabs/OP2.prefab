@@ -108,15 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wait: {fileID: 1150887192621109055}
   order: {fileID: 1150887192707727311}
-  kCustomer:
-    _pos: {x: 0, y: 0, z: 0}
-    _idx: 0
-    customerStatus: 0
-    slot:
-      _id: 0
-      _coin: 0
-      _complete: 0
-    _time: 
+  aniCharactorSO: {fileID: 11400000, guid: 237970df684e94f4cb78a49c9bb3c025, type: 2}
 --- !u!212 &1150887193205118407
 SpriteRenderer:
   m_ObjectHideFlags: 0

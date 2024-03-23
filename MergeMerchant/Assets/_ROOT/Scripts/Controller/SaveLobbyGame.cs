@@ -180,5 +180,16 @@ namespace MJGame.MergeMerchant.Lobby
 
         #endregion
 
+
+        #region LIST CUSTOMER ORDER
+
+        public List<CUSTOMER> ListCustomerOrder
+        {
+            set => MJGameSave.SetList(ConstGame.LIST_CUSTOMER, value);
+            get => MJGameSave.GetList(ConstGame.LIST_CUSTOMER, new List<CUSTOMER>());
+        }
+
+        #endregion
+
     }
 }

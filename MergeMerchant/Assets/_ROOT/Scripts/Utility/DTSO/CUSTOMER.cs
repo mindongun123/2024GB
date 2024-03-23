@@ -12,7 +12,7 @@ namespace MJGame.MergeMerchant
     public class CUSTOMER
     {
         public Vector3 _pos;
-        public int _idx;// loai Customer nao --> Xet trang thai Animation
+        public int _idx;
         public CustomerStatus customerStatus;
         public Slot slot;
         public string _time;

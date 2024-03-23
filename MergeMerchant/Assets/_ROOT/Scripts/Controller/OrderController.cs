@@ -5,6 +5,7 @@ using UnityEngine;
 using MJGame.MergeMerchant.Utility;
 using System.Linq;
 using System.Collections;
+using MJGame.MergeMerchant.Lobby;
 
 namespace MJGame.MergeMerchant.Merge
 {
@@ -13,10 +14,9 @@ namespace MJGame.MergeMerchant.Merge
     {
 
         [SerializeField] List<OrderProduct> ls = new List<OrderProduct>();
-        // [ShowInInspector]
         public Dictionary<OrderProduct, Slot> dicOrderProduct = new Dictionary<OrderProduct, Slot>();
-        // [ShowInInspector]
         public Queue<OrderProduct> qeOrderProductWait = new Queue<OrderProduct>();
+        public Dictionary<Slot, CUSTOMER> dictSlotCustomer = new Dictionary<Slot, CUSTOMER>();
 
 
         [SerializeField] BFS bfs;
@@ -42,32 +42,16 @@ namespace MJGame.MergeMerchant.Merge
             CheckOrderProductComplete();
         }
 
-        [Button]
-        /// <summary>
-        /// them moi Order Product Slot
-        /// </summary>
-        /// <param name="kSlot"></param>
-        public void CreateNewOrderProductSlot(SlotData slot)
-        {
-            // SlotData sl = new SlotData();
-            // sl.InitSlot();
-            // AddOrderProductToDictionary(new Slot(sl));
-
-            AddOrderProductToDictionary(new Slot(slot));
-        }
-
-
         public void DeleteOrderProductFromDictionary(OrderProduct kOrder, int _id)
         {
+            ChangeListCustomer(kOrder.slot);
+
             dicOrderProduct.Remove(kOrder);
             qeOrderProductWait.Enqueue(kOrder);
 
             StartCoroutine(DelayIE(1f, kOrder));
 
             RemoveOptionToOrderProduct(_id, kOrder);
-
-            /// new them vao +
-            AddSlotComplete(kOrder.slot);
         }
 
         private IEnumerator DelayIE(float _time, OrderProduct kOrder)
@@ -81,16 +65,20 @@ namespace MJGame.MergeMerchant.Merge
 
         public void SaveDictionaryOrderProduct()
         {
-            List<Slot> ls = dicOrderProduct.Values.ToList();
-            MJGameSave.SetList<Slot>(ConstGame.SAVE_ORDER_SLOT, ls);
+            List<CUSTOMER> lsCus = dictSlotCustomer.Values.ToList();
+            SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCus;
         }
 
         public void LoadDictionaryOrderProduct()
         {
-            List<Slot> ls = MJGameSave.GetList<Slot>(ConstGame.SAVE_ORDER_SLOT, new List<Slot>());
+            List<CUSTOMER> ls = SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder;
             foreach (var item in ls)
             {
-                AddOrderProductToDictionary(item);
+                dictSlotCustomer[item.slot] = item;
+                if (item.customerStatus == Charactor.CustomerStatus.wait)
+                {
+                    AddOrderProductToDictionary(item.slot);
+                }
             }
         }
 
@@ -137,7 +125,7 @@ namespace MJGame.MergeMerchant.Merge
         {
             Vector2Int vt = bfs.FindNearestPointOptionWithID(Vector2Int.zero, _id);
             Options ops = SingletonComponent<MergeOptionsController>.Instance.GetTileBaseOptions(vt.x + vt.y * ConstGame.COLUMN).transform.GetChild(0).gameObject.GetComponent<Options>();
-            // Bat  Cai Check len  --> truong hop nay chi 
+            // Bat Cai Check len  --> truong hop nay chi 
         }
 
         public int GetNumberId(int _id)
@@ -147,12 +135,11 @@ namespace MJGame.MergeMerchant.Merge
 
         #endregion
 
-        #region  Add Slot Product to List Complete
-        public void AddSlotComplete(Slot kSlot)
+        #region  Change List Save Data Customer
+        public void ChangeListCustomer(Slot kSlot)
         {
-            List<Slot> lsSlotComplete = MJGameSave.GetList(ConstGame.LIST_SLOT_COMPLETE, new List<Slot>());
-            lsSlotComplete.Add(kSlot);
-            MJGameSave.SetList(ConstGame.LIST_SLOT_COMPLETE, lsSlotComplete);
+            dictSlotCustomer.Remove(kSlot);
+            // MJGameSave.SetList(ConstGame.LIST_CUSTOMER, dictSlotCustomer.Values.ToList());
         }
         #endregion
     }

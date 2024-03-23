@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using MidniteOilSoftware;
 using MJGame.Library.Utility;
+using MJGame.MergeMerchant.Lobby;
 using MJGame.MergeMerchant.Merge;
 using MJGame.MergeMerchant.Utility;
 using Sirenix.OdinInspector;
@@ -19,8 +20,6 @@ namespace MJGame.MergeMerchant.Charactor
         [ShowInInspector]
         public Dictionary<Customer, CUSTOMER> dictCustomer = new Dictionary<Customer, CUSTOMER>();
 
-        [ShowInInspector]
-        public List<Slot> lsSlotComplete = new List<Slot>();
         private void OnEnable()
         {
             LoadCustomer();
@@ -30,7 +29,7 @@ namespace MJGame.MergeMerchant.Charactor
 
         IEnumerator CreateNewCustomer(float _time)
         {
-            if (dictCustomer.Count < 5)
+            if (dictCustomer.Count < 3)
             {
                 CUSTOMER cus = new CUSTOMER(Random.Range(0, prefabsCustomer.Length), new Vector3(Random.Range(0, 5), Random.Range(0, 5)));
                 SpawnCustomer(cus, cus._idx);
@@ -41,23 +40,14 @@ namespace MJGame.MergeMerchant.Charactor
 
         public void LoadCustomer()
         {
-            List<CUSTOMER> listCustomer = MJGameSave.GetList(ConstGame.LIST_CUSTOMER, new List<CUSTOMER>());
-            lsSlotComplete = MJGameSave.GetList(ConstGame.LIST_SLOT_COMPLETE, new List<Slot>());
+            List<CUSTOMER> listCustomer = SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder;
 
             foreach (var item in listCustomer)
             {
-                if (lsSlotComplete.Contains(item.slot))
-                {
-                    print("yes");
-                }
-                else
-                {
-                    SpawnCustomer(item, item._idx);
-                }
+                SpawnCustomer(item, item._idx);
             }
-            lsSlotComplete = new List<Slot>();
         }
- 
+
         public void SpawnCustomer(CUSTOMER cus, int _idx)
         {
             GameObject obj = ObjectPoolManager.SpawnGameObject(prefabsCustomer[_idx], prefabsCustomer[_idx].transform.position, Quaternion.identity);
@@ -86,7 +76,7 @@ namespace MJGame.MergeMerchant.Charactor
                     item.Value._pos = item.Key.gameObject.transform.position;
             }
             List<CUSTOMER> lsCustomer = dictCustomer.Values.ToList();
-            MJGameSave.SetList(ConstGame.LIST_CUSTOMER, lsCustomer);
+            SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCustomer;
         }
 
     }

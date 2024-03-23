@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using MidniteOilSoftware;
+using MJGame.Library.Utility;
+using MJGame.MergeMerchant.Lobby;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -11,12 +13,12 @@ namespace MJGame.MergeMerchant.Charactor
         order, wait, complete
     }
 
+
     public class Customer : DespawnAfterDelay, IDespawnedPoolObject
     {
         [SerializeField] GameObject wait;
         [SerializeField] GameObject order;
-        [SerializeField] CUSTOMER kCustomer;
-
+        CUSTOMER kCustomer;
 
         public void SetCustomer(CUSTOMER kCus)
         {
@@ -37,13 +39,13 @@ namespace MJGame.MergeMerchant.Charactor
         {
             kCustomer._pos = transform.position;
         }
-        
+
         [Button]
         public void OnClickAddProduct()
         {
-            SingletonComponent<CustomerOrderProductFromRestaurant>.Instance.AddOrderProductFromCustomer(kCustomer.slot);
+            if (SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder.Count >= 3 || kCustomer.customerStatus != CustomerStatus.order) return;
             kCustomer.customerStatus = CustomerStatus.wait;
-            print("complete");
         }
+
     }
 }

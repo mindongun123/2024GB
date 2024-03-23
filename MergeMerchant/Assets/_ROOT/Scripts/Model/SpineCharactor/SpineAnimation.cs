@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Sirenix.OdinInspector;
@@ -16,7 +17,6 @@ namespace MJGame.MergeMerchant.Charactor
         public string idle_03 = "Idle_03";
         public string run_01 = "Run_01";
         public string run_02 = "Run_02";
-
         public string making_01 = "Making_01";
         public string making_02 = "Making_02";
         public string making_03 = "Making_03";
@@ -24,8 +24,29 @@ namespace MJGame.MergeMerchant.Charactor
         public string active_01 = "Active_01";
         public string active_02 = "Active_02";
 
+        [SerializeField] List<string> stateAnimation = new List<string>();
+
         void Start()
         {
+            stateAnimation = GetAnimationStates(skeleton);
+            foreach (var item in stateAnimation)
+            {
+                print(item);
+            }
+        }
+
+        private List<string> GetAnimationStates(SkeletonGraphic skeleton)
+        {
+            List<string> animationStates = new List<string>();
+
+            if (skeleton != null && skeleton.Skeleton != null)
+            {
+                foreach (var animationStateData in skeleton.Skeleton.Data.Animations)
+                {
+                    animationStates.Add(animationStateData.Name);
+                }
+            }
+            return animationStates;
         }
 
         void Update()
