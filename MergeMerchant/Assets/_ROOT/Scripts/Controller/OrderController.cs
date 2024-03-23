@@ -18,7 +18,6 @@ namespace MJGame.MergeMerchant.Merge
         public Queue<OrderProduct> qeOrderProductWait = new Queue<OrderProduct>();
         public Dictionary<Slot, CUSTOMER> dictSlotCustomer = new Dictionary<Slot, CUSTOMER>();
 
-
         [SerializeField] BFS bfs;
         private void Start()
         {
@@ -61,12 +60,6 @@ namespace MJGame.MergeMerchant.Merge
             yield return new WaitForSeconds(0.2f);
             /// VFX - Reward
             kOrder.gameObject.SetActive(false);
-        }
-
-        public void SaveDictionaryOrderProduct()
-        {
-            List<CUSTOMER> lsCus = dictSlotCustomer.Values.ToList();
-            SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCus;
         }
 
         public void LoadDictionaryOrderProduct()
@@ -140,6 +133,7 @@ namespace MJGame.MergeMerchant.Merge
         {
             dictSlotCustomer.Remove(kSlot);
             // MJGameSave.SetList(ConstGame.LIST_CUSTOMER, dictSlotCustomer.Values.ToList());
+            SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = dictSlotCustomer.Values.ToList();
         }
         #endregion
     }

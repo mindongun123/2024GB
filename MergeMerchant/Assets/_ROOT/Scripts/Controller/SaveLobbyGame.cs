@@ -19,7 +19,7 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void CompleteDaily()
         {
-            DayDailyNext = DayDailyNext + 1;
+            DayDailyNext += 1;
             DateTimeDailyOld = DateTime.Now.ToString();
         }
 

@@ -144,16 +144,7 @@ namespace MJGame.MergeMerchant.Merge
         {
             SaveBoard();
             SaveBasket();
-            SaveTopMerge();
         }
-
-        #region Top Merge - Order Product
-
-        public void SaveTopMerge()
-        {
-            SingletonComponent<OrderController>.Instance.SaveDictionaryOrderProduct();
-        }
-        #endregion
 
 
         #region Save Number Id Option in Board
