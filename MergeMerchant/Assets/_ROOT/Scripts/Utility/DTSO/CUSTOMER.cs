@@ -11,18 +11,18 @@ namespace MJGame.MergeMerchant
     [Serializable]
     public class CUSTOMER
     {
-        public Vector3 _pos;
+        public Vector3 _pos = new Vector3(700f, -227f);
         public int _idx;
         public CustomerStatus customerStatus;
         public Slot slot;
         public string _time;
 
-        public CUSTOMER(int _idx, Vector3 _pos)
+        public CUSTOMER(int _idx)
         {
             SetSlot();
             SetTime();
-            this._pos = _pos;
             this._idx = _idx;
+            this._pos = new Vector3(700f, -276f);
         }
 
         public void SetSlot()

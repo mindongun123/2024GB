@@ -28,7 +28,7 @@ namespace MJGame.MergeMerchant.House
             TimeSpan timeSpan = ConfigTime.ToTimeSpan(timeRemaining._start, DateTime.Now.ToString());
 
             int _second = (int)timeSpan.TotalSeconds;
-            timeRemaining._remaining = timeRemaining._remaining - _second;
+            timeRemaining._remaining = 86399 - _second;
             timeRemaining._remaining = timeRemaining._remaining > 0 ? timeRemaining._remaining : 0;
         }
 

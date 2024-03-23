@@ -27,5 +27,10 @@ namespace MJGame.MergeMerchant
             yield return new WaitForSeconds(_time);
             StartCoroutine(TimeChangeMessage(Random.Range(_startT, _endT)));
         }
+
+        public void ChangeTypeMessage(TypeMessage _type)
+        {
+            typeMessage = _type;
+        }
     }
 }

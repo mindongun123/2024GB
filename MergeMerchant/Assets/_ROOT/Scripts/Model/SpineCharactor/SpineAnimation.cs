@@ -29,10 +29,6 @@ namespace MJGame.MergeMerchant.Charactor
         void Start()
         {
             stateAnimation = GetAnimationStates(skeleton);
-            foreach (var item in stateAnimation)
-            {
-                print(item);
-            }
         }
 
         private List<string> GetAnimationStates(SkeletonGraphic skeleton)
@@ -71,9 +67,6 @@ namespace MJGame.MergeMerchant.Charactor
             {
                 PlayAnimation(run_02);
             }
-
-
-
             else if (Input.GetKeyUp(KeyCode.M))
             {
                 PlayAnimation(making_01);
@@ -100,8 +93,6 @@ namespace MJGame.MergeMerchant.Charactor
             {
                 PlayAnimation(active_02);
             }
-
-
         }
 
         void PlayAnimation(string animationName)
