@@ -15,7 +15,7 @@ namespace MJGame.MergeMerchant.Utility
         public void InitSlot()
         {
             this._complete = false;
-            this._id = Random.Range(1, 10);
+            this._id = Random.Range(1, 3);// chinh sua lai phu hop voi ID Option toi da co the co
             this._coin = 10 * _id;
         }
     }

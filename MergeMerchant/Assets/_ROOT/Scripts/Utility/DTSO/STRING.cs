@@ -35,7 +35,7 @@ public static class STRING
 
     private static string[] MessageWait ={
         "Của tôi đâu?",
-        "Chủ quán ơi!",
+        "Sắp trễ giờ \n rồi!",
         "Chưa được hả?",
         "Lâu thế!"
     };

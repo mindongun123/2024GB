@@ -14,6 +14,11 @@ namespace MJGame.MergeMerchant.Charactor
         order, wait, complete
     }
 
+    public enum TypeCharactor
+    {
+        c1, c2, c3, c4, c5
+    }
+
     public class Customer : DespawnAfterDelay, IDespawnedPoolObject
     {
         public UnityAction eventMoveCharactor;
@@ -23,6 +28,8 @@ namespace MJGame.MergeMerchant.Charactor
         CUSTOMER kCustomer;
         [SerializeField, Range(10, 200)] float _speed;
         [SerializeField] ViewMessage viewMessage;
+
+        [SerializeField] TypeCharactor typeCharactor;
 
         public void SetCustomer(CUSTOMER kCus)
         {
@@ -60,12 +67,18 @@ namespace MJGame.MergeMerchant.Charactor
             eventMoveCharactor -= StateAnimationTest;
         }
 
-        [Button]
         public void OnClickAddProduct()
         {
-            if (SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder.Count >= 3 || kCustomer.customerStatus != CustomerStatus.order) return;
+            List<CUSTOMER> lsCus = SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder;
+            if (lsCus.Count >= 3 || kCustomer.customerStatus != CustomerStatus.order) return;
+
+            CUSTOMER cus = new CUSTOMER((int)typeCharactor);
+            lsCus.Add(cus);
+            SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCus;
+
             kCustomer.customerStatus = CustomerStatus.wait;
             ChangeButton();
+            print("Complete + so luong order: " + lsCus.Count);
         }
 
         public void StateAnimationTest()

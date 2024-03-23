@@ -134,6 +134,8 @@ namespace MJGame.MergeMerchant.Merge
             dictSlotCustomer.Remove(kSlot);
             // MJGameSave.SetList(ConstGame.LIST_CUSTOMER, dictSlotCustomer.Values.ToList());
             SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = dictSlotCustomer.Values.ToList();
+            print("Complete + so luong order: " + dictSlotCustomer.Count);
+
         }
         #endregion
     }

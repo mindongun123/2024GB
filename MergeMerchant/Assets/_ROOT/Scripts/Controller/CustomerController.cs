@@ -14,7 +14,6 @@ namespace MJGame.MergeMerchant.Charactor
     {
         public GameObject[] prefabsCustomer;
         public RectTransform parent;
-        public RectTransform _start;
 
         [ShowInInspector]
         public Dictionary<Customer, CUSTOMER> dictCustomer = new Dictionary<Customer, CUSTOMER>();
@@ -78,6 +77,9 @@ namespace MJGame.MergeMerchant.Charactor
             }
             List<CUSTOMER> lsCustomer = dictCustomer.Values.ToList();
             SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCustomer;
+
+            print("Complete + so luong order: " + lsCustomer.Count);
+
         }
 
     }
