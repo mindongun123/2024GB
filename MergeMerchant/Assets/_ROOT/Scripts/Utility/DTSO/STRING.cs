@@ -64,4 +64,17 @@ public static class STRING
         return msg;
     }
 
+    private static string[] MessageRemoveOption = { "Bạn có thể xóa Option này đi!", "Nếu vị trí trống trên bàn đã hết, hãy xóa nó!", "Bạn còn cần nó không?", "Nó có thể xóa khi nào bạn muốn!", "Tăng thêm không gian!" };
+    private static string[] MessageAdMob = { "Xem Video, nhận thưởng liền tay!", "Mọi thứ đều tồn tại!", "Thứ bạn đang tìm kiếm?", "Video quà tặng!" };
+    public static string GetStringRemveOption()
+    {
+        return MessageRemoveOption[Random.Range(0, MessageRemoveOption.Length)];
+    }
+
+      public static string GetStringAdMobOption()
+    {
+        return MessageAdMob[Random.Range(0, MessageAdMob.Length)];
+    }
+
+
 }

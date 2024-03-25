@@ -134,7 +134,7 @@ namespace MJGame.MergeMerchant.Merge
             return kPostionBasket.x + kPostionBasket.y * ConstGame.COLUMN;
         }
 
-        
+
         private void SaveBasket()
         {
             IdTileBaseBasket = SaveIdGridBasketInBoard();
@@ -165,7 +165,7 @@ namespace MJGame.MergeMerchant.Merge
         }
         #endregion
 
-
+      
         private void OnDisable()
         {
             SaveGameMergeComplete();

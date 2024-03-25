@@ -21,17 +21,17 @@ namespace MJGame.MergeMerchant.Charactor
         private void OnEnable()
         {
             LoadCustomer();
-            StartCoroutine(CreateNewCustomer(2f));
+            StartCoroutine(CreateNewCustomerIE(2f));
         }
 
-        IEnumerator CreateNewCustomer(float _time)
+        IEnumerator CreateNewCustomerIE(float _time)
         {
             if (dictCustomer.Count < 3)
             {
                 CUSTOMER cus = new CUSTOMER(Random.Range(0, prefabsCustomer.Length));
                 SpawnCustomer(cus, cus._idx);
                 yield return new WaitForSeconds(_time);
-                StartCoroutine(CreateNewCustomer(2f));
+                StartCoroutine(CreateNewCustomerIE(2f));
             }
         }
 
@@ -77,9 +77,6 @@ namespace MJGame.MergeMerchant.Charactor
             }
             List<CUSTOMER> lsCustomer = dictCustomer.Values.ToList();
             SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCustomer;
-
-            print("Complete + so luong order: " + lsCustomer.Count);
-
         }
 
     }

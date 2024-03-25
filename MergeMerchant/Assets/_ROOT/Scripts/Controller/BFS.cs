@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using MJGame;
 using Sirenix.OdinInspector;
 using UnityEngine;
 

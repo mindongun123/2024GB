@@ -30,11 +30,11 @@ namespace MJGame.MergeMerchant.House
             int _time = 10 - (int)timeSpan.TotalSeconds;
             _time = _time > 0 ? _time : 0;
 
-            StartCoroutine(CountDown(_time));
+            StartCoroutine(CountDownIE(_time));
         }
 
         [SerializeField] GameObject btn;
-        IEnumerator CountDown(int _time)
+        IEnumerator CountDownIE(int _time)
         {
             img.fillAmount = 1 - (float)_time / 10;
             if (_time <= 0)
@@ -45,7 +45,7 @@ namespace MJGame.MergeMerchant.House
             {
                 yield return new WaitForSeconds(1);
                 _time--;
-                StartCoroutine(CountDown(_time));
+                StartCoroutine(CountDownIE(_time));
             }
         }
 

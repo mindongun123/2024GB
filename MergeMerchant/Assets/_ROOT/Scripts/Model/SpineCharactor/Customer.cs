@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using MidniteOilSoftware;
 using MJGame.MergeMerchant.Lobby;
+using MJGame.MergeMerchant.Merge;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.Events;
@@ -39,7 +40,7 @@ namespace MJGame.MergeMerchant.Charactor
             ChangeButton();
         }
 
-        public void ChangeButton()
+        private void ChangeButton()
         {
             wait.SetActive(kCustomer.customerStatus == CustomerStatus.wait);
             order.SetActive(kCustomer.customerStatus == CustomerStatus.order);
@@ -69,24 +70,25 @@ namespace MJGame.MergeMerchant.Charactor
 
         public void OnClickAddProduct()
         {
-            List<CUSTOMER> lsCus = SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder;
-            if (lsCus.Count >= 3 || kCustomer.customerStatus != CustomerStatus.order) return;
+            int _nub = SingletonComponent<SaveLobbyGame>.Instance.NumberProductCurrent;
+            if (_nub >= 3 || kCustomer.customerStatus != CustomerStatus.order) return;
 
+            List<CUSTOMER> lsCus = SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder;
             CUSTOMER cus = new CUSTOMER((int)typeCharactor);
             lsCus.Add(cus);
             SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = lsCus;
+            SingletonComponent<SaveLobbyGame>.Instance.NumberProductCurrent = _nub + 1;
 
             kCustomer.customerStatus = CustomerStatus.wait;
             ChangeButton();
-            print("Complete + so luong order: " + lsCus.Count);
         }
 
         public void StateAnimationTest()
         {
-            StartCoroutine(Move(Random.Range(5f, 20f)));
+            StartCoroutine(MoveIE(Random.Range(5f, 20f)));
         }
 
-        private IEnumerator Move(float _time)
+        private IEnumerator MoveIE(float _time)
         {
             if (kCustomer.customerStatus == CustomerStatus.order)
             {
@@ -94,7 +96,16 @@ namespace MJGame.MergeMerchant.Charactor
                 float _pos = Random.Range(-300, 500f);
                 rect.DOAnchorPosX(_pos, _speed).SetEase(Ease.Linear).SetSpeedBased().OnComplete(() =>
                   {
-                      StartCoroutine(Move(Random.Range(8f, 20f)));
+                      StartCoroutine(MoveIE(Random.Range(8f, 20f)));
+                  });
+            }
+            else if (kCustomer.customerStatus == CustomerStatus.wait)
+            {
+                yield return new WaitForSeconds(_time);
+                float _pos = Random.Range(-300, 100f);
+                rect.DOAnchorPosX(_pos, _speed).SetEase(Ease.Linear).SetSpeedBased().OnComplete(() =>
+                  {
+                      StartCoroutine(MoveIE(Random.Range(10f, 20f)));
                   });
             }
             else if (kCustomer.customerStatus == CustomerStatus.complete)

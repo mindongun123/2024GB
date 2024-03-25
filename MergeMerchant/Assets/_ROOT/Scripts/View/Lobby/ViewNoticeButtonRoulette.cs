@@ -44,13 +44,13 @@ namespace MJGame.MergeMerchant.Lobby
             }
             else
             {
-                StartCoroutine(CountDown());
-                IEnumerator CountDown()
+                StartCoroutine(CountDownIE());
+                IEnumerator CountDownIE()
                 {
                     eventShowTextTimeFree?.Invoke(_time);
                     yield return new WaitForSeconds(1);
                     _time--;
-                    StartCoroutine(CountDown());
+                    StartCoroutine(CountDownIE());
                 }
             }
         }

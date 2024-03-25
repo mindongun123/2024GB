@@ -191,5 +191,13 @@ namespace MJGame.MergeMerchant.Lobby
 
         #endregion
 
+        #region Number Order Product Current
+        public int NumberProductCurrent
+        {
+            set => PlayerPrefs.SetInt(ConstGame.NUMBER_ORDER_PRODUCT, value);
+            get => PlayerPrefs.GetInt(ConstGame.NUMBER_ORDER_PRODUCT, 0);
+        }
+        #endregion
+
     }
 }

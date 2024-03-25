@@ -18,14 +18,14 @@ namespace MJGame.MergeMerchant
 
         private void OnEnable()
         {
-            StartCoroutine(TimeChangeMessage(Random.Range(_startT, _endT)));
+            StartCoroutine(TimeChangeMessageIE(Random.Range(_startT, _endT)));
         }
 
-        IEnumerator TimeChangeMessage(float _time)
+        IEnumerator TimeChangeMessageIE(float _time)
         {
             txt.text = STRING.GetString(typeMessage);
             yield return new WaitForSeconds(_time);
-            StartCoroutine(TimeChangeMessage(Random.Range(_startT, _endT)));
+            StartCoroutine(TimeChangeMessageIE(Random.Range(_startT, _endT)));
         }
 
         public void ChangeTypeMessage(TypeMessage _type)

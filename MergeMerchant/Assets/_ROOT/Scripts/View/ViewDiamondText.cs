@@ -29,12 +29,12 @@ namespace MJGame.MergeMerchant
 
         private void OnDiamondChange(int _to)
         {
-            StartCoroutine(IncreaseReward(_last, _to, 1.0f));
+            StartCoroutine(IncreaseRewardIE(_last, _to, 1.0f));
 
             _last = _to;
         }
 
-        IEnumerator IncreaseReward(int from, int to, float duration)
+        IEnumerator IncreaseRewardIE(int from, int to, float duration)
         {
             float timeElapsed = 0.0f;
 

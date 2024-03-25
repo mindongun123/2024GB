@@ -30,12 +30,12 @@ namespace MJGame.MergeMerchant
 
         private void OnCoinChanged(int _to)
         {
-            StartCoroutine(IncreaseScore(_last, _to, 1.0f));
+            StartCoroutine(IncreaseScoreIE(_last, _to, 1.0f));
 
             _last = _to;
         }
 
-        IEnumerator IncreaseScore(int from, int to, float duration)
+        IEnumerator IncreaseScoreIE(int from, int to, float duration)
         {
             float timeElapsed = 0.0f;
 

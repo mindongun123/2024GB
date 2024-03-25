@@ -46,6 +46,8 @@ namespace MJGame.MergeMerchant.Merge
 
             SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(parentAfterDrag.position);
 
+            SingletonComponent<ViewInformationWhenSellect>.Instance.ShowInformationText(_isBasket, ID, this, parentAfterDrag);
+
             CheckOptionBasket();
         }
 

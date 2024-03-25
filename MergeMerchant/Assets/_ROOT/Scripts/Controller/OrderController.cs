@@ -56,7 +56,7 @@ namespace MJGame.MergeMerchant.Merge
         private IEnumerator DelayIE(float _time, OrderProduct kOrder)
         {
             yield return new WaitForSeconds(_time - 0.2f);
-            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(kOrder.transform.position + new Vector3(0, 100, 0), kOrder.slot._coin / 10);
+            SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(kOrder.transform.position + new Vector3(0, 100, 0), kOrder.slot._coin / 5);
             yield return new WaitForSeconds(0.2f);
             /// VFX - Reward
             kOrder.gameObject.SetActive(false);
@@ -132,10 +132,8 @@ namespace MJGame.MergeMerchant.Merge
         public void ChangeListCustomer(Slot kSlot)
         {
             dictSlotCustomer.Remove(kSlot);
-            // MJGameSave.SetList(ConstGame.LIST_CUSTOMER, dictSlotCustomer.Values.ToList());
             SingletonComponent<SaveLobbyGame>.Instance.ListCustomerOrder = dictSlotCustomer.Values.ToList();
-            print("Complete + so luong order: " + dictSlotCustomer.Count);
-
+            SingletonComponent<SaveLobbyGame>.Instance.NumberProductCurrent--;
         }
         #endregion
     }

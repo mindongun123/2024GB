@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using DG.Tweening;
-using MJGame;
 using MJGame.MergeMerchant.Lobby;
 using UnityEngine;
 using UnityEngine.EventSystems;

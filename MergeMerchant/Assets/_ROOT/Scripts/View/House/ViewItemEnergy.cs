@@ -35,8 +35,8 @@ namespace MJGame.MergeMerchant.House
 
         public void ShowTimeRemaining()
         {
-            StartCoroutine(Coundown());
-            IEnumerator Coundown()
+            StartCoroutine(CoundownIE());
+            IEnumerator CoundownIE()
             {
                 imgEnergy.fillAmount = 1 - ((float)timeRemaining._remaining / ConstGame.TIME_DEFAULT);
                 txt.text = TextTimeRemaining(timeRemaining._remaining);
@@ -44,7 +44,7 @@ namespace MJGame.MergeMerchant.House
                 if (timeRemaining._remaining >= 0)
                 {
                     yield return new WaitForSeconds(1);
-                    StartCoroutine(Coundown());
+                    StartCoroutine(CoundownIE());
                 }
                 else
                 {

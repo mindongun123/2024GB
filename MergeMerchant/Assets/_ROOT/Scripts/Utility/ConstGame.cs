@@ -22,6 +22,8 @@ namespace MJGame.MergeMerchant.Merge
         public const int ID_BASKET_DEFAULT = 61;
         public const string LIST_ID_OPTION_SPAWN = "list_id_option_spawn";
 
+        public const string NUMBER_ORDER_PRODUCT = "number_order_product";
+
         [Header("Lobby")]
         public const string DAY_DAILY_OLD = "day_daily_old";
         public const string DAY_DAILY_NEXT = "day_daily_next";

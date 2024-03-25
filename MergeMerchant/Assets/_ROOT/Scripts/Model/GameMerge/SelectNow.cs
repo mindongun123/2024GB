@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using MJGame;
 using UnityEngine;
 
@@ -34,5 +35,6 @@ namespace MJGame.MergeMerchant.Merge
             m_animation.Play();
 
         }
+
     }
 }
