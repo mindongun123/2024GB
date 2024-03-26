@@ -10,8 +10,8 @@ namespace MJGame.MergeMerchant.Merge
     {
         public TileBaseOptions[] tileBaseOptions;
 
-         
-        
+
+
         /// <summary>
         ///  lay ra vi tri cua TileBaseOptions tuong ung tren map
         /// </summary>
@@ -38,5 +38,7 @@ namespace MJGame.MergeMerchant.Merge
         {
             return tileBaseOptions[_idx];
         }
+
+        
     }
 }

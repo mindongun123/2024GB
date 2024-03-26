@@ -24,6 +24,8 @@ namespace MJGame.MergeMerchant.Merge
 
         public const string NUMBER_ORDER_PRODUCT = "number_order_product";
 
+        public const string INDEX_SEAL_OPEN = "index_seal_open";
+
         [Header("Lobby")]
         public const string DAY_DAILY_OLD = "day_daily_old";
         public const string DAY_DAILY_NEXT = "day_daily_next";

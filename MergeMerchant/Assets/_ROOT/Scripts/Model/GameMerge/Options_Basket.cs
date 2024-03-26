@@ -20,6 +20,7 @@ namespace MJGame.MergeMerchant.Merge
             {
                 SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(transform.parent.position);
                 SingletonComponent<SpawnOptions>.Instance.CreateNewOptions();
+                SingletonComponent<ViewInformationWhenSellect>.Instance.ShowInformationText(_isBasket, ID, this, parentAfterDrag);
                 return;
             }
         }
