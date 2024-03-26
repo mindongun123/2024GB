@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using Ilumisoft.VisualStateMachine;
 using MJGame.MergeMerchant.House;
@@ -85,6 +84,7 @@ namespace MJGame.MergeMerchant.Merge
                 Vector2Int vts = ConvertToVectorInGrid(item);
                 dicSaveBoard[vts] = new Vector2Int(1, ls[Random.Range(0, ls.Count)]);
             }
+
             ES3.Save<Dictionary<Vector2Int, Vector2Int>>(ConstGame.SAVE_BOARD, dicSaveBoard);
         }
 
@@ -92,6 +92,5 @@ namespace MJGame.MergeMerchant.Merge
         {
             return new Vector2Int(_idx % 7, _idx / 7);
         }
-
     }
 }

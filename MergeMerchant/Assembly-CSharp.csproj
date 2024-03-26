@@ -64,6 +64,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraintData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ViewBoardGameMerge.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewDailyItem.cs" />
@@ -233,7 +234,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\SelectNow.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\SpineAnimation.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ViewBoardGameMerge.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorials.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
