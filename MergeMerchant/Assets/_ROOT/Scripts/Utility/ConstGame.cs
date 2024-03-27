@@ -61,5 +61,8 @@ namespace MJGame.MergeMerchant.Merge
         [Header("Charactor")]
         public const string LIST_CUSTOMER = "list_customer";
         public const string LIST_SLOT_COMPLETE = "list_slot_complete";
+
+        [Header("Tutorial")]
+        public const string IS_START = "is_start";
     }
 }

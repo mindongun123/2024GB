@@ -6,39 +6,40 @@ using Random = UnityEngine.Random;
 public static class STRING
 {
     private static string[] MessageGreetings = {
-"Hey! \n Bạn là ...",
-"Hello!",
-"Hi!",
-"Xin chào!",
-    };
+    "Hey! \n You are ...",
+    "Hello!",
+    "Hi!",
+    "Greetings!"
+};
 
     private static string[] MessageStatus ={
-"Đầy rồi!",
-"Ok!",
-"Yyeezz!",
-"Nhận thôi!"
-    };
+    "Full already!",
+    "Ok!",
+    "Yyeezz!",
+    "Just accept!"
+};
 
     private static string[] MessageMove ={
-"Nhanh nào!",
-"Cố lên!",
-"Từ từ nào!",
-"Chờ tôi với"
-    };
+    "Quickly!",
+    "Keep going!",
+    "Slow down!",
+    "Wait for me"
+};
 
     private static string[] MessageOrder ={
-        "Có ai không?",
-        "Chủ quán \n ơi!",
-        "Tôi đặt \n hàng!",
-        "Xin hãy   \n  giúp tôi!"
-    };
+    "Anyone there?",
+    "Owner \n Hey!",
+    "I'm ordering!",
+    "Please \n help me!"
+};
 
     private static string[] MessageWait ={
-        "Của tôi đâu?",
-        "Sắp trễ giờ \n rồi!",
-        "Chưa được hả?",
-        "Lâu thế!"
-    };
+    "Where's mine?",
+    "Almost late!",
+    "Not yet?",
+    "It's taking too long!"
+};
+
     public static string GetString(TypeMessage typeMessage)
     {
         string msg = " ";
@@ -64,14 +65,15 @@ public static class STRING
         return msg;
     }
 
-    private static string[] MessageRemoveOption = { "Bạn có thể xóa Option này đi!", "Nếu vị trí trống trên bàn đã hết, hãy xóa nó!", "Bạn còn cần nó không?", "Nó có thể xóa khi nào bạn muốn!", "Tăng thêm không gian!" };
-    private static string[] MessageAdMob = { "Xem Video, nhận thưởng liền tay!", "Mọi thứ đều tồn tại!", "Thứ bạn đang tìm kiếm?", "Video quà tặng!" };
+    private static string[] MessageRemoveOption = { "Can you delete this Option?", "If the empty slot on the table is full, please delete it!", "Do you still need it?", "It can be deleted whenever you want!", "Adding more space!" };
+    private static string[] MessageAdMob = { "Watch Video, receive instant rewards!", "Everything is here!", "What are you looking for?", "Gift video!" };
+
     public static string GetStringRemveOption()
     {
         return MessageRemoveOption[Random.Range(0, MessageRemoveOption.Length)];
     }
 
-      public static string GetStringAdMobOption()
+    public static string GetStringAdMobOption()
     {
         return MessageAdMob[Random.Range(0, MessageAdMob.Length)];
     }

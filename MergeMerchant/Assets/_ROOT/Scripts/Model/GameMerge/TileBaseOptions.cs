@@ -29,6 +29,11 @@ namespace MJGame.MergeMerchant.Merge
             {
                 if (ops.ID == transform.GetChild(0).GetComponent<Options>().ID)
                 {
+                    if (ViewTutorials.IsStartGame == 1)
+                    {
+                        ViewTutorials.eventTutorialGameMerge?.Invoke();
+                    }
+
                     Destroy(transform.GetChild(0).gameObject);
                     ops.parentAfterDrag = transform;
                     int _idcurrent = ops.ID + 1;

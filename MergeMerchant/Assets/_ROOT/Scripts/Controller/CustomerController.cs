@@ -26,7 +26,7 @@ namespace MJGame.MergeMerchant.Charactor
 
         IEnumerator CreateNewCustomerIE(float _time)
         {
-            if (dictCustomer.Count < 3)
+            if (dictCustomer.Count < 4)
             {
                 CUSTOMER cus = new CUSTOMER(Random.Range(0, prefabsCustomer.Length));
                 SpawnCustomer(cus, cus._idx);

@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using MJGame;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +15,7 @@ namespace MJGame.MergeMerchant.Merge
         private int IDBasket; // 1-> 8
         public void OnClickBasket()
         {
+            ViewTutorials.eventTutorialComplete?.Invoke();
             if (ViewReward.AddEnergy(-1))
             {
                 SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(transform.parent.position);
