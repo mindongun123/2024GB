@@ -38,6 +38,9 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickAddReward()
         {
+            // Audio
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            //
 
             ConfigNotice.SaveNotifyViewOption(-1);
             SingletonComponent<SaveLobbyGame>.Instance.ChangeListViewOptionComplete(ID);

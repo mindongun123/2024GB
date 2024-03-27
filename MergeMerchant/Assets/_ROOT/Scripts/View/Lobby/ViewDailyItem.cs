@@ -30,6 +30,9 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickComplete()
         {
+            // Audio 
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            //
             SingletonComponent<SaveLobbyGame>.Instance.CompleteDaily();
             EnableGetDaily(true);
             EnableCompleteDaily(false);

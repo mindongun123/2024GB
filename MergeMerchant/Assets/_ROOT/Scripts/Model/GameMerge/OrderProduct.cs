@@ -53,6 +53,11 @@ namespace MJGame.MergeMerchant.Merge
 
         public void OnClickComplete()
         {
+            //Audio 
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            SingletonComponent<AudioController>.Instance.AudioCompleteProductPlay();
+            //
+
             SetEnableInteractableButtonComplete(false);
 
             //Add Reward Coin sau khi ban xong

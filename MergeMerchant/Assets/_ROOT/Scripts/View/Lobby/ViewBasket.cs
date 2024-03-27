@@ -36,6 +36,7 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickUpdateBasket()
         {
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
             if (ViewReward.AddDiamond(-_diamond))
             {
                 buy.SetActive(false);

@@ -48,6 +48,10 @@ namespace MJGame.MergeMerchant.Merge
 
             SingletonComponent<ViewInformationWhenSellect>.Instance.ShowInformationText(_isBasket, ID, this, parentAfterDrag);
 
+            SingletonComponent<AudioController>.Instance.AudioDragMergeOptiosPlay();
+
+
+
             CheckOptionBasket();
         }
 

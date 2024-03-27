@@ -74,12 +74,14 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_DraggableItem.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorials.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\CUSTOMER.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\ExposedList.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewGoldPlay.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialGameMerge.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\MJGameRewardSave.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\EventData.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleMusic.cs" />
@@ -100,6 +102,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Utility\DTSO\TIME.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Json.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Controller\BFS.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialLobby.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PathAttachment.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentType.cs" />
@@ -234,9 +237,8 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\SelectNow.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\SpineAnimation.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialGameMerge.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialLobby.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorials.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Audio\ConfigAudio.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Audio\AudioController.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

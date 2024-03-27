@@ -26,7 +26,8 @@ namespace MJGame.MergeMerchant.House
             this._id = _id;
             avatar.sprite = sprites[_id];
             TimeSpan timeSpan = ConfigTime.ToTimeSpan(_timeOld, DateTime.Now.ToString());
-            int _time = 3599 - (int)timeSpan.TotalSeconds;
+            int _time = 10 - (int)timeSpan.TotalSeconds;
+            // int _time = 3599 - (int)timeSpan.TotalSeconds;
             _time = _time > 0 ? _time : 0;
 
             StartCoroutine(CountDownIE(_time));
@@ -35,7 +36,7 @@ namespace MJGame.MergeMerchant.House
         [SerializeField] GameObject btn;
         IEnumerator CountDownIE(int _time)
         {
-            img.fillAmount = 1 - (float)_time / 3599;
+            img.fillAmount = 1 - (float)_time / 10;
             if (_time <= 0)
             {
                 btn.SetActive(true);

@@ -16,6 +16,10 @@ namespace MJGame.MergeMerchant.Merge
         public void OnClickBasket()
         {
             ViewTutorials.eventTutorialComplete?.Invoke();
+
+            // Audio 
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            // 
             if (ViewReward.AddEnergy(-1))
             {
                 SingletonComponent<SelectNow>.Instance.SetPositionSelectNow(transform.parent.position);

@@ -38,6 +38,9 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickAddCoin()
         {
+            // Audio 
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            //
             _levelReward._iscoin = false;
             SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(buttonGetCoin.transform.position, _levelReward._coin / 2, NameItem.coin);
             ViewReward.AddCoin(_levelReward._coin);
@@ -49,6 +52,9 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickAddDiamond()
         {
+            // Audio
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            //
             _levelReward._isdiamond = false;
             SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(buttonGetDiamond.transform.position, _levelReward._diamond / 2, NameItem.diamond);
             ViewReward.AddDiamond(_levelReward._diamond);

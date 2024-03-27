@@ -39,7 +39,11 @@ namespace MJGame.MergeMerchant.Lobby
 
         public void OnClickBuyReward()
         {
+            // Audio
+            SingletonComponent<AudioController>.Instance.AudioOnClickPlay();
+            //
             SetBuy();
+
         }
         private void SetRewardComplete()
         {

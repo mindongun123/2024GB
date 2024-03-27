@@ -52,6 +52,7 @@ namespace MJGame.MergeMerchant
                 Debug.Log("Coin Gioi han am");
                 return false;
             }
+            SingletonComponent<AudioController>.Instance.AudioRewardPlay();
             Coin += value;
             OnCoinChanged?.Invoke(Coin);
             return true;
@@ -64,6 +65,7 @@ namespace MJGame.MergeMerchant
                 Debug.Log("Diamond Gioi han am");
                 return false;
             }
+            SingletonComponent<AudioController>.Instance.AudioRewardPlay();
             Diamond += value;
             OnDiamondChange?.Invoke(Diamond);
             return true;
@@ -76,6 +78,7 @@ namespace MJGame.MergeMerchant
                 Debug.Log("Energy Gioi han am");
                 return false;
             }
+            SingletonComponent<AudioController>.Instance.AudioRewardPlay();
             Energy += value;
             OnEnergyChange?.Invoke(Energy);
             return true;

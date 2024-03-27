@@ -40,6 +40,9 @@ namespace MJGame.MergeMerchant.Merge
                 print("khong con vi tri thoa man");
                 return;
             }
+            //Audio
+            SingletonComponent<AudioController>.Instance.AudioOnClickBasketPlay();
+            //
             TileBaseOptions tileBaseOptions = mergeOptionsController.GetTileBaseOptions(_target.x + _target.y * ConstGame.COLUMN);
             GameObject opsOb = Instantiate<GameObject>(OptionObject, Vector2.zero, Quaternion.identity);
             opsOb.transform.SetParent(tileBaseOptions.transform);
