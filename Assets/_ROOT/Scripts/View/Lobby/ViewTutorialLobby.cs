@@ -9,20 +9,16 @@ namespace MJGame.MergeMerchant.Lobby
         [SerializeField] GameObject btnReturn;
         [SerializeField] GameObject[] tutorials;
         [SerializeField]
-        GameObject playt, profilet;
+        GameObject play, profile, product;
 
         int _idx = 0;
 
         private void OnEnable()
         {
-            if (ViewTutorials.IsStartGame == 1)
-            {
-                profilet.SetActive(true);
-                ShowTutorials(0);
-            }
+            ShowTutorialCurrent(ViewTutorials.IsStartGame);
         }
 
-        public void ShowTutorials(int _nub)
+        private void ShowItemTutorialsProfile(int _nub)
         {
             tutorials[_idx].SetActive(false);
             _idx = (_idx + _nub + tutorials.Length) % tutorials.Length;
@@ -33,15 +29,15 @@ namespace MJGame.MergeMerchant.Lobby
         {
             if (_idx > 3)
             {
-                profilet.SetActive(false);
-                playt.SetActive(true);
+                ViewTutorials.IsStartGame = 2;
+                ShowTutorialCurrent(ViewTutorials.IsStartGame);
                 return;
             }
-            if (_idx == 3)
+            if (_idx == 4)
             {
                 btnReturn.SetActive(true);
             }
-            ShowTutorials(1);
+            ShowItemTutorialsProfile(1);
         }
 
         public void OnClickReturnTutorials()
@@ -49,6 +45,37 @@ namespace MJGame.MergeMerchant.Lobby
             tutorials[_idx].SetActive(false);
             _idx = 0;
             tutorials[_idx].SetActive(true);
+        }
+
+        /// <summary>
+        /// 1-> Lobby -> Profile demo -> 3
+        /// 2-> Play
+        /// 3-> Book
+        /// </summary>
+        /// 
+
+        public void OnClickTutorialProduct()
+        {
+            ViewTutorials.IsStartGame = 4;
+        }
+        public void ShowTutorialCurrent(int _tutorials)
+        {
+            switch (_tutorials)
+            {
+                case 1:
+                    profile.SetActive(true);
+                    ShowItemTutorialsProfile(0);
+                    break;
+                case 2:
+                    play.SetActive(true);
+                    profile.SetActive(false);
+                    break;
+                case 3:
+                    product.SetActive(true);
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }

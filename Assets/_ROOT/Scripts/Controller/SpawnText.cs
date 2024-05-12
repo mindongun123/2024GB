@@ -11,7 +11,6 @@ namespace MJGame.MergeMerchant
         [SerializeField]
         GameObject txtPrefabs;
 
-        [Button]
         public void NewText(string _txt , float _time)
         {
             GameObject txt = ObjectPoolManager.SpawnGameObject(txtPrefabs);

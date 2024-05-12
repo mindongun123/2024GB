@@ -11,6 +11,7 @@ public class SpawnVFXOption : SingletonComponent<SpawnVFXOption>
     public void NewVFXOption(Transform trn)
     {
         GameObject vfx = ObjectPoolManager.SpawnGameObject(vfxPrefabs, trn.position, Quaternion.identity);
+        vfx.GetComponent<VFX_OptionMerge>().StartVFX(3f);
         vfx.transform.SetParent(parent.transform);
         vfx.transform.localScale = Vector3.one * 0.45f;
     }

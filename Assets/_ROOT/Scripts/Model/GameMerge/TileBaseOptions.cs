@@ -29,7 +29,7 @@ namespace MJGame.MergeMerchant.Merge
             {
                 if (ops.ID == transform.GetChild(0).GetComponent<Options>().ID)
                 {
-                    if (ViewTutorials.IsStartGame == 1)
+                    if (ViewTutorials.IsStartGame == 2)
                     {
                         ViewTutorials.eventTutorialGameMerge?.Invoke();
                     }

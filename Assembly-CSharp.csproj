@@ -36,240 +36,240 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\_ROOT\Scripts\Controller\MJGameRewardSave.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\ConvertList.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonDaily.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Reward\TabReward.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_Animation.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\ViewMessage.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\BFS.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonCollection.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewIconStar.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewButtonRoulette.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\MiniGame\ViewPanelMiniGame.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_DraggableItem.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigTime.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialLobby.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\LoadDataEvent.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewOptionCollectionController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemRewardFloor.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\VFXSetItemOption.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorials.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleMusic.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBoardDaily.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\Tutorials.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ButtonBuild.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouse.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\References.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\CheckHasAccount.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleSight.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\CUSTOMER.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeOption.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergyController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Reward\SelectBackgroundReward.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewEventMonthDaily.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\DT_ORDER_OPTION.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ViewInformationWhenSellect.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonLevel.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemRoulette.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ButtonBuyDecor.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\MergeOptionsController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Network\CheckNetwork.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\SaveGameMerge.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_Basket.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\VFX_OptionMerge.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\ViewLogin.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\ViewDiamondText.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewLevelPassController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\ViewEnergyText.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Account.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\FirebaseAuthManager.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewDailyItem.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleBackground.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Audio\AudioItem.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeSpinFree.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBoardRankEvent.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\LEVEL_REWARD.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\EVENT.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergy.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewLoadBoardEvent.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnVFXOption.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\MiniGame\ViewShowTime.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\Customer.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\LogManager.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\Text\TextConfig.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\SaveLobbyGame.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\EventController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemEvent.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\MiniGame\ItemMiniGame.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigNotice.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemOptionCollection.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\ViewCoinText.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\OrderController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeButtonRoulette.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Network\NetworkStart.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\TileBaseOptions.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\UIManager.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemLevelPass.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\OrderProduct.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Audio\ConfigAudio.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewGoldPlay.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Start\ButtonQuitApp.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeBasket.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeRemaining.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\CustomerController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnText.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\LevelGame.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemReward.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewRoulette.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\STRING.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasketController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\ConstGame.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialGameMerge.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\VFXParticleItem.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\LoadDataMiniGame.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Reward\RewardNew.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnOptions.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouseController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNewLevel.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ViewBoardGameMerge.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemRewardFloorController.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Helpers\HelperFunctions.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Audio\AudioController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Common\SingletonComponent.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasket.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\MiniGame\MiniGameController.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\SpineAnimation.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\TIME.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
-     <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
-     <Compile Include="Assets\AdvancedPlayerPrefsWindow\DemoScene\GUIView.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\TransitionSettings.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\CutoutMaskUI.cs" />
-     <Compile Include="Assets\EasyTransitions\Scripts\Transition.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItem_3D.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Animation.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\ConvertList.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\GetItemEffect.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\Example.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewButtonRoulette.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewEventMonthDaily.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonLevel.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\FirebaseAuthManager.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Audio\ConfigAudio.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonMecanim.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AnimationReferenceAsset.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\VFX\VFX_OptionMerge.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewLoadBoardEvent.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\CheckHasAccount.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\EventController.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\MiniGame\MiniGameController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\VFX\TextConfig.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialGameMerge.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\EventData.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraintData.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SpineAtlasAsset.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\BoneFollowerGraphic.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemRoulette.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\TransitionSettings.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\Example_3D.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\GetItem.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\TIME.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\BFS.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\ChestItem.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Managers\LoadPersistentObjects.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleSight.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ButtonBuyDecor.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewLevelPassController.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\TransitionManager.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\MiniGame\ViewPanelMiniGame.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItemEffect_3D.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Scripts\DespawnedPoolObject.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Scripts\Helpers\ExtensionMethods.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeOption.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\DT_ORDER_OPTION.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\LEVEL_REWARD.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Demo Scene\Scripts\Spawner.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnText.cs" />
      <Compile Include="Assets\MidniteOilSoftware\Scripts\Managers\ObjectPoolManager.cs" />
      <Compile Include="Assets\MidniteOilSoftware\Scripts\IDespawnedPoolObject.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Scripts\Helpers\HelperFunctions.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Scripts\IRetrievedPoolObject.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Demo Scene\Scripts\Spawner.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Scripts\Managers\LoadPersistentObjects.cs" />
-     <Compile Include="Assets\MidniteOilSoftware\Demo Scene\Scripts\DespawnAfterDelay.cs" />
-     <Compile Include="Assets\MJGame.Library\MJGameSave.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Json.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Triangulator.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationState.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PathAttachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentType.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\ExposedList.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Skin.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityKinematicShadow.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Atlas.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraintData.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\SlotData.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\VertexAttachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\BlendModeMaterialsAsset.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\ClippingAttachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonExtensions.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\SpineMesh.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Animation.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonAnimation.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\EventData.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\BlendMode.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\PointFollower.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraintData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonRenderSeparator.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Bone.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\MeshAttachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\BoneFollowerGraphic.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\RegionAttachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineEvent.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Components\BoneFollower.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Mesh Generation\DoubleBuffered.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\BoneData.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\EventConfig.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\LoadDataMiniGame.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SkeletonAnimationPlayableHandle.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Audio\AudioItem.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\OrderController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\ViewCoinText.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\TileBaseOptions.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtility.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonExtensions.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipMixerBehaviour.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineTrackEntryEnd.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\PointFollower.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouse.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\MiniGame\ViewShowTime.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemEnergy.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\SaveLobbyGame.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigNotice.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\UIManager.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\VFXParticleItem.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\LoadDataEvent.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateTrack.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll2D.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\YieldInstructions\WaitForSpineAnimationComplete.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_Animation.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Slot.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\Example.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\ViewMessage.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipBehaviour.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\MiniGame\ItemMiniGame.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Network\NetworkStart.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\VertexAttachment.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItem_3D.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouseController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\SpineAnimation.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewIconStar.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\References.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemOptionCollection.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\SpineAttributes.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemRewardFloor.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBoardDaily.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Account.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\BoneData.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemRewardFloorController.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationState.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ViewInformationWhenSellect.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleBackground.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraintData.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityEyeConstraint.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ViewBoardGameMerge.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Network\CheckNetwork.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewDailyItem.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Event.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_DraggableItem.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorials.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\CUSTOMER.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\ExposedList.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewGoldPlay.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraint.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonGraphic\SkeletonGraphic.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\MJGameRewardSave.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewToggleMusic.cs" />
+     <Compile Include="Assets\MJGame.Library\MJGameSave.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeBasket.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNewLevel.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\IUpdatable.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Json.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTutorialLobby.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PathAttachment.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentType.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeSpinFree.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemEvent.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Start\ButtonQuitApp.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\SlotData.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\BlendModeMaterialsAsset.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\ClippingAttachment.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\BlendMode.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\System\ConfigTime.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\MeshAttachment.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBoardRankEvent.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\CutoutMaskUI.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\CustomerController.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnOptions.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\DemoScene\GUIView.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\VFXSetItemOption.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\SaveGameMerge.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemReward.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewRoulette.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\ConstGame.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Reward\TabReward.cs" />
+     <Compile Include="Assets\EasyTransitions\Demo\DemoLoadScene.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\SpawnVFXOption.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeRemaining.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\DespawnedPoolObject.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\IRetrievedPoolObject.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonCollection.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Reward\SelectBackgroundReward.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\MergeOptionsController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\ViewDiamondText.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\EVENT.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Skin.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\Customer.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasket.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\Options_Basket.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\LogManager.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewNoticeButtonRoulette.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AnimationMatchModifier\AnimationMatchModifierAsset.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\GetItem2D\GetItem.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Triangulator.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\EventDataReferenceAsset.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Scripts\Helpers\ExtensionMethods.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ButtonDaily.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonClipping.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBinary.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Controller\LevelGame.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Utility\Data\STRING.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewBasketController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Reward\RewardNew.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PointAttachment.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Common\SingletonComponent.cs" />
+     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Firebase\Login\Firebase\ViewLogin.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\ViewEnergyText.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Atlas.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBounds.cs" />
+     <Compile Include="Assets\EasyTransitions\Scripts\Transition.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhostRenderer.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\BoundingBoxFollower\BoundingBoxFollower.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Ghost\SkeletonGhost.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewOptionCollectionController.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Merge\ButtonBuild.cs" />
+     <Compile Include="Assets\MidniteOilSoftware\Demo Scene\Scripts\DespawnAfterDelay.cs" />
+     <Compile Include="Assets\Spine\Runtime\spine-csharp\Bone.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\ISkeletonAnimation.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\IConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonBinary.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\SkeletonUtility\SkeletonUtilityConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\TransformConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonRenderer.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\SkeletonDataModifierAsset.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewItemLevelPass.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\OrderProduct.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Slot.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\TK2D\SpriteCollectionAttachmentLoader.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\AnimationStateData.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraint.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AttachmentLoader.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Event.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\CustomMaterials\SkeletonRendererCustomMaterials.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AnimationMatchModifier\AnimationMatchModifierAsset.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonMecanim.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\Attachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateBehaviour.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\MathUtils.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\PointAttachment.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AnimationReferenceAsset.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-csharp\IUpdatable.cs" />
-     <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\SelectNow.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeDailyEnergy.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -587,17 +587,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="DemiLib">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.Reflection.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
@@ -611,8 +605,14 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
@@ -962,95 +962,95 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="PsdPlugin">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -1062,25 +1062,25 @@
       <Project>{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}</Project>
       <Name>ParticleImage</Name>
     </ProjectReference>
-    <ProjectReference Include="ParticleImage.Editor.csproj">
-      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
-      <Name>ParticleImage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
       <Project>{65e65560-26a9-30ca-2b35-e44411f70724}</Project>
       <Name>Ilumisoft.VolumeControl.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
-      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
-      <Name>Ilumisoft.VolumeControl</Name>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{01e2fcdb-85af-7cb6-13ef-69e1c929ee97}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
-      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
-      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    <ProjectReference Include="ParticleImage.Editor.csproj">
+      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
+      <Name>ParticleImage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

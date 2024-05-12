@@ -35,6 +35,13 @@ namespace MJGame.MergeMerchant.Lobby
             set => PlayerPrefs.SetInt(ConstGame.TIME_COUNT_DOWN, value);
             get => PlayerPrefs.GetInt(ConstGame.TIME_COUNT_DOWN, 0);
         }
+
+        public string TimeDailyEnergy
+        {
+            set => PlayerPrefs.SetString(ConstGame.TIME_DAILY_ENERGY, value);
+            get => PlayerPrefs.GetString(ConstGame.TIME_DAILY_ENERGY, DateTime.Now.AddSeconds(55).AddMinutes(29).ToString());
+
+        }
         #endregion
 
         #region View Item Option   
@@ -85,7 +92,7 @@ namespace MJGame.MergeMerchant.Lobby
                 ls[_lv] = _md;
                 ListIdOptionMax = ls;
                 SetListViewOption(new Vector4(_id, 1, Random.Range(0, 2), Random.Range(1, 10)));
-                SingletonComponent<SpawnText>.Instance.NewText("<color=blue>new option</color>", 1.3f);
+                SingletonComponent<SpawnText>.Instance.NewText("<color=orange>new option</color>", 1.3f);
                 ConfigNotice.SaveNotifyViewOption();
             }
         }

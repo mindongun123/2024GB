@@ -30,6 +30,7 @@ namespace MJGame.MergeMerchant.Merge
         public const string DAY_DAILY_OLD = "day_daily_old";
         public const string DAY_DAILY_NEXT = "day_daily_next";
         public const string TIME_COUNT_DOWN = "time_count_down";
+        public const string TIME_DAILY_ENERGY = "time_daily_energy";
 
         public const string LIST_VIEW_OPTION = "list_view_option";
 

@@ -1,17 +1,14 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace MJGame.MergeMerchant.Lobby
 {
     public static class ConfigTime
     {
-        public static TimeSpan ToTimeSpan(string a, string b)
+        public static TimeSpan ToTimeSpan(string first, string last)
         {
-            DateTime dateTime1 = DateTime.ParseExact(a, "dd/MM/yyyy h:mm:ss tt", null);
-            DateTime dateTime2 = DateTime.ParseExact(b, "dd/MM/yyyy h:mm:ss tt", null);
+            DateTime dateTime1 = DateTime.ParseExact(first, "dd/MM/yyyy h:mm:ss tt", null);
+            DateTime dateTime2 = DateTime.ParseExact(last, "dd/MM/yyyy h:mm:ss tt", null);
 
             TimeSpan timeDifference = dateTime2 - dateTime1;
             return timeDifference;
@@ -64,7 +61,13 @@ namespace MJGame.MergeMerchant.Lobby
 
             return $"{days}n {hours:D2}:{minutes:D2}:{seconds:D2}";
         }
+        public static string ConvertTimeMini(int _time)
+        {
+            int minutes = _time / 60;
+            int seconds = _time % 60;
 
+            return $"{minutes:D1}:{seconds:D2}";
+        }
         public static Vector2Int GetDateToday()
         {
             DateTime today = DateTime.Now;

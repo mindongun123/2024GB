@@ -10,7 +10,7 @@ namespace MJGame.MergeMerchant.Merge
         [SerializeField] GameObject merge;
         private void OnEnable()
         {
-            merge.SetActive(ViewTutorials.IsStartGame == 1);
+            merge.SetActive(ViewTutorials.IsStartGame == 2);
             ViewTutorials.eventTutorialGameMerge += NextTutorials;
             ViewTutorials.eventTutorialComplete += TutorialComplete;
         }
@@ -27,7 +27,7 @@ namespace MJGame.MergeMerchant.Merge
 
         public void NextTutorials()
         {
-            ViewTutorials.IsStartGame = 0;
+            ViewTutorials.IsStartGame = 3;
             merge.SetActive(false);
             basket.SetActive(true);
         }

@@ -34,6 +34,7 @@ namespace MidniteOilSoftware
             }
         }
 
+
         #endregion Unity Callbacks
 
         /// <summary>
@@ -197,9 +198,13 @@ namespace MidniteOilSoftware
             if (go == null)
             {
                 Debug.LogWarning("Dequeued null gameObject (" + prefab.name + ") from pool.");
+                return null;
             }
-            go.GetComponent<IRetrievedPoolObject>()?.RetrievedFromPool(prefab);
-            return go;
+            else
+            {
+                go.GetComponent<IRetrievedPoolObject>()?.RetrievedFromPool(prefab);
+                return go;
+            }
         }
 
         private GameObject InstantiateGameObject(GameObject prefab, bool setActive)

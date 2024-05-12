@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{e1b042d9-efe0-0293-2126-00e3f6a6e0cf}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticleImage", "ParticleImage.csproj", "{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{f71644fa-5f1c-61f8-d067-ebdd11ca354c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilumisoft.VolumeControl", "Ilumisoft.VolumeControl.csproj", "{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilumisoft.VolumeControl.UI", "Ilumisoft.VolumeControl.UI.csproj", "{65e65560-26a9-30ca-2b35-e44411f70724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ilumisoft.VolumeControl", "Ilumisoft.VolumeControl.csproj", "{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParticleImage", "ParticleImage.csproj", "{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{78254fef-cd28-2cf6-39f1-115210b5240c}"
 EndProject
@@ -28,14 +28,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{e1b042d9-efe0-0293-2126-00e3f6a6e0cf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{e1b042d9-efe0-0293-2126-00e3f6a6e0cf}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f71644fa-5f1c-61f8-d067-ebdd11ca354c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f71644fa-5f1c-61f8-d067-ebdd11ca354c}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65e65560-26a9-30ca-2b35-e44411f70724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65e65560-26a9-30ca-2b35-e44411f70724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65e65560-26a9-30ca-2b35-e44411f70724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65e65560-26a9-30ca-2b35-e44411f70724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78254fef-cd28-2cf6-39f1-115210b5240c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78254fef-cd28-2cf6-39f1-115210b5240c}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92612e19-db0b-d3a3-975f-3956af983668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
