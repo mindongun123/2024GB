@@ -1,0 +1,104 @@
+
+Factory_Mainchar_01.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 141, 193
+  size: 57, 61
+  orig: 57, 61
+  offset: 0, 0
+  index: -1
+BowTie
+  rotate: false
+  xy: 200, 226
+  size: 36, 28
+  orig: 36, 28
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 115
+  size: 137, 139
+  orig: 137, 139
+  offset: 0, 0
+  index: -1
+L_Arm
+  rotate: false
+  xy: 141, 155
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+R_Arm
+  rotate: false
+  xy: 141, 155
+  size: 33, 36
+  orig: 33, 36
+  offset: 0, 0
+  index: -1
+L_Foot
+  rotate: false
+  xy: 95, 65
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+R_Foot
+  rotate: false
+  xy: 95, 65
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+L_Hand
+  rotate: false
+  xy: 2, 8
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+L_Leg
+  rotate: false
+  xy: 47, 14
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+R_Leg
+  rotate: false
+  xy: 47, 14
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+L_Toe
+  rotate: false
+  xy: 47, 2
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1
+Object
+  rotate: false
+  xy: 2, 39
+  size: 91, 74
+  orig: 91, 74
+  offset: 0, 0
+  index: -1
+R_Hand
+  rotate: false
+  xy: 95, 84
+  size: 43, 29
+  orig: 43, 29
+  offset: 0, 0
+  index: -1
+R_Toe
+  rotate: false
+  xy: 64, 2
+  size: 15, 10
+  orig: 15, 10
+  offset: 0, 0
+  index: -1

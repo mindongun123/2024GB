@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "372007163030",
+    "firebase_url": "https://fir-2a453-default-rtdb.firebaseio.com",
+    "project_id": "fir-2a453",
+    "storage_bucket": "fir-2a453.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372007163030:android:3bab75148cc37655cd9eb7",
+        "android_client_info": {
+          "package_name": "com.company.restaurant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfD0EvEwoZSFDjgfWQR23twGoCNBvhNw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

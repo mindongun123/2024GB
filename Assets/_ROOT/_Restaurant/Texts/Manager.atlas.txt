@@ -1,0 +1,265 @@
+
+Manager.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Manager01_Body
+  rotate: true
+  xy: 105, 50
+  size: 46, 48
+  orig: 46, 48
+  offset: 0, 0
+  index: -1
+Manager01_Head
+  rotate: false
+  xy: 2, 56
+  size: 101, 95
+  orig: 101, 95
+  offset: 0, 0
+  index: -1
+Manager01_L_Arm
+  rotate: false
+  xy: 99, 15
+  size: 23, 33
+  orig: 23, 33
+  offset: 0, 0
+  index: -1
+Manager01_L_Foot
+  rotate: true
+  xy: 167, 3
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Manager01_R_Foot
+  rotate: true
+  xy: 167, 3
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Manager01_L_Hand
+  rotate: false
+  xy: 210, 227
+  size: 34, 27
+  orig: 34, 27
+  offset: 0, 0
+  index: -1
+Manager01_L_Leg
+  rotate: false
+  xy: 183, 26
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+Manager01_R_Leg
+  rotate: false
+  xy: 183, 26
+  size: 16, 17
+  orig: 16, 17
+  offset: 0, 0
+  index: -1
+Manager01_L_Toe
+  rotate: true
+  xy: 219, 99
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+Manager01_R_Arm
+  rotate: true
+  xy: 198, 113
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+Manager01_R_Hand
+  rotate: false
+  xy: 155, 45
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+Manager01_R_Toe
+  rotate: true
+  xy: 246, 212
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+Manager02_Body
+  rotate: false
+  xy: 2, 4
+  size: 46, 50
+  orig: 46, 50
+  offset: 0, 0
+  index: -1
+Manager02_Hair
+  rotate: true
+  xy: 107, 98
+  size: 72, 89
+  orig: 72, 89
+  offset: 0, 0
+  index: -1
+Manager02_Head
+  rotate: false
+  xy: 2, 153
+  size: 103, 101
+  orig: 103, 101
+  offset: 0, 0
+  index: -1
+Manager02_L_Arm
+  rotate: true
+  xy: 149, 22
+  size: 21, 32
+  orig: 21, 32
+  offset: 0, 0
+  index: -1
+Manager02_L_Foot
+  rotate: true
+  xy: 183, 7
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Manager02_R_Foot
+  rotate: true
+  xy: 183, 7
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Manager02_L_Hand
+  rotate: false
+  xy: 210, 199
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+Manager02_L_Leg
+  rotate: false
+  xy: 149, 2
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+Manager02_R_Leg
+  rotate: false
+  xy: 149, 2
+  size: 16, 18
+  orig: 16, 18
+  offset: 0, 0
+  index: -1
+Manager02_L_Toe
+  rotate: true
+  xy: 246, 198
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+Manager02_R_Arm
+  rotate: false
+  xy: 229, 106
+  size: 25, 30
+  orig: 25, 30
+  offset: 0, 0
+  index: -1
+Manager02_R_Hand
+  rotate: false
+  xy: 210, 172
+  size: 34, 25
+  orig: 34, 25
+  offset: 0, 0
+  index: -1
+Manager02_R_Toe
+  rotate: true
+  xy: 246, 184
+  size: 12, 8
+  orig: 12, 8
+  offset: 0, 0
+  index: -1
+Manager03_Body
+  rotate: false
+  xy: 50, 6
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+Manager03_Head
+  rotate: false
+  xy: 107, 172
+  size: 101, 82
+  orig: 101, 82
+  offset: 0, 0
+  index: -1
+Manager03_L_Arm
+  rotate: false
+  xy: 124, 17
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+Manager03_L_Foot
+  rotate: true
+  xy: 211, 75
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Manager03_L_Hand
+  rotate: false
+  xy: 198, 141
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+Manager03_L_Leg
+  rotate: true
+  xy: 198, 94
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+Manager03_L_Toe
+  rotate: true
+  xy: 246, 241
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+Manager03_R_Arm
+  rotate: false
+  xy: 229, 138
+  size: 25, 32
+  orig: 25, 32
+  offset: 0, 0
+  index: -1
+Manager03_R_Foot
+  rotate: false
+  xy: 229, 90
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+Manager03_R_Hand
+  rotate: false
+  xy: 155, 70
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+Manager03_R_Leg
+  rotate: false
+  xy: 192, 73
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+Manager03_R_Toe
+  rotate: true
+  xy: 246, 226
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
