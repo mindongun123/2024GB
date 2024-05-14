@@ -68,7 +68,7 @@ namespace MJGame.MergeMerchant.House
                 SingletonComponent<ViewItemEnergyController>.Instance.OpenViewTimeRemaining(timeRemaining);
                 return;
             }
-            ViewReward.AddEnergy(timeRemaining._energy);
+            ViewReward.AddEnergy(50);
             txt.transform.parent.gameObject.SetActive(true);
             timeRemaining.Reset();
             ShowTimeRemaining();

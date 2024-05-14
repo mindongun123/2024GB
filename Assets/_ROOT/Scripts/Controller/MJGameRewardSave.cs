@@ -93,6 +93,7 @@ namespace MJGame.MergeMerchant
                 SingletonComponent<AudioController>.Instance.AudioRewardPlay();
             }
             Energy += value;
+            Energy = Energy <= 300 ? Energy : 300;
             OnEnergyChange?.Invoke(Energy);
             return true;
         }

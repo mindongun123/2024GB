@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using DG.Tweening;
 using MJGame.MergeMerchant.Merge;
 using TMPro;
 using UnityEngine;
@@ -33,7 +30,7 @@ namespace MJGame.MergeMerchant.Lobby
             int _idx = Random.Range(0, 3);
             img.sprite = sprites[_idx];
             nameItem = (NameItem)_idx;
-            _reward = Random.Range(0, 30);
+            _reward = Random.Range(5, 30);
             txtReward.text = _reward.ToString();
         }
     }

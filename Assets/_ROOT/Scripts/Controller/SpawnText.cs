@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using MidniteOilSoftware;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace MJGame.MergeMerchant

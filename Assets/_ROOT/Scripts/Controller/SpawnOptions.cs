@@ -36,7 +36,8 @@ namespace MJGame.MergeMerchant.Merge
             Vector2Int _target = SingletonComponent<BFS>.Instance.FindNearestEmptyPosition(_ps);
             if (_target == _ps)
             {
-                print("khong con vi tri thoa man");
+                // print("khong con vi tri thoa man");
+                SingletonComponent<SpawnText>.Instance.NewText("<color=white>Khong con vi tri</color>", 1.5f);
                 return false;
             }
             //Audio

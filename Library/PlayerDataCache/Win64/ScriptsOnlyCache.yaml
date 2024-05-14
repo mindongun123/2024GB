@@ -1,0 +1,2366 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor-firstpass.dll:
+    - Ilumisoft.VisualStateMachine.Editor.EditorWindow
+    Assembly-CSharp-Editor.dll:
+    - RejectedGames.APPWindow
+    Assembly-CSharp-firstpass.dll:
+    - ES3Defaults
+    - Ilumisoft.VisualStateMachine.StateMachine
+    Assembly-CSharp.dll:
+    - DG.Tweening.DOTweenAnimation
+    - EVENT
+    - EasyTransition.CutoutMaskUI
+    - EasyTransition.DemoLoadScene
+    - EasyTransition.Transition
+    - EasyTransition.TransitionManager
+    - EasyTransition.TransitionSettings
+    - GIE.Example
+    - GIE.GetItem
+    - GIE.GetItemEffect
+    - MJGame.MergeMerchant.AudioController
+    - MJGame.MergeMerchant.AudioItem
+    - MJGame.MergeMerchant.Charactor.Customer
+    - MJGame.MergeMerchant.Charactor.CustomerController
+    - MJGame.MergeMerchant.Charactor.SpineAnimation
+    - MJGame.MergeMerchant.EventController
+    - MJGame.MergeMerchant.Firebase.CheckHasAccount
+    - MJGame.MergeMerchant.House.ButtonBuyDecor
+    - MJGame.MergeMerchant.House.ViewItemDecorHouse
+    - MJGame.MergeMerchant.House.ViewItemDecorHouseController
+    - MJGame.MergeMerchant.House.ViewItemEnergy
+    - MJGame.MergeMerchant.House.ViewItemEnergyController
+    - MJGame.MergeMerchant.House.ViewItemRewardFloor
+    - MJGame.MergeMerchant.House.ViewItemRewardFloorController
+    - MJGame.MergeMerchant.Lobby.ButtonCollection
+    - MJGame.MergeMerchant.Lobby.ButtonDaily
+    - MJGame.MergeMerchant.Lobby.ButtonLevel
+    - MJGame.MergeMerchant.Lobby.SaveLobbyGame
+    - MJGame.MergeMerchant.Lobby.ViewBasket
+    - MJGame.MergeMerchant.Lobby.ViewBasketController
+    - MJGame.MergeMerchant.Lobby.ViewBoardDaily
+    - MJGame.MergeMerchant.Lobby.ViewBoardRankEvent
+    - MJGame.MergeMerchant.Lobby.ViewButtonRoulette
+    - MJGame.MergeMerchant.Lobby.ViewDailyItem
+    - MJGame.MergeMerchant.Lobby.ViewEventMonthDaily
+    - MJGame.MergeMerchant.Lobby.ViewGoldPlay
+    - MJGame.MergeMerchant.Lobby.ViewIconStar
+    - MJGame.MergeMerchant.Lobby.ViewItemEvent
+    - MJGame.MergeMerchant.Lobby.ViewItemLevelPass
+    - MJGame.MergeMerchant.Lobby.ViewItemOptionCollection
+    - MJGame.MergeMerchant.Lobby.ViewItemReward
+    - MJGame.MergeMerchant.Lobby.ViewItemRoulette
+    - MJGame.MergeMerchant.Lobby.ViewLevelPassController
+    - MJGame.MergeMerchant.Lobby.ViewMoneyPanel
+    - MJGame.MergeMerchant.Lobby.ViewNoticeBasket
+    - MJGame.MergeMerchant.Lobby.ViewNoticeButtonRoulette
+    - MJGame.MergeMerchant.Lobby.ViewNoticeOption
+    - MJGame.MergeMerchant.Lobby.ViewOptionCollectionController
+    - MJGame.MergeMerchant.Lobby.ViewRoulette
+    - MJGame.MergeMerchant.Lobby.ViewTimeDailyEnergy
+    - MJGame.MergeMerchant.Lobby.ViewTimeRemaining
+    - MJGame.MergeMerchant.Lobby.ViewTimeSpinFree
+    - MJGame.MergeMerchant.Lobby.ViewToggleBackground
+    - MJGame.MergeMerchant.Lobby.ViewToggleMusic
+    - MJGame.MergeMerchant.Lobby.ViewToggleSight
+    - MJGame.MergeMerchant.Lobby.ViewTutorialLobby
+    - MJGame.MergeMerchant.Merge.BFS
+    - MJGame.MergeMerchant.Merge.ButtonBuild
+    - MJGame.MergeMerchant.Merge.LevelGame
+    - MJGame.MergeMerchant.Merge.MergeOptionsController
+    - MJGame.MergeMerchant.Merge.Options
+    - MJGame.MergeMerchant.Merge.OrderController
+    - MJGame.MergeMerchant.Merge.OrderProduct
+    - MJGame.MergeMerchant.Merge.SaveGameMerge
+    - MJGame.MergeMerchant.Merge.SelectNow
+    - MJGame.MergeMerchant.Merge.SpawnOptions
+    - MJGame.MergeMerchant.Merge.TileBaseOptions
+    - MJGame.MergeMerchant.Merge.VFXParticleItem
+    - MJGame.MergeMerchant.Merge.ViewBoardGameMerge
+    - MJGame.MergeMerchant.Merge.ViewInformationWhenSellect
+    - MJGame.MergeMerchant.Merge.ViewTutorialGameMerge
+    - MJGame.MergeMerchant.Reward.RewardNew
+    - MJGame.MergeMerchant.Reward.SelectBackgroundReward
+    - MJGame.MergeMerchant.Reward.TabReward
+    - MJGame.MergeMerchant.SpawnText
+    - MJGame.MergeMerchant.System.ButtonQuitApp
+    - MJGame.MergeMerchant.System.CheckNetwork
+    - MJGame.MergeMerchant.VFXSetItemOption
+    - MJGame.MergeMerchant.ViewCoinText
+    - MJGame.MergeMerchant.ViewDiamondText
+    - MJGame.MergeMerchant.ViewEnergyText
+    - MJGame.MergeMerchant.ViewMessage
+    - MidniteOilSoftware.ObjectPoolManager
+    - SpawnVFXOption
+    - Spine.Unity.SkeletonDataAsset
+    - Spine.Unity.SkeletonGraphic
+    - Spine.Unity.SpineAtlasAsset
+    - TextConfig
+    - VFX_OptionMerge
+    - ViewNewLevel
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
+    Ilumisoft.VolumeControl.UI.dll:
+    - Ilumisoft.VolumeControl.UI.MasterVolumeSlider
+    - Ilumisoft.VolumeControl.UI.MasterVolumeToggle
+    Ilumisoft.VolumeControl.dll:
+    - Ilumisoft.VolumeControl.Configuration
+    - Ilumisoft.VolumeControl.PlayerPrefsStorage
+    - Ilumisoft.VolumeControl.VolumeControl
+    ParticleImage.dll:
+    - AssetKits.ParticleImage.ParticleImage
+    - AssetKits.ParticleImage.ParticleTrailRenderer
+    Sirenix.OdinInspector.Editor.dll:
+    - Sirenix.OdinInspector.Editor.ImportSettingsConfig
+    - Sirenix.OdinInspector.Editor.InspectorConfig
+    - Sirenix.OdinInspector.Editor.Modules.OdinModuleConfig
+    - Sirenix.OdinInspector.Editor.UndoTracker
+    - Sirenix.OdinInspector.Editor.UndoTrackerStateContainer
+    - Sirenix.Serialization.AOTGenerationConfig
+    Sirenix.Serialization.Config.dll:
+    - Sirenix.Serialization.GlobalSerializationConfig
+    Unity.2D.Animation.Editor.dll:
+    - UnityEditor.U2D.Animation.BoneGizmo
+    Unity.2D.IK.Editor.dll:
+    - UnityEditor.U2D.IK.IKEditorManager
+    Unity.2D.Tilemap.Editor.dll:
+    - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
+    - UnityEditor.Tilemaps.SceneViewGridManager
+    - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
+    - UnityEditor.Tilemaps.TileDragAndDropManager
+    - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Shadow
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.ToggleGroup
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/_ROOT/Scenes/GameMerge.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 1602}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1754}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1794}
+    - Class: 114
+      Script: {instanceID: 2022}
+    - Class: 114
+      Script: {instanceID: 2064}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2582}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2708}
+    - Class: 114
+      Script: {instanceID: 2784}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2996}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3118}
+    - Class: 114
+      Script: {instanceID: 3188}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3478}
+    - Class: 114
+      Script: {instanceID: 3486}
+    - Class: 114
+      Script: {instanceID: 3488}
+    - Class: 114
+      Script: {instanceID: 3668}
+    - Class: 114
+      Script: {instanceID: 3732}
+    - Class: 114
+      Script: {instanceID: 3842}
+    - Class: 114
+      Script: {instanceID: 4118}
+    - Class: 114
+      Script: {instanceID: 4152}
+    - Class: 114
+      Script: {instanceID: 4428}
+    - Class: 114
+      Script: {instanceID: 4672}
+    - Class: 114
+      Script: {instanceID: 4680}
+    - Class: 114
+      Script: {instanceID: 4744}
+    - Class: 114
+      Script: {instanceID: 4860}
+    - Class: 114
+      Script: {instanceID: 4962}
+    - Class: 114
+      Script: {instanceID: 4984}
+    - Class: 114
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5356}
+    - Class: 114
+      Script: {instanceID: 5652}
+    - Class: 114
+      Script: {instanceID: 5658}
+    - Class: 114
+      Script: {instanceID: 5760}
+    - Class: 114
+      Script: {instanceID: 5850}
+    - Class: 114
+      Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 5924}
+    - Class: 114
+      Script: {instanceID: 5966}
+    - Class: 114
+      Script: {instanceID: 6084}
+    - Class: 114
+      Script: {instanceID: 6124}
+    - Class: 114
+      Script: {instanceID: 6304}
+    - Class: 114
+      Script: {instanceID: 6308}
+    - Class: 114
+      Script: {instanceID: 6592}
+    - Class: 114
+      Script: {instanceID: 6882}
+    - Class: 114
+      Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7078}
+    - Class: 114
+      Script: {instanceID: 7154}
+    - Class: 114
+      Script: {instanceID: 7242}
+    - Class: 114
+      Script: {instanceID: 7300}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/_ROOT/Scenes/Lobby.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 1602}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1652}
+    - Class: 114
+      Script: {instanceID: 1754}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1774}
+    - Class: 114
+      Script: {instanceID: 1794}
+    - Class: 114
+      Script: {instanceID: 1812}
+    - Class: 114
+      Script: {instanceID: 1814}
+    - Class: 114
+      Script: {instanceID: 2052}
+    - Class: 114
+      Script: {instanceID: 2064}
+    - Class: 114
+      Script: {instanceID: 2230}
+    - Class: 114
+      Script: {instanceID: 2346}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2660}
+    - Class: 114
+      Script: {instanceID: 2670}
+    - Class: 114
+      Script: {instanceID: 2708}
+    - Class: 114
+      Script: {instanceID: 2936}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 2954}
+    - Class: 114
+      Script: {instanceID: 2964}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3106}
+    - Class: 114
+      Script: {instanceID: 3118}
+    - Class: 114
+      Script: {instanceID: 3120}
+    - Class: 114
+      Script: {instanceID: 3188}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3486}
+    - Class: 114
+      Script: {instanceID: 3616}
+    - Class: 114
+      Script: {instanceID: 3662}
+    - Class: 114
+      Script: {instanceID: 3668}
+    - Class: 114
+      Script: {instanceID: 3732}
+    - Class: 114
+      Script: {instanceID: 3792}
+    - Class: 114
+      Script: {instanceID: 3836}
+    - Class: 114
+      Script: {instanceID: 3842}
+    - Class: 114
+      Script: {instanceID: 4118}
+    - Class: 114
+      Script: {instanceID: 4152}
+    - Class: 114
+      Script: {instanceID: 4162}
+    - Class: 114
+      Script: {instanceID: 4428}
+    - Class: 114
+      Script: {instanceID: 4460}
+    - Class: 114
+      Script: {instanceID: 4482}
+    - Class: 114
+      Script: {instanceID: 4496}
+    - Class: 114
+      Script: {instanceID: 4514}
+    - Class: 114
+      Script: {instanceID: 4608}
+    - Class: 114
+      Script: {instanceID: 4672}
+    - Class: 114
+      Script: {instanceID: 4680}
+    - Class: 114
+      Script: {instanceID: 4690}
+    - Class: 114
+      Script: {instanceID: 4692}
+    - Class: 114
+      Script: {instanceID: 4744}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 4888}
+    - Class: 114
+      Script: {instanceID: 4962}
+    - Class: 114
+      Script: {instanceID: 5046}
+    - Class: 114
+      Script: {instanceID: 5054}
+    - Class: 114
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5276}
+    - Class: 114
+      Script: {instanceID: 5316}
+    - Class: 114
+      Script: {instanceID: 5356}
+    - Class: 114
+      Script: {instanceID: 5364}
+    - Class: 114
+      Script: {instanceID: 5438}
+    - Class: 114
+      Script: {instanceID: 5482}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5564}
+    - Class: 114
+      Script: {instanceID: 5582}
+    - Class: 114
+      Script: {instanceID: 5652}
+    - Class: 114
+      Script: {instanceID: 5658}
+    - Class: 114
+      Script: {instanceID: 5748}
+    - Class: 114
+      Script: {instanceID: 5760}
+    - Class: 114
+      Script: {instanceID: 5808}
+    - Class: 114
+      Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 5966}
+    - Class: 114
+      Script: {instanceID: 6008}
+    - Class: 114
+      Script: {instanceID: 6010}
+    - Class: 114
+      Script: {instanceID: 6084}
+    - Class: 114
+      Script: {instanceID: 6168}
+    - Class: 114
+      Script: {instanceID: 6170}
+    - Class: 114
+      Script: {instanceID: 6252}
+    - Class: 114
+      Script: {instanceID: 6308}
+    - Class: 114
+      Script: {instanceID: 6320}
+    - Class: 114
+      Script: {instanceID: 6332}
+    - Class: 114
+      Script: {instanceID: 6414}
+    - Class: 114
+      Script: {instanceID: 6500}
+    - Class: 114
+      Script: {instanceID: 6592}
+    - Class: 114
+      Script: {instanceID: 6756}
+    - Class: 114
+      Script: {instanceID: 6882}
+    - Class: 114
+      Script: {instanceID: 6900}
+    - Class: 114
+      Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7078}
+    - Class: 114
+      Script: {instanceID: 7148}
+    - Class: 114
+      Script: {instanceID: 7234}
+    - Class: 114
+      Script: {instanceID: 7127176}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/_ROOT/Scenes/MiniGame.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 1602}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1754}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1794}
+    - Class: 114
+      Script: {instanceID: 2064}
+    - Class: 114
+      Script: {instanceID: 2436}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2708}
+    - Class: 114
+      Script: {instanceID: 2952}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3072}
+    - Class: 114
+      Script: {instanceID: 3118}
+    - Class: 114
+      Script: {instanceID: 3188}
+    - Class: 114
+      Script: {instanceID: 3380}
+    - Class: 114
+      Script: {instanceID: 3452}
+    - Class: 114
+      Script: {instanceID: 3486}
+    - Class: 114
+      Script: {instanceID: 3656}
+    - Class: 114
+      Script: {instanceID: 3732}
+    - Class: 114
+      Script: {instanceID: 3842}
+    - Class: 114
+      Script: {instanceID: 4118}
+    - Class: 114
+      Script: {instanceID: 4256}
+    - Class: 114
+      Script: {instanceID: 4428}
+    - Class: 114
+      Script: {instanceID: 4460}
+    - Class: 114
+      Script: {instanceID: 4672}
+    - Class: 114
+      Script: {instanceID: 4680}
+    - Class: 114
+      Script: {instanceID: 4744}
+    - Class: 114
+      Script: {instanceID: 4962}
+    - Class: 114
+      Script: {instanceID: 5046}
+    - Class: 114
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5356}
+    - Class: 114
+      Script: {instanceID: 5652}
+    - Class: 114
+      Script: {instanceID: 5658}
+    - Class: 114
+      Script: {instanceID: 5760}
+    - Class: 114
+      Script: {instanceID: 5898}
+    - Class: 114
+      Script: {instanceID: 5966}
+    - Class: 114
+      Script: {instanceID: 6046}
+    - Class: 114
+      Script: {instanceID: 6084}
+    - Class: 114
+      Script: {instanceID: 6296}
+    - Class: 114
+      Script: {instanceID: 6308}
+    - Class: 114
+      Script: {instanceID: 6592}
+    - Class: 114
+      Script: {instanceID: 6906}
+    - Class: 114
+      Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7078}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+    Assets/_ROOT/Scenes/Start.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 1602}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1794}
+    - Class: 114
+      Script: {instanceID: 1840}
+    - Class: 114
+      Script: {instanceID: 2124}
+    - Class: 114
+      Script: {instanceID: 2298}
+    - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2708}
+    - Class: 114
+      Script: {instanceID: 3024}
+    - Class: 114
+      Script: {instanceID: 3092}
+    - Class: 114
+      Script: {instanceID: 3118}
+    - Class: 114
+      Script: {instanceID: 3188}
+    - Class: 114
+      Script: {instanceID: 3194}
+    - Class: 114
+      Script: {instanceID: 3250}
+    - Class: 114
+      Script: {instanceID: 3842}
+    - Class: 114
+      Script: {instanceID: 3862}
+    - Class: 114
+      Script: {instanceID: 4106}
+    - Class: 114
+      Script: {instanceID: 4270}
+    - Class: 114
+      Script: {instanceID: 4428}
+    - Class: 114
+      Script: {instanceID: 4476}
+    - Class: 114
+      Script: {instanceID: 4526}
+    - Class: 114
+      Script: {instanceID: 4578}
+    - Class: 114
+      Script: {instanceID: 4672}
+    - Class: 114
+      Script: {instanceID: 4744}
+    - Class: 114
+      Script: {instanceID: 4962}
+    - Class: 114
+      Script: {instanceID: 5224}
+    - Class: 114
+      Script: {instanceID: 5356}
+    - Class: 114
+      Script: {instanceID: 5606}
+    - Class: 114
+      Script: {instanceID: 5652}
+    - Class: 114
+      Script: {instanceID: 5760}
+    - Class: 114
+      Script: {instanceID: 5962}
+    - Class: 114
+      Script: {instanceID: 6084}
+    - Class: 114
+      Script: {instanceID: 7000}
+    - Class: 114
+      Script: {instanceID: 7078}
+    - Class: 114
+      Script: {instanceID: 7126}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 5065149ce1b025a616a8022f267d269f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ViewItemEnergyController
+  - hash:
+      serializedVersion: 2
+      Hash: 71b711096c6c32621c1d4c02310898b7
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: 343b5e88cedec844267c8e5eee4e7a3f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Ilumisoft.VisualStateMachine.Obsolete
+    className: Preferences
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: cc364a3d36e1d84d218624ba0b499f12
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: 1a08377893fca45568da87c049191051
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GIE
+    className: GetItemEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 67e73ad0b8a318185f29a645feb5149b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewButtonRoulette
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd4e280345eb5c8f904292caa69c8ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewEventMonthDaily
+  - hash:
+      serializedVersion: 2
+      Hash: fd6bcf7a2f606749adfc0054a9a5e906
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ButtonLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.UI.dll
+    namespaceName: Ilumisoft.VolumeControl.UI
+    className: MusicVolumeToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 150fbbc3474ccf77f9065b7a152d6a74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonMecanim
+  - hash:
+      serializedVersion: 2
+      Hash: 30af5f62e532d3044e78a10afa87ab99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: AnimationReferenceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4ee624bb18d92a8217438d698057f7bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: VFX_OptionMerge
+  - hash:
+      serializedVersion: 2
+      Hash: 21e43946ba16b9f36a321b4186746b62
+    assemblyName: ParticleImage.dll
+    namespaceName: AssetKits.ParticleImage
+    className: ParticleImage
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: ParticleImage.dll
+    namespaceName: AssetKits.ParticleImage
+    className: ParticleTrailRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 4de78781075c75589cdbaad292fb6cff
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 84d3a10f501a11b5ce7adb009281f196
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: CinemachinePixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: 7d88251deee9c322d3cf5038bad9a7d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Firebase
+    className: CheckHasAccount
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 6d8779d6393b7ecf28a2fc10a5db2b5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: EventController
+  - hash:
+      serializedVersion: 2
+      Hash: cfdd0010efd7b54c2b7512656dbc9119
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonPartsRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: e3dbc690b118b7c7b26b92256cc990ed
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TextConfig
+  - hash:
+      serializedVersion: 2
+      Hash: ad4579779a0ba7293b12314aca2e846b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonUtilityKinematicShadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.UI.dll
+    namespaceName: Ilumisoft.VolumeControl.UI
+    className: MusicVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: e39d351dbc4c7e471242c1bde832709f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: ViewTutorialGameMerge
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 5638704286073716143cc2ca580b50fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SpineAtlasAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b97f57a127111c60dd643463ed64d8a6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: BoneFollowerGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: a7c487b17e7cc3dec3d8965d1cf2b08d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewItemRoulette
+  - hash:
+      serializedVersion: 2
+      Hash: fdc5e818f1d8ae3f8b2e6000dda07b4a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyTransition
+    className: TransitionSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2904fc1a7665048a13e6fe4422414a26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 62fb28f9542ea6c2b673cef16ba25a8c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GIE
+    className: Example_3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: BFS
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 9b2d72155209a515197b0788f9f11a91
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: LimbSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: fde9ba55e383c9342264d588ba9c63d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonGraphicMirror
+  - hash:
+      serializedVersion: 2
+      Hash: 1626a9ffe6727abadaa0699dcd46d672
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChestItem
+  - hash:
+      serializedVersion: 2
+      Hash: f75d2eb9a0bcace58215db9ffad92a2f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewToggleSight
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 40b425e49596c77ab9e17cb8ac211126
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ButtonBuyDecor
+  - hash:
+      serializedVersion: 2
+      Hash: e3a9127e83f6932aa194047c4f67b50b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewLevelPassController
+  - hash:
+      serializedVersion: 2
+      Hash: 4c1d979f8eb1629489ee53c64e3e7fc8
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: ES3AutoSaveMgr
+  - hash:
+      serializedVersion: 2
+      Hash: 695a9463b5714a3422444fdd53658115
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: Options
+  - hash:
+      serializedVersion: 2
+      Hash: 97750d0a91d7c1c010c60c5c2bc32461
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyTransition
+    className: TransitionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4c19117b72c897cd82801f0f9f36ca9c
+    assemblyName: Sirenix.Serialization.Config.dll
+    namespaceName: Sirenix.Serialization
+    className: GlobalSerializationConfig
+  - hash:
+      serializedVersion: 2
+      Hash: 91c81671e1bd9a9b37ddfaceac3f249e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GIE
+    className: GetItemEffect_3D
+  - hash:
+      serializedVersion: 2
+      Hash: c23f32f6fa9001d41837a9bcfe8667d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DG.Tweening
+    className: DOTweenAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: fac8890148b1ad9d7d2e892cc76e5576
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewNoticeOption
+  - hash:
+      serializedVersion: 2
+      Hash: 7dd5c3d790709cf0bb4b4a947a993a4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Spawner
+  - hash:
+      serializedVersion: 2
+      Hash: 890366e180577628dfe640113cc76317
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: SpawnText
+  - hash:
+      serializedVersion: 2
+      Hash: aa059965145710c8b8731a6ee306de74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MidniteOilSoftware
+    className: ObjectPoolManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 3c642725434a7e9d20e613f089e5ff5c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: ES3AutoSave
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 49cbb3369dc9b7b81a56e2f87e67a737
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 56b69fd124d87b205f0bba400d6c3eda
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonRenderSeparator
+  - hash:
+      serializedVersion: 2
+      Hash: 51a4f78d899c7cb9b632f18e1e4ce36f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: BoneFollower
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EventConfig
+  - hash:
+      serializedVersion: 2
+      Hash: ff6b504fd10474cd406e20fdcc8604be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Playables
+    className: SkeletonAnimationPlayableHandle
+  - hash:
+      serializedVersion: 2
+      Hash: cbeba0be93684d3bcd4b72542d830f58
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: AudioItem
+  - hash:
+      serializedVersion: 2
+      Hash: 246e4d298fdcf491994c53f5434c81bd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: OrderController
+  - hash:
+      serializedVersion: 2
+      Hash: ee98729079998eb63435f99f41b30b9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: ViewCoinText
+  - hash:
+      serializedVersion: 2
+      Hash: 9cce42289f9c2b9271cc70224e254adf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: TileBaseOptions
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 651425b15a713f850bd743dbf894a64a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonUtility
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab067ea9fe708bce06bde46f8d5f51b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: ES3Internal
+    className: ES3DefaultSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 452034bc115721a46591769a06814093
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: PointFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.UI.dll
+    namespaceName: Ilumisoft.VolumeControl.UI
+    className: SFXVolumeToggle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ViewItemDecorHouse
+  - hash:
+      serializedVersion: 2
+      Hash: 92a5c7deb691e0c09cd7e5e0be6aadd1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonUtilityGroundConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 523ce309f50d9eee6a8fc0e2f86c9c97
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: 
+    className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 4652565a4bddda66e058f7bffa70f1cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ViewItemEnergy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: SaveLobbyGame
+  - hash:
+      serializedVersion: 2
+      Hash: 634ff42906fd51e70cbce27bbd5c35d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2aa2ef0f6b9b856d3c5d148aabb3b417
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: VFXParticleItem
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.UI.dll
+    namespaceName: Ilumisoft.VolumeControl.UI
+    className: MasterVolumeToggle
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 3da0167245797ee5f057d06cea5f19d4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonRagdoll2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 142fb19a8559f7bdcbbe2a1a676b6a87
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Ilumisoft.VisualStateMachine
+    className: TransitionTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 68390c6ff5ffbfb4767b77566c527c1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GIE
+    className: Example
+  - hash:
+      serializedVersion: 2
+      Hash: 7f58a7119170b92f41f24e5f2b74b3e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: ViewMessage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.UI.dll
+    namespaceName: Ilumisoft.VolumeControl.UI
+    className: MasterVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: BufferManager
+  - hash:
+      serializedVersion: 2
+      Hash: f7affc13fca6997e818b81562058f892
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GIE
+    className: GetItem_3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: deb06ed983bc23bab483a1d13a109d8b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewTimeDailyEnergy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.dll
+    namespaceName: Ilumisoft.VolumeControl
+    className: PlayerPrefsStorage
+  - hash:
+      serializedVersion: 2
+      Hash: 589709bbca356b02ceaf1fbf7a5e188b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ViewItemDecorHouseController
+  - hash:
+      serializedVersion: 2
+      Hash: 0ec65ef74fe75c3e3a94562e949644f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Charactor
+    className: SpineAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 7c0985d135edc8b8d7fbaaf7ae2bea54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewIconStar
+  - hash:
+      serializedVersion: 2
+      Hash: 958c6894092ebd7b7a01d13c0346c5ec
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: ES3Defaults
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ad2c6bc3fefd49fd79e1e4f93d1ed2fa
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: ES3InspectorInfo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: References
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.Utilities.dll
+    namespaceName: Sirenix.Utilities
+    className: ProjectPathFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 3120a9068fee23e2bfda4d18b91864fc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewItemOptionCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 59ce5902048c1041729c804e2772b2ce
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: CCDSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: bbce0f4e05380286b216500c7b5529af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ViewItemRewardFloor
+  - hash:
+      serializedVersion: 2
+      Hash: c0d4a9a47fed59b51c4b2474ddbc6d18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewBoardDaily
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.Utilities.dll
+    namespaceName: Sirenix.Utilities
+    className: ProjectPathFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Ilumisoft.VolumeControl.UI.dll
+    namespaceName: Ilumisoft.VolumeControl.UI
+    className: SFXVolumeSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 2a5c6464b4a15c0e9cc3c0f5db397c5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.House
+    className: ViewItemRewardFloorController
+  - hash:
+      serializedVersion: 2
+      Hash: fda2b30da22581e0db72d0ab45bca5e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: ViewInformationWhenSellect
+  - hash:
+      serializedVersion: 2
+      Hash: ab31a938e402a2ca142f2ab0dd8cbe03
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewToggleBackground
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinUpdateHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 26d7d2bce07e4dacb1a0efc8c6b4082b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonUtilityEyeConstraint
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: fd2b7e41fdd59b50564d372adc4ca96d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: ViewBoardGameMerge
+  - hash:
+      serializedVersion: 2
+      Hash: c069257900b14ad07c93cd8287020d75
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.System
+    className: CheckNetwork
+  - hash:
+      serializedVersion: 2
+      Hash: 1f5167929d0381fad17487a90cc7d490
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewDailyItem
+  - hash:
+      serializedVersion: 2
+      Hash: 029e4221e31e9fe90d5cde8ebcec6054
+    assemblyName: DemiLib.dll
+    namespaceName: DG.DemiLib.External
+    className: DeHierarchyComponent
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 29211d45dc11e6c4a75c9092b3e04bc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewGoldPlay
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ddcf484b6ea8aed6e64b4c70f67c6992
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonGraphic
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: ac4bd813f7049b148581934b4a88993e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewToggleMusic
+  - hash:
+      serializedVersion: 2
+      Hash: fac8890148b1ad9d7d2e892cc76e5576
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewNoticeBasket
+  - hash:
+      serializedVersion: 2
+      Hash: e8e6884f9aa59c3f25a5eb28f6416d62
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonRendererCustomMaterials
+  - hash:
+      serializedVersion: 2
+      Hash: 8ebad3d60d6dbb0d41e3267a2e81d86b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Ilumisoft.VisualStateMachine.Obsolete
+    className: Graph
+  - hash:
+      serializedVersion: 2
+      Hash: f89c54446154605358e38c1311f3d5dc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ViewNewLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 5b59b0e20f0ee48b17967ddef749c16c
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: ES3Internal
+    className: ES3GlobalReferences
+  - hash:
+      serializedVersion: 2
+      Hash: ceb59dd88bd91b183441c5fe98eb84c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewTutorialLobby
+  - hash:
+      serializedVersion: 2
+      Hash: 4003dad1da4b587f20a08ab117b09884
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewTimeSpinFree
+  - hash:
+      serializedVersion: 2
+      Hash: b427a41f3e22079188206f913e4da5a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewItemEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.System
+    className: ButtonQuitApp
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Sirenix.Utilities.dll
+    namespaceName: Sirenix.Utilities
+    className: ProjectPathFinder
+  - hash:
+      serializedVersion: 2
+      Hash: c506f5de23ec0494d4d9a5df5622a99e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: BlendModeMaterialsAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 83988a194a88402eeeea696ab745f556
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Ilumisoft.VisualStateMachine
+    className: StateMachine
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewBoardRankEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 349d08daa6108b9a28f8c38fd40ce96f
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyTransition
+    className: CutoutMaskUI
+  - hash:
+      serializedVersion: 2
+      Hash: 58dd6ebad0024ec773d462a452865254
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenPath
+  - hash:
+      serializedVersion: 2
+      Hash: d452b4ce4b4cca771c54091cc2623c68
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenVisualManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3ae42882fea1ad5d3c8204f4c897fafe
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Charactor
+    className: CustomerController
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: e98ad519eabb5e1a1a09ab9c55ae0267
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: SpawnOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: RejectedGames
+    className: GUIView
+  - hash:
+      serializedVersion: 2
+      Hash: 2bbf3f39fb41f941caf5e5757de196e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: VFXSetItemOption
+  - hash:
+      serializedVersion: 2
+      Hash: 45f14553bf04d694ed5fe12d655ef6cf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: SaveGameMerge
+  - hash:
+      serializedVersion: 2
+      Hash: a8d48b95efd666ad3fe0d9836f60cfd9
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: ES3Internal
+    className: ES3Prefab
+  - hash:
+      serializedVersion: 2
+      Hash: 813bc8c7eb4314efa8d490cfe0962008
+    assemblyName: Ilumisoft.VolumeControl.dll
+    namespaceName: Ilumisoft.VolumeControl
+    className: Configuration
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 437feb4d8c58c9f8205aa22f272395de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewItemReward
+  - hash:
+      serializedVersion: 2
+      Hash: f3fef3c74f6002b96f1c2fc3f5ff28b6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewRoulette
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: bfb643ac3f46e51c0b0eae3f9a25eb7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Reward
+    className: TabReward
+  - hash:
+      serializedVersion: 2
+      Hash: ada203924e054e78c64813e1e169c13e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyTransition
+    className: DemoLoadScene
+  - hash:
+      serializedVersion: 2
+      Hash: 40d451d2fe9a8e6fbe5cfa5d76a10a6a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnVFXOption
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 364ebf84e17175a6e3e1828423bbf1fa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewTimeRemaining
+  - hash:
+      serializedVersion: 2
+      Hash: 36666ac3689f8ae085146c224becaadd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonDataAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MidniteOilSoftware
+    className: DespawnedPoolObject
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a1c1a37cae5c46dbeff8739fb2eef201
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ButtonCollection
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: fc87aea29bb2d49768c1db19f69ddbc4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Reward
+    className: SelectBackgroundReward
+  - hash:
+      serializedVersion: 2
+      Hash: 011d91b113584a81d5f40e86a3bab300
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: MergeOptionsController
+  - hash:
+      serializedVersion: 2
+      Hash: ee98729079998eb63435f99f41b30b9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: ViewDiamondText
+  - hash:
+      serializedVersion: 2
+      Hash: 504ffbafb682522cda9124ce0302b3f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EVENT
+  - hash:
+      serializedVersion: 2
+      Hash: 8f00b1bd4a525d9224f6365bf3f59870
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: ES3ReferenceMgr
+  - hash:
+      serializedVersion: 2
+      Hash: 8e456cfa71ac695e05e7e24b00bcf9e1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Charactor
+    className: Customer
+  - hash:
+      serializedVersion: 2
+      Hash: 87cef3c82381dc586f6772c3e27561b6
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteLibrary
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 641b14fb33d73f103cf0b58a91d3a099
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: SkeletonUtilityBone
+  - hash:
+      serializedVersion: 2
+      Hash: 0edeba255bdbade25edc357f1412ba38
+    assemblyName: Unity.2D.SpriteShape.Runtime.dll
+    namespaceName: UnityEngine.U2D
+    className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d94139b2ca8ea40a21e954eda53cdbb1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewBasket
+  - hash:
+      serializedVersion: 2
+      Hash: b8b6652c91ec156e4590d6a8f7eff3be
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonRagdoll
+  - hash:
+      serializedVersion: 2
+      Hash: d3733164b0be157e84480718d5a544b2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LogManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1fc41bbb6111fc95513984250ca9ee22
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewNoticeButtonRoulette
+  - hash:
+      serializedVersion: 2
+      Hash: 79248edf585e679c097577487fd21eec
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: AnimationMatchModifierAsset
+  - hash:
+      serializedVersion: 2
+      Hash: b424b4eeb810aecb0ff91c62639241e9
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteResolver
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: f921d3627847749f6452d9c1ddf14ef4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: GIE
+    className: GetItem
+  - hash:
+      serializedVersion: 2
+      Hash: cd48a96ab167746b0145cf24a3342daf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SlotBlendModes
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.U2D.Animation
+    className: SpriteSkinEntity
+  - hash:
+      serializedVersion: 2
+      Hash: 0e36de8a1e35035e5cd579b75a88f295
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: EventDataReferenceAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a1c1a37cae5c46dbeff8739fb2eef201
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ButtonDaily
+  - hash:
+      serializedVersion: 2
+      Hash: 28cfb4bd305dd11c6326cc3ee7c14138
+    assemblyName: Unity.2D.Animation.Runtime.dll
+    namespaceName: UnityEngine.Experimental.U2D.Animation
+    className: SpriteLibraryAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 63bdc2cf3273aa9bf650350f19d2af61
+    assemblyName: Unity.2D.PixelPerfect.dll
+    namespaceName: UnityEngine.U2D
+    className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 97f204e16cbf59be1ecea42060b6e658
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: LevelGame
+  - hash:
+      serializedVersion: 2
+      Hash: db81392383d86afb8e65c82e048073a3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewBasketController
+  - hash:
+      serializedVersion: 2
+      Hash: a19c4469b549dc72ff27b5bd707bb6d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Reward
+    className: RewardNew
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ee98729079998eb63435f99f41b30b9e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant
+    className: ViewEnergyText
+  - hash:
+      serializedVersion: 2
+      Hash: 84afd955903b56219d04f2cde0cfe379
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyTransition
+    className: Transition
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonGhostRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: bb7857e3bff0a34b919feb40ab25e1ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity
+    className: BoundingBoxFollower
+  - hash:
+      serializedVersion: 2
+      Hash: f40affa7a659216a5a81c407d4ce47ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Spine.Unity.Modules
+    className: SkeletonGhost
+  - hash:
+      serializedVersion: 2
+      Hash: d835e37be8caf473a0d64dc941f2a2a8
+    assemblyName: Ilumisoft.VolumeControl.dll
+    namespaceName: Ilumisoft.VolumeControl
+    className: VolumeControl
+  - hash:
+      serializedVersion: 2
+      Hash: 89ac9536bf24da36749214e2a179fc7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewOptionCollectionController
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: eefb1a245235ecec7807a0416a700824
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: ButtonBuild
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DespawnAfterDelay
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: cbf2f4f6dc83ac2f56cbc28945104cae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewItemLevelPass
+  - hash:
+      serializedVersion: 2
+      Hash: ce839f91240b24c9555794f9cbd4f94e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: OrderProduct
+  - hash:
+      serializedVersion: 2
+      Hash: 762a30c8d779b11af16ed9ce1f2d32fa
+    assemblyName: Unity.2D.IK.Runtime.dll
+    namespaceName: UnityEngine.U2D.IK
+    className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 8db39cc2164ede5dc13036d7dd8ac3c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Merge
+    className: SelectNow
+  - hash:
+      serializedVersion: 2
+      Hash: a19c4469b549dc72ff27b5bd707bb6d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: MJGame.MergeMerchant.Lobby
+    className: ViewMoneyPanel
+  platform: 19
+  scenePathNames:
+  - Assets/_ROOT/Scenes/Start.unity
+  - Assets/_ROOT/Scenes/GameMerge.unity
+  - Assets/_ROOT/Scenes/Lobby.unity
+  - Assets/_ROOT/Scenes/MiniGame.unity
+  playerPath: C:/mindongun/MJGame/Game/BUILD/MJ.exe

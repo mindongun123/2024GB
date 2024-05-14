@@ -144,6 +144,7 @@
      <Compile Include="Assets\_ROOT\Scripts\Utility\Network\NetworkStart.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\VertexAttachment.cs" />
      <Compile Include="Assets\GetItemEffect\Scripts\GetItem3D\GetItem_3D.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeDailyEnergy.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\House\ViewItemDecorHouseController.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\SpineCharactor\SpineAnimation.cs" />
      <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewIconStar.cs" />
@@ -269,7 +270,7 @@
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
      <Compile Include="Assets\Spine\Runtime\spine-unity\Modules\AttachmentTools\AttachmentTools.cs" />
      <Compile Include="Assets\_ROOT\Scripts\Model\GameMerge\SelectNow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewTimeDailyEnergy.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\View\Lobby\ViewMoneyPanel.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\Spine\version.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

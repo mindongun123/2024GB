@@ -51,16 +51,19 @@ namespace MJGame.MergeMerchant.Lobby
             {
                 ViewReward.AddCoin(_reward);
                 SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 100, NameItem.coin);
+                SingletonComponent<SpawnText>.Instance.NewText($"<color=white>+ {_reward} coin</color>", 1.5f);
             }
             else if (optionReward == OptionReward.diamond)
             {
                 ViewReward.AddDiamond(_reward);
                 SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 100, NameItem.diamond);
+                SingletonComponent<SpawnText>.Instance.NewText($"<color=white>+ {_reward} diamond</color>", 1.5f);
             }
             else if (optionReward == OptionReward.energy)
             {
                 ViewReward.AddEnergy(_reward);
                 SingletonComponent<VFXParticleItem>.Instance.OnClickItemVFX(transform.position, _reward / 10, NameItem.energy);
+                SingletonComponent<SpawnText>.Instance.NewText($"<color=white>+ {_reward} energy</color>", 1.5f);
             }
         }
 
@@ -68,7 +71,8 @@ namespace MJGame.MergeMerchant.Lobby
         {
             if (optionBuy == OptionReward.money)
             {
-                print(" Nap the de mua hang");
+                // print(" Nap the de mua hang");
+                SingletonComponent<SpawnText>.Instance.NewText("<color=white>Nap the de mua hang</color>", 1.5f);
             }
             else if (optionBuy == OptionReward.diamond)
             {

@@ -26,7 +26,8 @@ namespace MJGame.MergeMerchant.House
             this._id = _id;
             avatar.sprite = sprites[_id];
             TimeSpan timeSpan = ConfigTime.ToTimeSpan(_timeOld, DateTime.Now.ToString());
-            int _time = 1200 - (int)timeSpan.TotalSeconds;
+            int _time = 120 - (int)timeSpan.TotalSeconds;
+            // int _time = 1200 - (int)timeSpan.TotalSeconds;
             _time = _time > 0 ? _time : 0;
 
             StartCoroutine(CountDownIE(_time));
