@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.IO;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -34,9 +33,9 @@ namespace MJGame.MergeMerchant.Lobby
                     });
                     _time = 0;
                 }
-                yield return new WaitForSeconds(1);
                 txtTime.text = ConfigTime.ConvertTimeMini(1800 - _time);
-                fillEnergy.fillAmount =(float)_time / 1800;
+                fillEnergy.fillAmount = (float)_time / 1800;
+                yield return new WaitForSeconds(1);
                 _time++;
                 StartCoroutine(IEShowTime());
             }

@@ -39,7 +39,7 @@ namespace MJGame.MergeMerchant.Lobby
         public string TimeDailyEnergy
         {
             set => PlayerPrefs.SetString(ConstGame.TIME_DAILY_ENERGY, value);
-            get => PlayerPrefs.GetString(ConstGame.TIME_DAILY_ENERGY, DateTime.Now.AddSeconds(55).AddMinutes(29).ToString());
+            get => PlayerPrefs.GetString(ConstGame.TIME_DAILY_ENERGY, DateTime.Now.AddSeconds(-50).AddMinutes(-29).ToString());
 
         }
         #endregion
@@ -93,6 +93,7 @@ namespace MJGame.MergeMerchant.Lobby
                 ListIdOptionMax = ls;
                 SetListViewOption(new Vector4(_id, 1, Random.Range(0, 2), Random.Range(1, 10)));
                 SingletonComponent<SpawnText>.Instance.NewText("<color=orange>new option</color>", 1.3f);
+                SingletonComponent<AudioController>.Instance.AudioSpawnText();
                 ConfigNotice.SaveNotifyViewOption();
             }
         }

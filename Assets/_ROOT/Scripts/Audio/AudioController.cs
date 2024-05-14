@@ -15,6 +15,7 @@ namespace MJGame.MergeMerchant
         [SerializeField] GameObject audioClickBasket;
         [SerializeField] GameObject audioMerge;
         [SerializeField] GameObject audioClickCompleteProduct;
+        [SerializeField] GameObject audioText;
 
 
         #region  INSTANCE AUDIO
@@ -47,6 +48,11 @@ namespace MJGame.MergeMerchant
         public void AudioCompleteProductPlay()
         {
             CreateAudio(audioClickCompleteProduct);
+        }
+
+        public void AudioSpawnText()
+        {
+            CreateAudio(audioText);
         }
 
 
