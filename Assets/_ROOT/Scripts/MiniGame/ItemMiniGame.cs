@@ -1,4 +1,4 @@
-#if UNITY_FIREBASE
+// #if UNITY_FIREBASE
 
 
 using System.Collections;
@@ -40,4 +40,4 @@ namespace MJGame.MergeMerchant.MiniGame
     }
 }
 
-#endif
+// #endif

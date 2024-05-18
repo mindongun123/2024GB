@@ -36,14 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Toggle\MusicVolumeToggle.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Slider\MusicVolumeSlider.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Toggle\SFXVolumeToggle.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Slider\VolumeSlider.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Toggle\MasterVolumeToggle.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Slider\MusicVolumeSlider.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Slider\SFXVolumeSlider.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Toggle\MusicVolumeToggle.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Slider\MasterVolumeSlider.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Slider\SFXVolumeSlider.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Toggle\VolumeToggle.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Toggle\SFXVolumeToggle.cs" />
      <None Include="Assets\Plugins\Ilumisoft\Volume Control\Scripts\UI\Ilumisoft.VolumeControl.UI.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -279,23 +279,23 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenProEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
@@ -303,20 +303,14 @@
     <Reference Include="DemiEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Reflection.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
@@ -324,11 +318,47 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

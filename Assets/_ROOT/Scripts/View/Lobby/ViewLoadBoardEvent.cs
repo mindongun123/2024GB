@@ -1,4 +1,4 @@
-#if UNITY_FIREBAE
+// #if UNITY_FIREBAE
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -65,4 +65,4 @@ namespace MJGame.MergeMerchant.Lobby
         }
     }
 }
-#endif
+// #endif

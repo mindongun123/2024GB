@@ -1,4 +1,4 @@
-#if UNITY_FIREBASE
+// #if UNITY_FIREBASE
 
 using EasyTransition;
 using MJGame;
@@ -34,4 +34,4 @@ namespace MJGame.MergeMerchant.Firebase
         }
     }
 }
-#endif
+// #endif

@@ -1938,6 +1938,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13ab6f7b9384d348acb30ca500f76ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isConnected: 0
+  isInternetLost: 0
+  _connectFirebaseComplete: 0
+  firebaseAuthManager: {fileID: 265154454}
+  panelNoInternet: {fileID: 1460863080}
 --- !u!4 &115116069
 Transform:
   m_ObjectHideFlags: 0
@@ -2237,6 +2242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd4804c35bee7a84f8c84d13bcb2ffa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dependencyStatus: 0
 --- !u!4 &265154455
 Transform:
   m_ObjectHideFlags: 0
@@ -3918,7 +3924,7 @@ GameObject:
   - component: {fileID: 1460863083}
   - component: {fileID: 1460863082}
   m_Layer: 5
-  m_Name: loading
+  m_Name: NoInternet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4575,6 +4581,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4183a18af8ff5054b8d2d329aa8ffc6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nameRegisterField: {fileID: 924798725}
+  emailRegisterField: {fileID: 370146839}
+  firebaseAuthManager: {fileID: 265154454}
+  loading: {fileID: 1460863080}
+  demoLoadScene: {fileID: 8}
 --- !u!1 &1986192064
 GameObject:
   m_ObjectHideFlags: 0

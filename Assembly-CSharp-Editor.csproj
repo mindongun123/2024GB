@@ -36,52 +36,58 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\APPWindow.cs" />
-     <Compile Include="Assets\_ROOT\Scripts\Editor\ConfigPluginGameEditor.cs" />
-     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
-     <Compile Include="Assets\EasyTransitions\Editor\TransitionManagerEditor.cs" />
-     <Compile Include="Assets\EasyTransitions\Editor\TransitionSettingsEditor.cs" />
-     <Compile Include="Assets\Editor\AddDataEditor.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer_3D.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer.cs" />
-     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor_3D.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineAnimationStateDrawer.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineInspectorUtility.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\BoundingBoxFollower\Editor\BoundingBoxFollowerInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\APPWindow.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBakingWindow.cs" />
+     <Compile Include="Assets\EasyTransitions\Editor\TransitionSettingsEditor.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\SkeletonGraphicInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
+     <Compile Include="Assets\AdvancedPlayerPrefsWindow\Editor\Plist.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor_3D.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineEditorUtilities.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectEditor.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonMecanimInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBaker.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineSkeletonFlipDrawer.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBakingWindow.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\BoneFollowerInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAtlasAssetInspector.cs" />
+     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\Menus.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\BoneFollowerGraphicInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\PointFollowerEditor.cs" />
+     <Compile Include="Assets\EasyTransitions\Editor\TransitionManagerEditor.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineAtlasAssetInspector.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SpineMaskUtilities.cs" />
      <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SkeletonGraphic\Editor\SkeletonGraphicInspector.cs" />
-     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonRendererInspector.cs" />
-     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenPreviewManager.cs" />
+     <Compile Include="Assets\_ROOT\Scripts\Editor\ConfigPluginGameEditor.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\BoundingBoxFollower\Editor\BoundingBoxFollowerInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Timeline\Editor\SpineSkeletonFlipDrawer.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDebugWindow.cs" />
+     <Compile Include="Assets\GetItemEffect\Scripts\Editor\GetItemEffectDrawer_3D.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonBaker.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
+     <Compile Include="Assets\Editor\AddDataEditor.cs" />
      <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonRendererInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Editor\SkeletonAnimationInspector.cs" />
+     <Compile Include="Assets\Spine\Editor\spine-unity\Modules\Shaders\Sprite\Editor\SpineSpriteShaderGUI.cs" />
+     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.179_manifest.txt" />
+     <None Include="Assets\Firebase\Editor\FirebaseDatabase_version-11.9.0_manifest.txt" />
      <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
      <None Include="Assets\Spine\Editor\spine-unity-editor.txt" />
      <None Include="Assets\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
+     <None Include="Assets\Firebase\Editor\FirebaseAuth_version-11.9.0_manifest.txt" />
+     <None Include="Assets\Firebase\Editor\AuthDependencies.xml" />
+     <None Include="Assets\Firebase\Editor\AppDependencies.xml" />
+     <None Include="Assets\Firebase\Editor\DatabaseDependencies.xml" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -316,23 +322,23 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenProEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
@@ -340,20 +346,14 @@
     <Reference Include="DemiEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Reflection.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
@@ -361,11 +361,47 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -724,95 +760,95 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="PsdPlugin">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -832,25 +868,25 @@
       <Project>{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}</Project>
       <Name>ParticleImage</Name>
     </ProjectReference>
-    <ProjectReference Include="ParticleImage.Editor.csproj">
-      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
-      <Name>ParticleImage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
       <Project>{65e65560-26a9-30ca-2b35-e44411f70724}</Project>
       <Name>Ilumisoft.VolumeControl.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
-      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
-      <Name>Ilumisoft.VolumeControl</Name>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{01e2fcdb-85af-7cb6-13ef-69e1c929ee97}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
-      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
-      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    <ProjectReference Include="ParticleImage.Editor.csproj">
+      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
+      <Name>ParticleImage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

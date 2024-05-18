@@ -20,7 +20,7 @@ namespace MJGame.MergeMerchant.Firebase
             canvasGroup.DOFade(0, Random.Range(3, 10)).OnComplete(() =>
             {
                 canvas.SetActive(false);
-#if UNITY_FIREBASE
+// #if UNITY_FIREBASE
                 if (PlayerPrefs.GetString(ConstGame.EMAIL, "").Length > 0)
                 {
                     demoLoadScene.LoadScene("Lobby");
@@ -29,9 +29,9 @@ namespace MJGame.MergeMerchant.Firebase
                 {
                     viewLogin.SetActive(true);
                 }
-#else
-                demoLoadScene.LoadScene("Lobby");
-#endif
+// #else
+                // demoLoadScene.LoadScene("Lobby");
+// #endif
             });
         }
     }

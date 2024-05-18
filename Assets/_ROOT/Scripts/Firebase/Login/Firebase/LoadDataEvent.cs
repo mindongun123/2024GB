@@ -1,4 +1,4 @@
-#if UNITY_FIREBASE
+// #if UNITY_FIREBASE
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -240,4 +240,4 @@ namespace MJGame.MergeMerchant.Firebase
     }
 }
 
-#endif
+// #endif

@@ -36,180 +36,180 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Color32.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedType.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Graph.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\TimeMode.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_double.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TrailModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3Defaults.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_VelocityOverLifetimeModule.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Transition.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ShapeModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3InspectorInfo.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Quaternion.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_CollisionModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES33DArrayType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector3.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\LabelSettings.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LimitVelocityOverLifetimeModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\State.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3Property.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3Settings.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SpriteRenderer.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector4.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ES3Ref.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3ListType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Prefab.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3NativeArrayType.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\_Obsolete\Preferences.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Readers\ES3XMLReader.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_uint.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Node.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Material.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SkinnedMeshRenderer.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_PolygonCollider2D.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3XMLWriter.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\PlayMaker\ES3PlayMaker.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_byteArray.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_NoiseModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3UnityObjectType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3TypeMgr.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Image.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MainModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3QueueType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_ParticleSystem.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Transform.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3CollectionType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Readers\ES3JSONReader.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RotationOverLifetimeModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES32DArrayType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Auto Save\ES3AutoSave.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Gradient.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Text.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Streams\ES3FileStream.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Font.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\GraphCache.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Sprite.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_AnimationCurve.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector3Int.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_string.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_CapsuleCollider.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_float.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TextureSheetAnimationModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Guid.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_AudioClip.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3BinaryWriter.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SizeBySpeedModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Light.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Attributes\ES3Attributes.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ColorOverLifetimeModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ForceOverLifetimeModule.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\TransitionTrigger.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\NET Types\ES3Type_BigInteger.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedUnityObjectType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Rect.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Color.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3ComponentType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Rigidbody.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector2.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SubEmittersModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Spreadsheet.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_long.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Web\ES3Cloud.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ColorBySpeedModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RenderTexture.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Readers\ES3Reader.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Keyframe.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Web\ES3WebClass.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3File.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider2D.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3CacheWriter.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_UIntPtr.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_EventSystem.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\_Obsolete\Graph.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_sbyte.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Burst.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3Type.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Referencing\ES3GlobalReferences.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshFilter.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3Writer.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_SphereCollider.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Streams\ES3PlayerPrefsStream.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\AnyState.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ExternalForcesModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3StackType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_decimal.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Flare.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_intptr.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_enum.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_RawImage.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MinMaxCurve.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SizeOverLifetimeModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GradientColorKey.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\GridSettings.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_short.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Mesh.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LightsModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TriggerModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GameObject.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3IO.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Texture2D.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Crypto.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3HashSetType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_char.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3Binary.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MinMaxGradient.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedType.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\LabelSettings.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3Property.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ES3Ref.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3XMLWriter.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Image.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MainModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3CollectionType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Readers\ES3JSONReader.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_AudioClip.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3ComponentType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ColorBySpeedModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Streams\ES3Stream.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Matrix4x4.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GameObject.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Bounds.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3ReferenceMgr.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Debugging\ES3Debug.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\DragSettings.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3IO.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LayerMask.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Texture2D.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_DateTime.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\ZoomSettings.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshRenderer.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\StateBehaviour.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Texture.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ulong.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_byte.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_bool.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_EmissionModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedComponentType.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\StateMachine.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\NET Types\ES3Type_Random.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Auto Save\ES3AutoSaveMgr.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedObjectType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_double.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Transition.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Node.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Material.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3QueueType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES32DArrayType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Auto Save\ES3AutoSave.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Attributes\ES3Attributes.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Color.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Rigidbody.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector2.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_sbyte.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3Writer.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_decimal.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SizeOverLifetimeModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LightsModule.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3DefaultSettings.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3ReferenceMgrBase.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_BoneWeight.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3JSONWriter.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Crypto.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Reflection.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3SerializableDictionary.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_int.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedScriptableObjectType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_PhysicsMaterial2D.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3ScriptableObjectType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Streams\ES3ResourcesStream.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\NET Types\ES3Type_Random.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector2Int.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GradientAlphaKey.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\TimeMode.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TrailModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ShapeModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector3.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector4.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_uint.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\PlayMaker\ES3PlayMaker.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_byteArray.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Transform.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Sprite.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_AnimationCurve.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\TransitionTrigger.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedUnityObjectType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Web\ES3WebClass.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider2D.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_UIntPtr.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshFilter.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ExternalForcesModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Flare.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_short.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Mesh.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedScriptableObjectType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RotationBySpeedModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_PhysicMaterial.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Graph.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3Defaults.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3InspectorInfo.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_BoxCollider.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Readers\ES3Reader.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3File.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_SphereCollider.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_enum.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_RawImage.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshRenderer.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Reflection.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_int.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ushort.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\Preferences.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RectTransform.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Settings\ES3Settings.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SpriteRenderer.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3ListType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3UnityObjectType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3TypeMgr.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RotationOverLifetimeModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_float.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SizeBySpeedModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\NET Types\ES3Type_BigInteger.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Web\ES3Cloud.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RenderTexture.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Keyframe.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\_Obsolete\Graph.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Referencing\ES3GlobalReferences.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\AnyState.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GradientColorKey.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\GridSettings.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\StateMachine.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_PhysicsMaterial2D.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_Camera.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Shader.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3DictionaryType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RotationBySpeedModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3HashSetType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector2Int.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_PhysicMaterial.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Auto Save\ES3AutoSaveMgr.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_InheritVelocityModule.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_ushort.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_char.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedValueType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_MeshCollider.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\Preferences.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3Binary.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_RectTransform.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_VelocityOverLifetimeModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Prefab.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_PolygonCollider2D.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\GraphCache.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Vector3Int.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TextureSheetAnimationModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_ForceOverLifetimeModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Rect.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_SubEmittersModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_long.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3Type.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3ReferenceMgr.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Debugging\ES3Debug.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_DateTime.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Components\StateBehaviour.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3JSONWriter.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Color32.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Quaternion.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES33DArrayType.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Gradient.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_string.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Guid.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Writers\ES3BinaryWriter.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Light.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3Spreadsheet.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\Component Types\ES3Type_EventSystem.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Primitive Types\ES3Type_intptr.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MinMaxCurve.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_TriggerModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_Bounds.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\DragSettings.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_LayerMask.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Runtime\Preferences\ZoomSettings.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_EmissionModule.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\ES3ReferenceMgrBase.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedValueType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\ES3ObjectType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_GradientAlphaKey.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3TupleType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Reflected Types\ES3ReflectedObjectType.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Collection Types\ES3ArrayType.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Scripts\Types\Unity Types\ES3Type_MinMaxGradient.cs" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.xml" />
      <None Include="Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.xml" />
@@ -444,17 +444,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="DemiLib">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.Reflection.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
@@ -468,11 +462,35 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -819,95 +837,95 @@
     <Reference Include="System.Xml.Serialization">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="PsdPlugin">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -915,25 +933,25 @@
       <Project>{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}</Project>
       <Name>ParticleImage</Name>
     </ProjectReference>
-    <ProjectReference Include="ParticleImage.Editor.csproj">
-      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
-      <Name>ParticleImage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
       <Project>{65e65560-26a9-30ca-2b35-e44411f70724}</Project>
       <Name>Ilumisoft.VolumeControl.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
-      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
-      <Name>Ilumisoft.VolumeControl</Name>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{01e2fcdb-85af-7cb6-13ef-69e1c929ee97}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
-      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
-      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    <ProjectReference Include="ParticleImage.Editor.csproj">
+      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
+      <Name>ParticleImage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

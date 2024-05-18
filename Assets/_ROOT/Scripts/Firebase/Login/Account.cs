@@ -1,4 +1,4 @@
-#if UNITY_FIREBAE
+// #if UNITY_FIREBAE
 using UnityEngine;
 using Firebase.Database;
 using System.Collections.Generic;
@@ -35,4 +35,4 @@ public class Account : MonoBehaviour
 }
  
 
-#endif
+// #endif

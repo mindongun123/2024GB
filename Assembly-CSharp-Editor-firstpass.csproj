@@ -36,82 +36,82 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\EditorWindow.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\StateMachineField.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\GraphMessageBoxLayer.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\GraphCommands.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Selection\DuplicateSelectionCommand.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PrefabEditor.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindow\SelectTransitionCommand.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Menu Items\MenuItems.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\DeleteNodeCommand.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3GlobalReferencesEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PlayMakerEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\ScriptableObjectSingleton.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ScriptingDefineSymbols.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorUtility.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\GUILayoutUtils.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\GraphSelection.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\GraphMessageBoxLayer.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindow\SelectTransitionCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\NodeSelectionHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\ZoomSlider.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\SettingsWindow.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\TypesWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\GraphNodeLayer.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddStateCommand.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\AutoSaveWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionInspector.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\MessageBox.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Background Layer\ContextMenus\GraphContextMenu.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\DeleteNodeCommand.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Window.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3SettingsEditor.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\GraphView.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindow\SelectStateCommand.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3InspectorInfoEditor.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\AnyStateContextMenu.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\StateMachine\StateMachineHelper.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Interfaces\IContextMenu.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\NodeNameHelper.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Selection\DeleteSelectionCommand.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Line.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\NodeSelectionHelper.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateInspector.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionInspectorHelper.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\GridButton.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\HomeWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ReferenceMgrEditor.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ToolsWindow.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\ZoomSlider.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Base\GraphLayer.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Environment\StateStyles.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\StateContextMenu.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Environment\GraphColors.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\EditorWindowCommands.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Context.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateInspectorHelper.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\Commands\SelectClickedStateCommand.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\LabelButton.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveMgrEditor.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\TransitionNameHelper.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Transition Layer\ContextMenus\TransitionContextMenu.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\AddES3Prefab.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveEditor.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\EditorHelpMessages.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Transition Layer\GraphTransitionLayer.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorUtility.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\SelectionRect.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\Commands\ShowContextMenuCommand.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3GlobalReferencesEditor.cs" />
      <Compile Include="Assets\Plugins\Easy Save 3\Editor\ReferencesWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\SettingsWindow.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddAnyStateCommand.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionTriggerEditor.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Background Layer\GraphBackgroundLayer.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\GUILayoutUtils.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\DeleteTransitionCommand.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\TypesWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorStyle.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\ToolbarElement.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\GraphNodeLayer.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\SelectionContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\StateMachineField.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Selection\DuplicateSelectionCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Selection\DeleteSelectionCommand.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\HomeWindow.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\SelectionRect.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Interfaces\ICommand.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Postprocessor.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddStateCommand.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\EditorWindowGUI.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\EditorWindow.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddTransitionCommand.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateMachineInspector.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\AutoSaveWindow.cs" />
-     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PlayMakerEditor.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionInspector.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\ScriptableObjectSingleton.cs" />
-     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\GraphSelection.cs" />
      <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\ErrorMessages.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Menu Items\MenuItems.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3SettingsEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\StateMachine\StateMachineHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Interfaces\IContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateInspector.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3ReferenceMgrEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Environment\StateStyles.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\StateContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\StateInspectorHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\Commands\SelectClickedStateCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\TransitionNameHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\AddAnyStateCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionTriggerEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\Graph\DeleteTransitionCommand.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Postprocessor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Extensions\Graph\NodeNameHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\-Core\Line.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Custom Inspectors\TransitionInspectorHelper.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Toolbar Elements\GridButton.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3EditorStyle.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\SelectionContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Commands\GraphCommands.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3PrefabEditor.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3Window.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3InspectorInfoEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\ContextMenus\AnyStateContextMenu.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Environment\GraphColors.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Context.cs" />
+     <Compile Include="Assets\Plugins\Easy Save 3\Editor\ES3AutoSaveEditor.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\Graph Layers\Node Layer\Commands\ShowContextMenuCommand.cs" />
+     <Compile Include="Assets\Plugins\Ilumisoft\VisualStateMachine\Scripts\Editor\Editor Window\EditorWindowGUI.cs" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ValueTypeTemplate.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3ComponentTypeTemplate.txt" />
      <None Include="Assets\Plugins\Easy Save 3\Editor\ES3TypeTemplate.txt" />
@@ -353,23 +353,23 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.43f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Reflection.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="DemiLib">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenProEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
@@ -377,20 +377,14 @@
     <Reference Include="DemiEditor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Reflection.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Reflection.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.collab-proxy@1.17.7\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.Serialization.Config">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
@@ -398,11 +392,47 @@
     <Reference Include="Sirenix.Utilities">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Utilities.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.VersionHandlerImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\ExternalDependencyManager\Editor\1.2.179\Google.PackageManagerResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.App.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Database">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Database.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.TaskExtension">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MiniJson">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Auth">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Assets\Firebase\Plugins\Firebase.Auth.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -761,95 +791,95 @@
     <Reference Include="UnityEditor.TestRunner">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.IK.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Psdimporter.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.IK.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.Animation.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEngineBridge.001">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    <Reference Include="Unity.VSCode.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Common.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="PsdPlugin">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.Timeline">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    <Reference Include="Unity.TextMeshPro">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    <Reference Include="Unity.2D.IK.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Path.Editor">
         <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Editor">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
-    <Reference Include="PsdPlugin">
-        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    <Reference Include="UnityEditor.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+        <HintPath>C:\mindongun\MJGame\Game\MJ\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -861,25 +891,25 @@
       <Project>{ed38ed01-3f27-a7fb-eef7-20ed2a3b303a}</Project>
       <Name>ParticleImage</Name>
     </ProjectReference>
-    <ProjectReference Include="ParticleImage.Editor.csproj">
-      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
-      <Name>ParticleImage.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Ilumisoft.VolumeControl.UI.csproj">
       <Project>{65e65560-26a9-30ca-2b35-e44411f70724}</Project>
       <Name>Ilumisoft.VolumeControl.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
-      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
-      <Name>Ilumisoft.VolumeControl</Name>
+    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
+      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
+      <Name>Ilumisoft.VolumeControl.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.Modules.UnityMathematics.csproj">
       <Project>{01e2fcdb-85af-7cb6-13ef-69e1c929ee97}</Project>
       <Name>Sirenix.OdinInspector.Modules.UnityMathematics</Name>
     </ProjectReference>
-    <ProjectReference Include="Ilumisoft.VolumeControl.Editor.csproj">
-      <Project>{1a8f88fa-284f-a59c-dce6-b4875e6d7256}</Project>
-      <Name>Ilumisoft.VolumeControl.Editor</Name>
+    <ProjectReference Include="ParticleImage.Editor.csproj">
+      <Project>{054f63b8-4431-9cf7-844d-22e24f5e02bd}</Project>
+      <Name>ParticleImage.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ilumisoft.VolumeControl.csproj">
+      <Project>{dd2d377c-8ec5-e0f9-cbbd-7289acb99081}</Project>
+      <Name>Ilumisoft.VolumeControl</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

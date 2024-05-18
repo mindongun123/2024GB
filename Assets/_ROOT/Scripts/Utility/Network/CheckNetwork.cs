@@ -27,9 +27,9 @@ namespace MJGame.MergeMerchant.System
                 isConnected = true;
                 if (!_connectFirebaseComplete)
                 {
-#if UNITY_FIREBASE
+// #if UNITY_FIREBASE
                     SingletonComponent<LoadDataEvent>.Instance.GetFirebaseInit();
-#endif
+// #endif
                 }
             }
             else if (!isInternetLost && Application.internetReachability == NetworkReachability.NotReachable)
@@ -57,9 +57,9 @@ namespace MJGame.MergeMerchant.System
         public virtual void GetAuth()
         {
 
-#if UNITY_FIREBAE
+// #if UNITY_FIREBAE
             SingletonComponent<LoadDataEvent>.Instance.GetFirebaseInit();
-#endif
+// #endif
         }
 
         void OnApplicationPause(bool pauseStatus)
