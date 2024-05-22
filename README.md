@@ -5,4 +5,4 @@ A game in the casual genre, combining puzzles, combining the full basics of a pu
 
 **`Video Demo`** 
 <br><br>
-![](https://github.com/mindongun123/2024GB/blob/main/VideoDemoGame.gif)
+![](https://github.com/mindongun123/MergeRestaurant/blob/main/MJGame-MergeRestaurant_2.gif)
